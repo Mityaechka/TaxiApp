@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TaxiApp.Views.ViewCells.OrderViewCell">
+  <ViewCell.View>
+        <StackLayout Orientation="Horizontal" Margin="10,2">
+            <StackLayout>
+                <Label x:Name="FromLabel"  Text="Откуда:From"
+                       TextColor="Black"
+                       FontSize="Body" />
+                <Label x:Name="ToLabel" Text="Куда:To"
+                       TextColor="Black"
+                       FontSize="Body" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                <Label x:Name="CostLabel" Text="Цена:100"
+                       TextColor="Black"
+                       FontSize="Body" />
+            </StackLayout>
+        </StackLayout>
+      
+  </ViewCell.View>
+</ViewCell>
