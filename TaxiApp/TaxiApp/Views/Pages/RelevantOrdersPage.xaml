@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:datagrid="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
+             xmlns:converters="clr-namespace:TaxiApp.Converters"
+             xmlns:local="clr-namespace:TaxiApp.Models"
+             xmlns:dxg="clr-namespace:DevExpress.Mobile.DataGrid;assembly=DevExpress.Mobile.Grid.v18.2"
+             xmlns:viewcells="clr-namespace:TaxiApp.Views.ViewCells"
+             mc:Ignorable="d"
+             x:Class="TaxiApp.Views.Pages.RelevantOrdersPage"
+             Title="Актуальные заказы"
+             Visual="Material">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Настройки"
+                     IconImageSource="settings.png"
+                     Order="Primary"
+                     Priority="0"
+                     Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="{StaticResource Background}">
+            <Label x:Name="MoneyLabel"
+                   Text="" />
+            <ListView x:Name="ListView"
+                      IsVisible="{Binding Path=TableViewMode,Converter={converters:InverseBoolConverter}}"
+                      HasUnevenRows="True"
+                      ItemSelected="ListView_ItemSelected" CachingStrategy="RecycleElement">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <viewcells:OrderViewCell  TakeOrderEvent="TakeOrderClick"
+                                                  UntakeOrderEvent="UntakeOrderClick"
+                                                  CallPassangerEvent="CallPassengerClick" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <!--<datagrid:DataGrid IsSortable="False" 
+							   IsVisible="{Binding Path=TableViewMode}"
+							   IsRefreshing="{Binding IsRefreshing}"
+							   BorderColor="{StaticResource GridBorder}"
+							   HeaderTextColor="{StaticResource BlueColor}"
+							   x:Name="DataGrid"
+							   ItemSelected="DataGrid_ItemSelected"
+							   IsTabStop="False"
+							   HeaderBordersVisible="True" CompressedLayout.IsHeadless="True">
+				<datagrid:DataGrid.Columns>
+					<datagrid:DataGridColumn Title=""
+											 Width="1.5*" >
+						<datagrid:DataGridColumn.CellTemplate>
+							<DataTemplate>
+								<ContentView HorizontalOptions="FillAndExpand"
+											 VerticalOptions="FillAndExpand"
+											 BackgroundColor="{Binding Path= .Color}">
+									<StackLayout Orientation="Horizontal"
+												 IsClippedToBounds="True"
+												 HorizontalOptions="Center"
+												 VerticalOptions="Center">
+										<Button Text="Взять"
+												TextColor="White"
+												FontSize="10"
+												BackgroundColor="{StaticResource BlueColor}"
+												IsVisible="{Binding Path=.CanAccept}"
+												Clicked="TakeOrderClick"
+												local:IdHelper.Tag="{Binding .Id}"></Button>
+										<Button ImageSource="untake.png"
+												BackgroundColor="{Binding Path= .Color}"
+												IsVisible="{Binding Path=.CanAccept,Converter={converters:InverseBoolConverter}}"
+												Clicked="UntakeOrderClick"
+												local:IdHelper.Tag="{Binding .Id}" />
+									</StackLayout>
+								</ContentView>
+							</DataTemplate>
+						</datagrid:DataGridColumn.CellTemplate>
+					</datagrid:DataGridColumn>
+					<datagrid:DataGridColumn Title="Откуда"
+											 Width="1*">
+						<datagrid:DataGridColumn.CellTemplate>
+							<DataTemplate>
+								<ContentView HorizontalOptions="FillAndExpand"
+											 VerticalOptions="FillAndExpand"
+											 BackgroundColor="{Binding Path= .Color}">
+									<StackLayout Orientation="Horizontal"
+												 IsClippedToBounds="True"
+												 HorizontalOptions="Center"
+												 VerticalOptions="Center"
+Margin="2">
+										<Label Text="dxvxcvbcxvbvcvbbvdcb fdxgfdffgg" />
+									</StackLayout>
+								</ContentView>
+							</DataTemplate>
+						</datagrid:DataGridColumn.CellTemplate>
+					</datagrid:DataGridColumn>
+					<datagrid:DataGridColumn Title="Куда"
+											 Width="1*">
+						<datagrid:DataGridColumn.CellTemplate>
+							<DataTemplate>
+								<ContentView HorizontalOptions="FillAndExpand"
+											 VerticalOptions="FillAndExpand"
+											 BackgroundColor="{Binding Path= .Color}">
+									<StackLayout Orientation="Horizontal"
+												 IsClippedToBounds="True"
+												 HorizontalOptions="Center"
+												 VerticalOptions="Center">
+										<Label Text="{Binding Path= .To}" />
+									</StackLayout>
+								</ContentView>
+							</DataTemplate>
+						</datagrid:DataGridColumn.CellTemplate>
+					</datagrid:DataGridColumn>
+					<datagrid:DataGridColumn Title="Телефон"
+											 Width="2*"
+											 x:Name="PhoneColumn"
+											 HorizontalContentAlignment="FillAndExpand">
+						<datagrid:DataGridColumn.CellTemplate>
+							<DataTemplate>
+								<ContentView HorizontalOptions="FillAndExpand"
+											 VerticalOptions="FillAndExpand"
+											 BackgroundColor="{Binding Path= .Color}">
+									<StackLayout Orientation="Horizontal"
+												 IsClippedToBounds="True"
+												 HorizontalOptions="FillAndExpand"
+												 VerticalOptions="Center">
+										<Label Text="{Binding Path= .Phone}"
+											   HorizontalOptions="FillAndExpand" />
+									</StackLayout>
+								</ContentView>
+							</DataTemplate>
+						</datagrid:DataGridColumn.CellTemplate>
+					</datagrid:DataGridColumn>
+					<datagrid:DataGridColumn Title="Цена"
+											 Width="1.5*">
+						<datagrid:DataGridColumn.CellTemplate>
+							<DataTemplate>
+								<ContentView HorizontalOptions="FillAndExpand"
+											 VerticalOptions="FillAndExpand"
+											 BackgroundColor="{Binding Path= .Color}">
+									<StackLayout Orientation="Horizontal"
+												 IsClippedToBounds="True"
+												 HorizontalOptions="CenterAndExpand"
+												 VerticalOptions="CenterAndExpand">
+										<Button ImageSource="phone.png"
+												BackgroundColor="{Binding Path= .Color}"
+												IsVisible="{Binding Path=.CanAccept,Converter={converters:InverseBoolConverter}}"
+												Clicked="CallPassengerClick"
+												local:IdHelper.Tag="{Binding .Id}"
+												WidthRequest="25"
+												HeightRequest="25" />
+										<Label VerticalOptions="Center"
+											   Text="{Binding Path= .Cost,StringFormat='{0:0.00}'}" />
+									</StackLayout>
+								</ContentView>
+							</DataTemplate>
+						</datagrid:DataGridColumn.CellTemplate>
+					</datagrid:DataGridColumn>
+				</datagrid:DataGrid.Columns>
+			</datagrid:DataGrid>-->
+            <ListView x:Name="DataGridBody"
+                      HasUnevenRows="True"
+                      SeparatorColor="Black" CachingStrategy="RecycleElement" 
+>
+                <ListView.Header>
+                    <Grid x:Name="DataGridColumns"  VerticalOptions="FillAndExpand"
+                          Margin="0"
+                          Padding="0"
+                          BackgroundColor="{StaticResource Background}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.6*"></ColumnDefinition>
+                            <ColumnDefinition Width="1"></ColumnDefinition>
+                            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                            <ColumnDefinition Width="1"></ColumnDefinition>
+                            <ColumnDefinition Width="1.2*"></ColumnDefinition>
+                            <ColumnDefinition Width="{Binding Model.PhoneLineLength}"></ColumnDefinition>
+                            <ColumnDefinition Width="{Binding Model.PhoneColumnLength}"></ColumnDefinition>
+                            <ColumnDefinition Width="1"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" />
+                        <BoxView VerticalOptions="Start"
+                                 WidthRequest="1"
+                                 Color="Black"
+                                 Grid.Column="1" />
+                        <Label Grid.Column="2"
+VerticalTextAlignment="Center"
+                               Text="Откуда" />
+                        <BoxView VerticalOptions="Start"
+                                 WidthRequest="1"
+                                 Color="Black"
+                                 Grid.Column="3" />
+                        <Label Grid.Column="4"
+                               VerticalTextAlignment="Center"
+                               Text="Куда" />
+                        <BoxView VerticalOptions="Start" IsVisible="{Binding Model.HasPhone}"
+                                 WidthRequest="1"
+                                 Color="Black"
+                                 Grid.Column="5" />
+                        <Label Grid.Column="6"
+                               VerticalTextAlignment="Center"
+                               IsVisible="{Binding Model.HasPhone}"
+                               Text="Телефон" />
+                        <BoxView VerticalOptions="Start"
+                                 IsVisible="{Binding HasPhone}"
+                                 WidthRequest="1"
+                                 Color="Black"
+                                 Grid.Column="7" />
+                        <Label Grid.Column="8"
+                               VerticalTextAlignment="Center"
+                               Text="Цена" />
+                    </Grid>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid x:Name="DataGridColumns"
+                                      Padding="0"
+                                      BackgroundColor="{Binding Path= Color}">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1.6*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1"></ColumnDefinition>
+                                        <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1"></ColumnDefinition>
+                                        <ColumnDefinition Width="1.2*"></ColumnDefinition>
+                                        <ColumnDefinition Width="{Binding PhoneLineLength}"></ColumnDefinition>
+                                        <ColumnDefinition Width="{Binding PhoneColumnLength}"></ColumnDefinition>
+                                        <ColumnDefinition Width="1"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Orientation="Horizontal"
+                                                 IsClippedToBounds="True"
+                                                 HorizontalOptions="FillAndExpand"
+                                                 VerticalOptions="Center"
+                                                 Padding="5"
+                                                 Grid.Column="0">
+                                        <Button Text="Взять"
+                                                TextColor="White"
+                                                FontSize="10"
+                                                HorizontalOptions="FillAndExpand"
+                                                BackgroundColor="{StaticResource BlueColor}"
+                                                IsVisible="{Binding Path= .CanAccept}"
+                                                Clicked="TakeOrderClick"
+                                                local:IdHelper.Tag="{Binding .Id}"
+                                                CornerRadius="2"></Button>
+                                        <Button Text="Отменить"
+                                                TextColor="White"
+                                                FontSize="10"
+HorizontalOptions="FillAndExpand"
+                                                BackgroundColor="{StaticResource BlueColor}"
+                                                IsVisible="{Binding Path=.CanAccept ,Converter={converters:InverseBoolConverter}} "
+                                                Clicked="UntakeOrderClick"
+                                                local:IdHelper.Tag="{Binding .Id}"
+                                                CornerRadius="2"></Button>
+                                    </StackLayout>
+                                    <BoxView
+                                            VerticalOptions="FillAndExpand"
+                                             HorizontalOptions="Center"
+                                             WidthRequest="1"
+                                             Color="Black"
+                                             Grid.Column="1" />
+                                    <StackLayout Orientation="Horizontal"
+                                                 HorizontalOptions="Fill"
+                                                 Grid.Column="2">
+                                        <Label Text="{Binding From}"
+                                               HorizontalOptions="Start" />
+                                    </StackLayout>
+                                    <BoxView
+                                            VerticalOptions="Fill"
+                                             HorizontalOptions="Center"
+                                             WidthRequest="1"
+                                             Color="Black"
+                                             Grid.Column="3" />
+                                    <StackLayout Orientation="Horizontal"
+                                                 HorizontalOptions="Fill"
+                                                 Grid.Column="4">
+                                        <Label Text="{Binding Path= To}"
+                                               HorizontalOptions="Start" />
+                                    </StackLayout>
+                                    <BoxView IsVisible="{Binding HasPhone}"
+                                             VerticalOptions="Fill"
+                                             HorizontalOptions="Center"
+                                             WidthRequest="1"
+                                             Color="Black"
+                                             Grid.Column="5" />
+                                    <StackLayout Orientation="Horizontal"
+                                                 IsClippedToBounds="True"
+                                                 HorizontalOptions="FillAndExpand"
+                                                 VerticalOptions="Center"
+                                                 IsVisible="{Binding HasPhone}"
+                                                 Grid.Column="6">
+                                        <Label Text="{Binding Path= Phone}"
+                                               HorizontalOptions="FillAndExpand" />
+                                    </StackLayout>
+                                    <BoxView
+                                            VerticalOptions="Fill"
+                                             HorizontalOptions="Center"
+                                             WidthRequest="1"
+                                             Color="Black"
+                                             Grid.Column="7" />
+                                    <StackLayout Orientation="Horizontal"
+                                                 IsClippedToBounds="True"
+                                                 HorizontalOptions="CenterAndExpand"
+                                                 VerticalOptions="CenterAndExpand"
+                                                 Grid.Column="8">
+                                        <Button ImageSource="phone.png"
+                                                BackgroundColor="{Binding Path= Color}"
+                                                IsVisible="{Binding Path=.CanAccept,Converter={converters:InverseBoolConverter}}"
+                                                Clicked="CallPassengerClick"
+                                                local:IdHelper.Tag="{Binding Id}"
+                                                WidthRequest="25"
+                                                HeightRequest="25" />
+                                        <Label VerticalOptions="Center"
+                                               Text="{Binding Path= Cost,StringFormat='{0:0.00}'}" />
+                                    </StackLayout>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

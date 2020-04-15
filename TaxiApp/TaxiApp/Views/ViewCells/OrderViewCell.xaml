@@ -1,26 +1,75 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="TaxiApp.Views.ViewCells.OrderViewCell">
-  <ViewCell.View>
-        <StackLayout Orientation="Horizontal" Margin="10,2">
-            <StackLayout>
-                <Label x:Name="FromLabel"  Text="Откуда:From"
-                       TextColor="Black"
-                       FontSize="Body" />
-                <Label x:Name="ToLabel" Text="Куда:To"
-                       TextColor="Black"
-                       FontSize="Body" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                <Label x:Name="CostLabel" Text="Цена:100"
-                       TextColor="Black"
-                       FontSize="Body" />
-            </StackLayout>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+          mc:Ignorable="d"
+          x:Class="TaxiApp.Views.ViewCells.OrderViewCell"
+          xmlns:converters="clr-namespace:TaxiApp.Converters"
+          xmlns:local="clr-namespace:TaxiApp.Models">
+    <ViewCell.View>
+        <StackLayout Orientation="Vertical"
+                     Margin="10"
+                     VerticalOptions="FillAndExpand">
+            <Frame BackgroundColor="{Binding Color}"
+                   CornerRadius="25">
+                <StackLayout>
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Path=CreatedDate,StringFormat='{0:yyyy.MM.dd HH:mm}'}"></Label>
+                        </StackLayout>
+                        <BoxView Style="{StaticResource line}" />
+                        <Label
+                                Text="{Binding Path=From,StringFormat='Откуда: {0}'}"
+                               TextColor="Black"
+                               FontSize="Body" />
+                        <Label x:Name="ToLabel"
+                               Text="{Binding Path=To,StringFormat='Куда: {0}'}"
+                               TextColor="Black"
+                               FontSize="Body" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label
+                                Text="{Binding Path=Cost,StringFormat='{0:0.00} ₽'}"
+                               FontSize="25"
+                               TextColor="Green" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                                 IsVisible="{Binding HasPhone}">
+                        <Label Text="{Binding Path=Phone}"
+                               FontSize="20" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="FillAndExpand"
+                                 IsVisible="{Binding Path=CanAccept}">
+                        <Button Text="Принять заказ"
+                                BackgroundColor="{StaticResource BlueColor}"
+                                TextColor="White"
+                                FontSize="18"
+                                HorizontalOptions="FillAndExpand"
+                                Clicked="TakeClick"
+                                local:IdHelper.Tag="{Binding Id}" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 HorizontalOptions="Fill"
+                                 VerticalOptions="FillAndExpand"
+                                 IsVisible="{Binding Path=CanAccept,Converter={converters:InverseBoolConverter}}">
+                        <Button Text="Вызвать пассажира"
+                                VerticalOptions="Start"
+                                BackgroundColor="{StaticResource BlueColor}"
+                                TextColor="White"
+                                FontSize="18"
+                                Clicked="CallClick"
+                                local:IdHelper.Tag="{Binding Id}" />
+                        <Button Text="Отменить заказ"
+                                BackgroundColor="Red"
+                                TextColor="White"
+                                FontSize="18"
+                                Clicked="UntakeClick"
+                                local:IdHelper.Tag="{Binding Id}" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
         </StackLayout>
-      
-  </ViewCell.View>
+    </ViewCell.View>
 </ViewCell>

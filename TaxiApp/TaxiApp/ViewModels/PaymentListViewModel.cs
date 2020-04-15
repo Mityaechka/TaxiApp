@@ -10,6 +10,13 @@ namespace TaxiApp.ViewModels
     public class PaymentListViewModel : BaseViewModel
     {
          ObservableCollection<PaymentModel> models { get;  set; }
+        public List<PaymentModel> Payments
+        {
+            set
+            {
+                Models = new ObservableCollection<PaymentModel>(value);
+            }
+        }
         public PaymentListViewModel()
         {
         }

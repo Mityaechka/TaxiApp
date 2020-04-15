@@ -10,6 +10,8 @@
         <StackLayout>
             <Label Text="Функция определения местоположения отключена"
                 VerticalOptions="CenterAndExpand" 
+                   TextColor="Black"
+                   FontSize="Caption"
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>

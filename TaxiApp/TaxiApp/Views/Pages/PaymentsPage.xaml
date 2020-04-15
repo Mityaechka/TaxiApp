@@ -3,14 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:datagrid="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
              mc:Ignorable="d"
              x:Class="TaxiApp.Views.Pages.PaymentsPage"
              Title="Финансы">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <datagrid:DataGrid ItemsSource="{Binding Path=Model.Models}"
+                               IsRefreshing="{Binding IsRefreshing}"
+                               BorderColor="{StaticResource GridBorder}"
+                               HeaderTextColor="{StaticResource BlueColor}"
+                               ItemSelected="DataGrid_ItemSelected"
+                               x:Name="DataGrid">
+                <datagrid:DataGrid.Columns>
+                    <datagrid:DataGridColumn Title="Дата"
+                                             PropertyName="Date"
+                                             StringFormat="{}{0:d.MM.yyyy HH:mm}" />
+                    <datagrid:DataGridColumn Title="Сумма"
+                                             PropertyName="Cost"
+                                             StringFormat="{}{0:0.00}" />
+                    <datagrid:DataGridColumn Title="Провел(-а)"
+                                             PropertyName="Spent" />
+                </datagrid:DataGrid.Columns>
+                <datagrid:DataGrid.RowsBackgroundColorPalette>
+                    <datagrid:PaletteCollection>
+                        <Color>#fff6aa</Color>
+                    </datagrid:PaletteCollection>
+                </datagrid:DataGrid.RowsBackgroundColorPalette>
+            </datagrid:DataGrid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

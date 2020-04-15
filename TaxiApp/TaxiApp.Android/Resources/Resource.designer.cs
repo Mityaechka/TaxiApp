@@ -26,6 +26,2642 @@ namespace TaxiApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_fade_in = global::TaxiApp.Droid.Resource.Animation.abc_fade_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_fade_out = global::TaxiApp.Droid.Resource.Animation.abc_fade_out;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::TaxiApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_popup_enter = global::TaxiApp.Droid.Resource.Animation.abc_popup_enter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_popup_exit = global::TaxiApp.Droid.Resource.Animation.abc_popup_exit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::TaxiApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_slide_in_bottom = global::TaxiApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_slide_in_top = global::TaxiApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_slide_out_bottom = global::TaxiApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_slide_out_top = global::TaxiApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_tooltip_enter = global::TaxiApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_tooltip_exit = global::TaxiApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.design_bottom_sheet_slide_in = global::TaxiApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.design_bottom_sheet_slide_out = global::TaxiApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.design_snackbar_in = global::TaxiApp.Droid.Resource.Animation.design_snackbar_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.design_snackbar_out = global::TaxiApp.Droid.Resource.Animation.design_snackbar_out;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.EnterFromLeft = global::TaxiApp.Droid.Resource.Animation.EnterFromLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.EnterFromRight = global::TaxiApp.Droid.Resource.Animation.EnterFromRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.ExitToLeft = global::TaxiApp.Droid.Resource.Animation.ExitToLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.ExitToRight = global::TaxiApp.Droid.Resource.Animation.ExitToRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.design_appbar_state_list_animator = global::TaxiApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.design_fab_hide_motion_spec = global::TaxiApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.design_fab_show_motion_spec = global::TaxiApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.mtrl_btn_state_list_anim = global::TaxiApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::TaxiApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.mtrl_chip_state_list_anim = global::TaxiApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::TaxiApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::TaxiApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::TaxiApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::TaxiApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarDivider = global::TaxiApp.Droid.Resource.Attribute.actionBarDivider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarItemBackground = global::TaxiApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarPopupTheme = global::TaxiApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarSize = global::TaxiApp.Droid.Resource.Attribute.actionBarSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarSplitStyle = global::TaxiApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarStyle = global::TaxiApp.Droid.Resource.Attribute.actionBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarTabBarStyle = global::TaxiApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarTabStyle = global::TaxiApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarTabTextStyle = global::TaxiApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarTheme = global::TaxiApp.Droid.Resource.Attribute.actionBarTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarWidgetTheme = global::TaxiApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionButtonStyle = global::TaxiApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionDropDownStyle = global::TaxiApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionLayout = global::TaxiApp.Droid.Resource.Attribute.actionLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionMenuTextAppearance = global::TaxiApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionMenuTextColor = global::TaxiApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeBackground = global::TaxiApp.Droid.Resource.Attribute.actionModeBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeCloseButtonStyle = global::TaxiApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeCloseDrawable = global::TaxiApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeCopyDrawable = global::TaxiApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeCutDrawable = global::TaxiApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeFindDrawable = global::TaxiApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModePasteDrawable = global::TaxiApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModePopupWindowStyle = global::TaxiApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeSelectAllDrawable = global::TaxiApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeShareDrawable = global::TaxiApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeSplitBackground = global::TaxiApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeStyle = global::TaxiApp.Droid.Resource.Attribute.actionModeStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeWebSearchDrawable = global::TaxiApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionOverflowButtonStyle = global::TaxiApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionOverflowMenuStyle = global::TaxiApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionProviderClass = global::TaxiApp.Droid.Resource.Attribute.actionProviderClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionViewClass = global::TaxiApp.Droid.Resource.Attribute.actionViewClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.activityChooserViewStyle = global::TaxiApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::TaxiApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alertDialogCenterButtons = global::TaxiApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alertDialogStyle = global::TaxiApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alertDialogTheme = global::TaxiApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.allowStacking = global::TaxiApp.Droid.Resource.Attribute.allowStacking;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alpha = global::TaxiApp.Droid.Resource.Attribute.alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alphabeticModifiers = global::TaxiApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.arrowHeadLength = global::TaxiApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.arrowShaftLength = global::TaxiApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoCompleteTextViewStyle = global::TaxiApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizeMaxTextSize = global::TaxiApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizeMinTextSize = global::TaxiApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizePresetSizes = global::TaxiApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizeStepGranularity = global::TaxiApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizeTextType = global::TaxiApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.background = global::TaxiApp.Droid.Resource.Attribute.background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.backgroundSplit = global::TaxiApp.Droid.Resource.Attribute.backgroundSplit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.backgroundStacked = global::TaxiApp.Droid.Resource.Attribute.backgroundStacked;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.backgroundTint = global::TaxiApp.Droid.Resource.Attribute.backgroundTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.backgroundTintMode = global::TaxiApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.barLength = global::TaxiApp.Droid.Resource.Attribute.barLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_autoHide = global::TaxiApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_fitToContents = global::TaxiApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_hideable = global::TaxiApp.Droid.Resource.Attribute.behavior_hideable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_overlapTop = global::TaxiApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_peekHeight = global::TaxiApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_skipCollapsed = global::TaxiApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.borderWidth = global::TaxiApp.Droid.Resource.Attribute.borderWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.borderlessButtonStyle = global::TaxiApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.bottomAppBarStyle = global::TaxiApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.bottomNavigationStyle = global::TaxiApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.bottomSheetDialogTheme = global::TaxiApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.bottomSheetStyle = global::TaxiApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.boxBackgroundColor = global::TaxiApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.boxBackgroundMode = global::TaxiApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.boxCollapsedPaddingTop = global::TaxiApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.boxCornerRadiusBottomEnd = global::TaxiApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.boxCornerRadiusBottomStart = global::TaxiApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::TaxiApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.boxCornerRadiusTopStart = global::TaxiApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.boxStrokeColor = global::TaxiApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.boxStrokeWidth = global::TaxiApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarButtonStyle = global::TaxiApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::TaxiApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::TaxiApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::TaxiApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarStyle = global::TaxiApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonGravity = global::TaxiApp.Droid.Resource.Attribute.buttonGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonIconDimen = global::TaxiApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonPanelSideLayout = global::TaxiApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonStyle = global::TaxiApp.Droid.Resource.Attribute.buttonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonStyleSmall = global::TaxiApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonTint = global::TaxiApp.Droid.Resource.Attribute.buttonTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonTintMode = global::TaxiApp.Droid.Resource.Attribute.buttonTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardBackgroundColor = global::TaxiApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardCornerRadius = global::TaxiApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardElevation = global::TaxiApp.Droid.Resource.Attribute.cardElevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardMaxElevation = global::TaxiApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardPreventCornerOverlap = global::TaxiApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardUseCompatPadding = global::TaxiApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardViewStyle = global::TaxiApp.Droid.Resource.Attribute.cardViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.checkboxStyle = global::TaxiApp.Droid.Resource.Attribute.checkboxStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.checkedChip = global::TaxiApp.Droid.Resource.Attribute.checkedChip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.checkedIcon = global::TaxiApp.Droid.Resource.Attribute.checkedIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.checkedIconEnabled = global::TaxiApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.checkedIconVisible = global::TaxiApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.checkedTextViewStyle = global::TaxiApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipBackgroundColor = global::TaxiApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipCornerRadius = global::TaxiApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipEndPadding = global::TaxiApp.Droid.Resource.Attribute.chipEndPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipGroupStyle = global::TaxiApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipIcon = global::TaxiApp.Droid.Resource.Attribute.chipIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipIconEnabled = global::TaxiApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipIconSize = global::TaxiApp.Droid.Resource.Attribute.chipIconSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipIconTint = global::TaxiApp.Droid.Resource.Attribute.chipIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipIconVisible = global::TaxiApp.Droid.Resource.Attribute.chipIconVisible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipMinHeight = global::TaxiApp.Droid.Resource.Attribute.chipMinHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipSpacing = global::TaxiApp.Droid.Resource.Attribute.chipSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipSpacingHorizontal = global::TaxiApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipSpacingVertical = global::TaxiApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipStandaloneStyle = global::TaxiApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipStartPadding = global::TaxiApp.Droid.Resource.Attribute.chipStartPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipStrokeColor = global::TaxiApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipStrokeWidth = global::TaxiApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.chipStyle = global::TaxiApp.Droid.Resource.Attribute.chipStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeIcon = global::TaxiApp.Droid.Resource.Attribute.closeIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeIconEnabled = global::TaxiApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeIconEndPadding = global::TaxiApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeIconSize = global::TaxiApp.Droid.Resource.Attribute.closeIconSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeIconStartPadding = global::TaxiApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeIconTint = global::TaxiApp.Droid.Resource.Attribute.closeIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeIconVisible = global::TaxiApp.Droid.Resource.Attribute.closeIconVisible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeItemLayout = global::TaxiApp.Droid.Resource.Attribute.closeItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.collapseContentDescription = global::TaxiApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.collapseIcon = global::TaxiApp.Droid.Resource.Attribute.collapseIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.collapsedTitleGravity = global::TaxiApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.collapsedTitleTextAppearance = global::TaxiApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.color = global::TaxiApp.Droid.Resource.Attribute.color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorAccent = global::TaxiApp.Droid.Resource.Attribute.colorAccent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorBackgroundFloating = global::TaxiApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorButtonNormal = global::TaxiApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorControlActivated = global::TaxiApp.Droid.Resource.Attribute.colorControlActivated;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorControlHighlight = global::TaxiApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorControlNormal = global::TaxiApp.Droid.Resource.Attribute.colorControlNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorError = global::TaxiApp.Droid.Resource.Attribute.colorError;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorPrimary = global::TaxiApp.Droid.Resource.Attribute.colorPrimary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorPrimaryDark = global::TaxiApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorSecondary = global::TaxiApp.Droid.Resource.Attribute.colorSecondary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorSwitchThumbNormal = global::TaxiApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.commitIcon = global::TaxiApp.Droid.Resource.Attribute.commitIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentDescription = global::TaxiApp.Droid.Resource.Attribute.contentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetEnd = global::TaxiApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetEndWithActions = global::TaxiApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetLeft = global::TaxiApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetRight = global::TaxiApp.Droid.Resource.Attribute.contentInsetRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetStart = global::TaxiApp.Droid.Resource.Attribute.contentInsetStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetStartWithNavigation = global::TaxiApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPadding = global::TaxiApp.Droid.Resource.Attribute.contentPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPaddingBottom = global::TaxiApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPaddingLeft = global::TaxiApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPaddingRight = global::TaxiApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPaddingTop = global::TaxiApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentScrim = global::TaxiApp.Droid.Resource.Attribute.contentScrim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.controlBackground = global::TaxiApp.Droid.Resource.Attribute.controlBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.coordinatorLayoutStyle = global::TaxiApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cornerRadius = global::TaxiApp.Droid.Resource.Attribute.cornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.counterEnabled = global::TaxiApp.Droid.Resource.Attribute.counterEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.counterMaxLength = global::TaxiApp.Droid.Resource.Attribute.counterMaxLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.counterOverflowTextAppearance = global::TaxiApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.counterTextAppearance = global::TaxiApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.customNavigationLayout = global::TaxiApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.defaultQueryHint = global::TaxiApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dialogCornerRadius = global::TaxiApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dialogPreferredPadding = global::TaxiApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dialogTheme = global::TaxiApp.Droid.Resource.Attribute.dialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.displayOptions = global::TaxiApp.Droid.Resource.Attribute.displayOptions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.divider = global::TaxiApp.Droid.Resource.Attribute.divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dividerHorizontal = global::TaxiApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dividerPadding = global::TaxiApp.Droid.Resource.Attribute.dividerPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dividerVertical = global::TaxiApp.Droid.Resource.Attribute.dividerVertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.drawableSize = global::TaxiApp.Droid.Resource.Attribute.drawableSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.drawerArrowStyle = global::TaxiApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dropDownListViewStyle = global::TaxiApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::TaxiApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.editTextBackground = global::TaxiApp.Droid.Resource.Attribute.editTextBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.editTextColor = global::TaxiApp.Droid.Resource.Attribute.editTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.editTextStyle = global::TaxiApp.Droid.Resource.Attribute.editTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.elevation = global::TaxiApp.Droid.Resource.Attribute.elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.enforceMaterialTheme = global::TaxiApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.enforceTextAppearance = global::TaxiApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.errorEnabled = global::TaxiApp.Droid.Resource.Attribute.errorEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.errorTextAppearance = global::TaxiApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::TaxiApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expanded = global::TaxiApp.Droid.Resource.Attribute.expanded;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleGravity = global::TaxiApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMargin = global::TaxiApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMarginBottom = global::TaxiApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMarginEnd = global::TaxiApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMarginStart = global::TaxiApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMarginTop = global::TaxiApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleTextAppearance = global::TaxiApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fabAlignmentMode = global::TaxiApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fabCradleMargin = global::TaxiApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::TaxiApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fabCradleVerticalOffset = global::TaxiApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fabCustomSize = global::TaxiApp.Droid.Resource.Attribute.fabCustomSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fabSize = global::TaxiApp.Droid.Resource.Attribute.fabSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollEnabled = global::TaxiApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::TaxiApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::TaxiApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::TaxiApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::TaxiApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.firstBaselineToTopHeight = global::TaxiApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.floatingActionButtonStyle = global::TaxiApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.font = global::TaxiApp.Droid.Resource.Attribute.font;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontFamily = global::TaxiApp.Droid.Resource.Attribute.fontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderAuthority = global::TaxiApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderCerts = global::TaxiApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderFetchStrategy = global::TaxiApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderFetchTimeout = global::TaxiApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderPackage = global::TaxiApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderQuery = global::TaxiApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontStyle = global::TaxiApp.Droid.Resource.Attribute.fontStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontVariationSettings = global::TaxiApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontWeight = global::TaxiApp.Droid.Resource.Attribute.fontWeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.foregroundInsidePadding = global::TaxiApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.gapBetweenBars = global::TaxiApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.goIcon = global::TaxiApp.Droid.Resource.Attribute.goIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.headerLayout = global::TaxiApp.Droid.Resource.Attribute.headerLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.height = global::TaxiApp.Droid.Resource.Attribute.height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.helperText = global::TaxiApp.Droid.Resource.Attribute.helperText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.helperTextEnabled = global::TaxiApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.helperTextTextAppearance = global::TaxiApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hideMotionSpec = global::TaxiApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hideOnContentScroll = global::TaxiApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hideOnScroll = global::TaxiApp.Droid.Resource.Attribute.hideOnScroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hintAnimationEnabled = global::TaxiApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hintEnabled = global::TaxiApp.Droid.Resource.Attribute.hintEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hintTextAppearance = global::TaxiApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.homeAsUpIndicator = global::TaxiApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.homeLayout = global::TaxiApp.Droid.Resource.Attribute.homeLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::TaxiApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.icon = global::TaxiApp.Droid.Resource.Attribute.icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconEndPadding = global::TaxiApp.Droid.Resource.Attribute.iconEndPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconGravity = global::TaxiApp.Droid.Resource.Attribute.iconGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconPadding = global::TaxiApp.Droid.Resource.Attribute.iconPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconSize = global::TaxiApp.Droid.Resource.Attribute.iconSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconStartPadding = global::TaxiApp.Droid.Resource.Attribute.iconStartPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconTint = global::TaxiApp.Droid.Resource.Attribute.iconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconTintMode = global::TaxiApp.Droid.Resource.Attribute.iconTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconifiedByDefault = global::TaxiApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.imageButtonStyle = global::TaxiApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.indeterminateProgressStyle = global::TaxiApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.initialActivityCount = global::TaxiApp.Droid.Resource.Attribute.initialActivityCount;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.insetForeground = global::TaxiApp.Droid.Resource.Attribute.insetForeground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.isLightTheme = global::TaxiApp.Droid.Resource.Attribute.isLightTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemBackground = global::TaxiApp.Droid.Resource.Attribute.itemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemHorizontalPadding = global::TaxiApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::TaxiApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemIconPadding = global::TaxiApp.Droid.Resource.Attribute.itemIconPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemIconSize = global::TaxiApp.Droid.Resource.Attribute.itemIconSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemIconTint = global::TaxiApp.Droid.Resource.Attribute.itemIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemPadding = global::TaxiApp.Droid.Resource.Attribute.itemPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemSpacing = global::TaxiApp.Droid.Resource.Attribute.itemSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemTextAppearance = global::TaxiApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemTextAppearanceActive = global::TaxiApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemTextAppearanceInactive = global::TaxiApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemTextColor = global::TaxiApp.Droid.Resource.Attribute.itemTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.keylines = global::TaxiApp.Droid.Resource.Attribute.keylines;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.labelVisibilityMode = global::TaxiApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.lastBaselineToBottomHeight = global::TaxiApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout = global::TaxiApp.Droid.Resource.Attribute.layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layoutManager = global::TaxiApp.Droid.Resource.Attribute.layoutManager;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_anchor = global::TaxiApp.Droid.Resource.Attribute.layout_anchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_anchorGravity = global::TaxiApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_behavior = global::TaxiApp.Droid.Resource.Attribute.layout_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_collapseMode = global::TaxiApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::TaxiApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_dodgeInsetEdges = global::TaxiApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_insetEdge = global::TaxiApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_keyline = global::TaxiApp.Droid.Resource.Attribute.layout_keyline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_scrollFlags = global::TaxiApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_scrollInterpolator = global::TaxiApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.liftOnScroll = global::TaxiApp.Droid.Resource.Attribute.liftOnScroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.lineHeight = global::TaxiApp.Droid.Resource.Attribute.lineHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.lineSpacing = global::TaxiApp.Droid.Resource.Attribute.lineSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::TaxiApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listDividerAlertDialog = global::TaxiApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listItemLayout = global::TaxiApp.Droid.Resource.Attribute.listItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listLayout = global::TaxiApp.Droid.Resource.Attribute.listLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listMenuViewStyle = global::TaxiApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPopupWindowStyle = global::TaxiApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemHeight = global::TaxiApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemHeightLarge = global::TaxiApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemHeightSmall = global::TaxiApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::TaxiApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemPaddingRight = global::TaxiApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.logo = global::TaxiApp.Droid.Resource.Attribute.logo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.logoDescription = global::TaxiApp.Droid.Resource.Attribute.logoDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.materialButtonStyle = global::TaxiApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.materialCardViewStyle = global::TaxiApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.maxActionInlineWidth = global::TaxiApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.maxButtonHeight = global::TaxiApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.maxImageSize = global::TaxiApp.Droid.Resource.Attribute.maxImageSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.measureWithLargestChild = global::TaxiApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.menu = global::TaxiApp.Droid.Resource.Attribute.menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.multiChoiceItemLayout = global::TaxiApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.navigationContentDescription = global::TaxiApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.navigationIcon = global::TaxiApp.Droid.Resource.Attribute.navigationIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.navigationMode = global::TaxiApp.Droid.Resource.Attribute.navigationMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.navigationViewStyle = global::TaxiApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.numericModifiers = global::TaxiApp.Droid.Resource.Attribute.numericModifiers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.overlapAnchor = global::TaxiApp.Droid.Resource.Attribute.overlapAnchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.paddingBottomNoButtons = global::TaxiApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.paddingEnd = global::TaxiApp.Droid.Resource.Attribute.paddingEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.paddingStart = global::TaxiApp.Droid.Resource.Attribute.paddingStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.paddingTopNoTitle = global::TaxiApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.panelBackground = global::TaxiApp.Droid.Resource.Attribute.panelBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.panelMenuListTheme = global::TaxiApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.panelMenuListWidth = global::TaxiApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleContentDescription = global::TaxiApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleDrawable = global::TaxiApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleEnabled = global::TaxiApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleTint = global::TaxiApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleTintMode = global::TaxiApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.popupMenuStyle = global::TaxiApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.popupTheme = global::TaxiApp.Droid.Resource.Attribute.popupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.popupWindowStyle = global::TaxiApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.preserveIconSpacing = global::TaxiApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.pressedTranslationZ = global::TaxiApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.progressBarPadding = global::TaxiApp.Droid.Resource.Attribute.progressBarPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.progressBarStyle = global::TaxiApp.Droid.Resource.Attribute.progressBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.queryBackground = global::TaxiApp.Droid.Resource.Attribute.queryBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.queryHint = global::TaxiApp.Droid.Resource.Attribute.queryHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.radioButtonStyle = global::TaxiApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.ratingBarStyle = global::TaxiApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.ratingBarStyleIndicator = global::TaxiApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.ratingBarStyleSmall = global::TaxiApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.reverseLayout = global::TaxiApp.Droid.Resource.Attribute.reverseLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.rippleColor = global::TaxiApp.Droid.Resource.Attribute.rippleColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.scrimAnimationDuration = global::TaxiApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.scrimBackground = global::TaxiApp.Droid.Resource.Attribute.scrimBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::TaxiApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.searchHintIcon = global::TaxiApp.Droid.Resource.Attribute.searchHintIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.searchIcon = global::TaxiApp.Droid.Resource.Attribute.searchIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.searchViewStyle = global::TaxiApp.Droid.Resource.Attribute.searchViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.seekBarStyle = global::TaxiApp.Droid.Resource.Attribute.seekBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.selectableItemBackground = global::TaxiApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::TaxiApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.showAsAction = global::TaxiApp.Droid.Resource.Attribute.showAsAction;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.showDividers = global::TaxiApp.Droid.Resource.Attribute.showDividers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.showMotionSpec = global::TaxiApp.Droid.Resource.Attribute.showMotionSpec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.showText = global::TaxiApp.Droid.Resource.Attribute.showText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.showTitle = global::TaxiApp.Droid.Resource.Attribute.showTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.singleChoiceItemLayout = global::TaxiApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.singleLine = global::TaxiApp.Droid.Resource.Attribute.singleLine;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.singleSelection = global::TaxiApp.Droid.Resource.Attribute.singleSelection;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.snackbarButtonStyle = global::TaxiApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.snackbarStyle = global::TaxiApp.Droid.Resource.Attribute.snackbarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.spanCount = global::TaxiApp.Droid.Resource.Attribute.spanCount;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.spinBars = global::TaxiApp.Droid.Resource.Attribute.spinBars;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.spinnerDropDownItemStyle = global::TaxiApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.spinnerStyle = global::TaxiApp.Droid.Resource.Attribute.spinnerStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.splitTrack = global::TaxiApp.Droid.Resource.Attribute.splitTrack;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.srcCompat = global::TaxiApp.Droid.Resource.Attribute.srcCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.stackFromEnd = global::TaxiApp.Droid.Resource.Attribute.stackFromEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.state_above_anchor = global::TaxiApp.Droid.Resource.Attribute.state_above_anchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.state_collapsed = global::TaxiApp.Droid.Resource.Attribute.state_collapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.state_collapsible = global::TaxiApp.Droid.Resource.Attribute.state_collapsible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.state_liftable = global::TaxiApp.Droid.Resource.Attribute.state_liftable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.state_lifted = global::TaxiApp.Droid.Resource.Attribute.state_lifted;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.statusBarBackground = global::TaxiApp.Droid.Resource.Attribute.statusBarBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.statusBarScrim = global::TaxiApp.Droid.Resource.Attribute.statusBarScrim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.strokeColor = global::TaxiApp.Droid.Resource.Attribute.strokeColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.strokeWidth = global::TaxiApp.Droid.Resource.Attribute.strokeWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subMenuArrow = global::TaxiApp.Droid.Resource.Attribute.subMenuArrow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.submitBackground = global::TaxiApp.Droid.Resource.Attribute.submitBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subtitle = global::TaxiApp.Droid.Resource.Attribute.subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subtitleTextAppearance = global::TaxiApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subtitleTextColor = global::TaxiApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subtitleTextStyle = global::TaxiApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.suggestionRowLayout = global::TaxiApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.switchMinWidth = global::TaxiApp.Droid.Resource.Attribute.switchMinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.switchPadding = global::TaxiApp.Droid.Resource.Attribute.switchPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.switchStyle = global::TaxiApp.Droid.Resource.Attribute.switchStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.switchTextAppearance = global::TaxiApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabBackground = global::TaxiApp.Droid.Resource.Attribute.tabBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabContentStart = global::TaxiApp.Droid.Resource.Attribute.tabContentStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabGravity = global::TaxiApp.Droid.Resource.Attribute.tabGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIconTint = global::TaxiApp.Droid.Resource.Attribute.tabIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIconTintMode = global::TaxiApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIndicator = global::TaxiApp.Droid.Resource.Attribute.tabIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIndicatorAnimationDuration = global::TaxiApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIndicatorColor = global::TaxiApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIndicatorFullWidth = global::TaxiApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIndicatorGravity = global::TaxiApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIndicatorHeight = global::TaxiApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabInlineLabel = global::TaxiApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabMaxWidth = global::TaxiApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabMinWidth = global::TaxiApp.Droid.Resource.Attribute.tabMinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabMode = global::TaxiApp.Droid.Resource.Attribute.tabMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPadding = global::TaxiApp.Droid.Resource.Attribute.tabPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPaddingBottom = global::TaxiApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPaddingEnd = global::TaxiApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPaddingStart = global::TaxiApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPaddingTop = global::TaxiApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabRippleColor = global::TaxiApp.Droid.Resource.Attribute.tabRippleColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabSelectedTextColor = global::TaxiApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabStyle = global::TaxiApp.Droid.Resource.Attribute.tabStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabTextAppearance = global::TaxiApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabTextColor = global::TaxiApp.Droid.Resource.Attribute.tabTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabUnboundedRipple = global::TaxiApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAllCaps = global::TaxiApp.Droid.Resource.Attribute.textAllCaps;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceBody1 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceBody2 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceButton = global::TaxiApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceCaption = global::TaxiApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceHeadline1 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceHeadline2 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceHeadline3 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceHeadline4 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceHeadline5 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceHeadline6 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::TaxiApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceListItem = global::TaxiApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceListItemSecondary = global::TaxiApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceListItemSmall = global::TaxiApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceOverline = global::TaxiApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::TaxiApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::TaxiApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::TaxiApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::TaxiApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceSubtitle1 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceSubtitle2 = global::TaxiApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textColorAlertDialogListItem = global::TaxiApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textColorSearchUrl = global::TaxiApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textEndPadding = global::TaxiApp.Droid.Resource.Attribute.textEndPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textInputStyle = global::TaxiApp.Droid.Resource.Attribute.textInputStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textStartPadding = global::TaxiApp.Droid.Resource.Attribute.textStartPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.theme = global::TaxiApp.Droid.Resource.Attribute.theme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.thickness = global::TaxiApp.Droid.Resource.Attribute.thickness;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.thumbTextPadding = global::TaxiApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.thumbTint = global::TaxiApp.Droid.Resource.Attribute.thumbTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.thumbTintMode = global::TaxiApp.Droid.Resource.Attribute.thumbTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tickMark = global::TaxiApp.Droid.Resource.Attribute.tickMark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tickMarkTint = global::TaxiApp.Droid.Resource.Attribute.tickMarkTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tickMarkTintMode = global::TaxiApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tint = global::TaxiApp.Droid.Resource.Attribute.tint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tintMode = global::TaxiApp.Droid.Resource.Attribute.tintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.title = global::TaxiApp.Droid.Resource.Attribute.title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleEnabled = global::TaxiApp.Droid.Resource.Attribute.titleEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMargin = global::TaxiApp.Droid.Resource.Attribute.titleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMarginBottom = global::TaxiApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMarginEnd = global::TaxiApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMarginStart = global::TaxiApp.Droid.Resource.Attribute.titleMarginStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMarginTop = global::TaxiApp.Droid.Resource.Attribute.titleMarginTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMargins = global::TaxiApp.Droid.Resource.Attribute.titleMargins;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleTextAppearance = global::TaxiApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleTextColor = global::TaxiApp.Droid.Resource.Attribute.titleTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleTextStyle = global::TaxiApp.Droid.Resource.Attribute.titleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.toolbarId = global::TaxiApp.Droid.Resource.Attribute.toolbarId;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::TaxiApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.toolbarStyle = global::TaxiApp.Droid.Resource.Attribute.toolbarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tooltipForegroundColor = global::TaxiApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tooltipFrameBackground = global::TaxiApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tooltipText = global::TaxiApp.Droid.Resource.Attribute.tooltipText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.track = global::TaxiApp.Droid.Resource.Attribute.track;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.trackTint = global::TaxiApp.Droid.Resource.Attribute.trackTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.trackTintMode = global::TaxiApp.Droid.Resource.Attribute.trackTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.ttcIndex = global::TaxiApp.Droid.Resource.Attribute.ttcIndex;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.useCompatPadding = global::TaxiApp.Droid.Resource.Attribute.useCompatPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.viewInflaterClass = global::TaxiApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.voiceIcon = global::TaxiApp.Droid.Resource.Attribute.voiceIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowActionBar = global::TaxiApp.Droid.Resource.Attribute.windowActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowActionBarOverlay = global::TaxiApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowActionModeOverlay = global::TaxiApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowFixedHeightMajor = global::TaxiApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowFixedHeightMinor = global::TaxiApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowFixedWidthMajor = global::TaxiApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowFixedWidthMinor = global::TaxiApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowMinWidthMajor = global::TaxiApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowMinWidthMinor = global::TaxiApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowNoTitle = global::TaxiApp.Droid.Resource.Attribute.windowNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::TaxiApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::TaxiApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::TaxiApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::TaxiApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::TaxiApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::TaxiApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::TaxiApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_btn_colored_text_material = global::TaxiApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_color_highlight_material = global::TaxiApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_hint_foreground_material_dark = global::TaxiApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_hint_foreground_material_light = global::TaxiApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_input_method_navigation_guard = global::TaxiApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::TaxiApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::TaxiApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_primary_text_material_dark = global::TaxiApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_primary_text_material_light = global::TaxiApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_search_url_text = global::TaxiApp.Droid.Resource.Color.abc_search_url_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_search_url_text_normal = global::TaxiApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_search_url_text_pressed = global::TaxiApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_search_url_text_selected = global::TaxiApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_secondary_text_material_dark = global::TaxiApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_secondary_text_material_light = global::TaxiApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_btn_checkable = global::TaxiApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_default = global::TaxiApp.Droid.Resource.Color.abc_tint_default;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_edittext = global::TaxiApp.Droid.Resource.Color.abc_tint_edittext;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_seek_thumb = global::TaxiApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_spinner = global::TaxiApp.Droid.Resource.Color.abc_tint_spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_switch_track = global::TaxiApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.accent_material_dark = global::TaxiApp.Droid.Resource.Color.accent_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.accent_material_light = global::TaxiApp.Droid.Resource.Color.accent_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.background_floating_material_dark = global::TaxiApp.Droid.Resource.Color.background_floating_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.background_floating_material_light = global::TaxiApp.Droid.Resource.Color.background_floating_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.background_material_dark = global::TaxiApp.Droid.Resource.Color.background_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.background_material_light = global::TaxiApp.Droid.Resource.Color.background_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.black = global::TaxiApp.Droid.Resource.Color.black;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.blue = global::TaxiApp.Droid.Resource.Color.blue;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_disabled_material_dark = global::TaxiApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_disabled_material_light = global::TaxiApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_inverse_material_dark = global::TaxiApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_inverse_material_light = global::TaxiApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_material_dark = global::TaxiApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_material_light = global::TaxiApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.browser_actions_bg_grey = global::TaxiApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.browser_actions_divider_color = global::TaxiApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.browser_actions_text_color = global::TaxiApp.Droid.Resource.Color.browser_actions_text_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.browser_actions_title_color = global::TaxiApp.Droid.Resource.Color.browser_actions_title_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.button_material_dark = global::TaxiApp.Droid.Resource.Color.button_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.button_material_light = global::TaxiApp.Droid.Resource.Color.button_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.cardview_dark_background = global::TaxiApp.Droid.Resource.Color.cardview_dark_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.cardview_light_background = global::TaxiApp.Droid.Resource.Color.cardview_light_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.cardview_shadow_end_color = global::TaxiApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.cardview_shadow_start_color = global::TaxiApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_bottom_navigation_shadow_color = global::TaxiApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_default_color_primary = global::TaxiApp.Droid.Resource.Color.design_default_color_primary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_default_color_primary_dark = global::TaxiApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_error = global::TaxiApp.Droid.Resource.Color.design_error;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_shadow_end_color = global::TaxiApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_shadow_mid_color = global::TaxiApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_shadow_start_color = global::TaxiApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_stroke_end_inner_color = global::TaxiApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_stroke_end_outer_color = global::TaxiApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_stroke_top_inner_color = global::TaxiApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_stroke_top_outer_color = global::TaxiApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_snackbar_background_color = global::TaxiApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_tint_password_toggle = global::TaxiApp.Droid.Resource.Color.design_tint_password_toggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.dim_foreground_disabled_material_dark = global::TaxiApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.dim_foreground_disabled_material_light = global::TaxiApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.dim_foreground_material_dark = global::TaxiApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.dim_foreground_material_light = global::TaxiApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.error_color_material_dark = global::TaxiApp.Droid.Resource.Color.error_color_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.error_color_material_light = global::TaxiApp.Droid.Resource.Color.error_color_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.foreground_material_dark = global::TaxiApp.Droid.Resource.Color.foreground_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.foreground_material_light = global::TaxiApp.Droid.Resource.Color.foreground_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.gray = global::TaxiApp.Droid.Resource.Color.gray;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.green = global::TaxiApp.Droid.Resource.Color.green;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.highlighted_text_material_dark = global::TaxiApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.highlighted_text_material_light = global::TaxiApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_blue_grey_800 = global::TaxiApp.Droid.Resource.Color.material_blue_grey_800;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_blue_grey_900 = global::TaxiApp.Droid.Resource.Color.material_blue_grey_900;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_blue_grey_950 = global::TaxiApp.Droid.Resource.Color.material_blue_grey_950;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_deep_teal_200 = global::TaxiApp.Droid.Resource.Color.material_deep_teal_200;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_deep_teal_500 = global::TaxiApp.Droid.Resource.Color.material_deep_teal_500;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_100 = global::TaxiApp.Droid.Resource.Color.material_grey_100;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_300 = global::TaxiApp.Droid.Resource.Color.material_grey_300;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_50 = global::TaxiApp.Droid.Resource.Color.material_grey_50;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_600 = global::TaxiApp.Droid.Resource.Color.material_grey_600;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_800 = global::TaxiApp.Droid.Resource.Color.material_grey_800;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_850 = global::TaxiApp.Droid.Resource.Color.material_grey_850;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_900 = global::TaxiApp.Droid.Resource.Color.material_grey_900;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::TaxiApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::TaxiApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_btn_bg_color_disabled = global::TaxiApp.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_btn_bg_color_selector = global::TaxiApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_btn_ripple_color = global::TaxiApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::TaxiApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::TaxiApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_btn_text_color_disabled = global::TaxiApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_btn_text_color_selector = global::TaxiApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::TaxiApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_chip_background_color = global::TaxiApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_chip_close_icon_tint = global::TaxiApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_chip_ripple_color = global::TaxiApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_chip_text_color = global::TaxiApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_fab_ripple_color = global::TaxiApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_scrim_color = global::TaxiApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::TaxiApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::TaxiApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::TaxiApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::TaxiApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_tabs_ripple_color = global::TaxiApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::TaxiApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::TaxiApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_textinput_disabled_color = global::TaxiApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::TaxiApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::TaxiApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.notification_action_color_filter = global::TaxiApp.Droid.Resource.Color.notification_action_color_filter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.notification_icon_bg_color = global::TaxiApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.notification_material_background_media_default_color = global::TaxiApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_dark_material_dark = global::TaxiApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_dark_material_light = global::TaxiApp.Droid.Resource.Color.primary_dark_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_material_dark = global::TaxiApp.Droid.Resource.Color.primary_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_material_light = global::TaxiApp.Droid.Resource.Color.primary_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_text_default_material_dark = global::TaxiApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_text_default_material_light = global::TaxiApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_text_disabled_material_dark = global::TaxiApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_text_disabled_material_light = global::TaxiApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.red = global::TaxiApp.Droid.Resource.Color.red;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.ripple_material_dark = global::TaxiApp.Droid.Resource.Color.ripple_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.ripple_material_light = global::TaxiApp.Droid.Resource.Color.ripple_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.secondary_text_default_material_dark = global::TaxiApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.secondary_text_default_material_light = global::TaxiApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.secondary_text_disabled_material_dark = global::TaxiApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.secondary_text_disabled_material_light = global::TaxiApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_disabled_material_dark = global::TaxiApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_disabled_material_light = global::TaxiApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_material_dark = global::TaxiApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_material_light = global::TaxiApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_normal_material_dark = global::TaxiApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_normal_material_light = global::TaxiApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.theme_dark_segmented_radio_button_text = global::TaxiApp.Droid.Resource.Color.theme_dark_segmented_radio_button_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.theme_default_segmented_radio_button_text = global::TaxiApp.Droid.Resource.Color.theme_default_segmented_radio_button_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.tooltip_background_dark = global::TaxiApp.Droid.Resource.Color.tooltip_background_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.tooltip_background_light = global::TaxiApp.Droid.Resource.Color.tooltip_background_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_default_height_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_elevation_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_button_min_height_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_button_min_width_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::TaxiApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::TaxiApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_alert_dialog_button_dimen = global::TaxiApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::TaxiApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_button_inset_vertical_material = global::TaxiApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::TaxiApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_button_padding_vertical_material = global::TaxiApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::TaxiApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_config_prefDialogWidth = global::TaxiApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_control_corner_material = global::TaxiApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_control_inset_material = global::TaxiApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_control_padding_material = global::TaxiApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_corner_radius_material = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_min_width_major = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_min_width_minor = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_padding_material = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_padding_top_material = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_title_divider_material = global::TaxiApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::TaxiApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::TaxiApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::TaxiApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::TaxiApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::TaxiApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::TaxiApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::TaxiApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::TaxiApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_floating_window_z = global::TaxiApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::TaxiApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_panel_menu_list_width = global::TaxiApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_progress_bar_height_material = global::TaxiApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_search_view_preferred_height = global::TaxiApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_search_view_preferred_width = global::TaxiApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::TaxiApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::TaxiApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::TaxiApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_switch_padding = global::TaxiApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_body_1_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_body_2_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_button_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_caption_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_display_1_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_display_2_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_display_3_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_display_4_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_headline_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_large_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_medium_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_menu_header_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_menu_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_small_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_subhead_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_title_material = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::TaxiApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.browser_actions_context_menu_max_width = global::TaxiApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.browser_actions_context_menu_min_padding = global::TaxiApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.cardview_compat_inset_shadow = global::TaxiApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.cardview_default_elevation = global::TaxiApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.cardview_default_radius = global::TaxiApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::TaxiApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_button_inset_vertical_material = global::TaxiApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::TaxiApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_button_padding_vertical_material = global::TaxiApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_control_corner_material = global::TaxiApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::TaxiApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::TaxiApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_appbar_elevation = global::TaxiApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_elevation = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_height = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_icon_size = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_margin = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_text_size = global::TaxiApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::TaxiApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::TaxiApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_border_width = global::TaxiApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_elevation = global::TaxiApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_image_size = global::TaxiApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_size_mini = global::TaxiApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_size_normal = global::TaxiApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_translation_z_hovered_focused = global::TaxiApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_translation_z_pressed = global::TaxiApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_elevation = global::TaxiApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_icon_padding = global::TaxiApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_icon_size = global::TaxiApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_item_horizontal_padding = global::TaxiApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_item_icon_padding = global::TaxiApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_max_width = global::TaxiApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_padding_bottom = global::TaxiApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::TaxiApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_elevation = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_max_width = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_min_width = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_padding_vertical = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_text_size = global::TaxiApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_tab_max_width = global::TaxiApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_tab_scrollable_min_width = global::TaxiApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_tab_text_size = global::TaxiApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_tab_text_size_2line = global::TaxiApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_textinput_caption_translate_y = global::TaxiApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.disabled_alpha_material_dark = global::TaxiApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.disabled_alpha_material_light = global::TaxiApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.fastscroll_default_thickness = global::TaxiApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.fastscroll_margin = global::TaxiApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.fastscroll_minimum_range = global::TaxiApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.highlight_alpha_material_colored = global::TaxiApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.highlight_alpha_material_dark = global::TaxiApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.highlight_alpha_material_light = global::TaxiApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.hint_alpha_material_dark = global::TaxiApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.hint_alpha_material_light = global::TaxiApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::TaxiApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::TaxiApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::TaxiApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::TaxiApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::TaxiApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::TaxiApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::TaxiApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::TaxiApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::TaxiApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_bottomappbar_height = global::TaxiApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_corner_radius = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_disabled_elevation = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_disabled_z = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_elevation = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_focused_z = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_hovered_z = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_icon_padding = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_inset = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_letter_spacing = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_padding_bottom = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_padding_left = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_padding_right = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_padding_top = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_pressed_z = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_stroke_size = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_text_size = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_btn_z = global::TaxiApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_card_elevation = global::TaxiApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_card_spacing = global::TaxiApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::TaxiApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_chip_text_size = global::TaxiApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_fab_elevation = global::TaxiApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::TaxiApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::TaxiApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_navigation_elevation = global::TaxiApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::TaxiApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::TaxiApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::TaxiApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_snackbar_margin = global::TaxiApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::TaxiApp.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::TaxiApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::TaxiApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::TaxiApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_textinput_box_padding_end = global::TaxiApp.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::TaxiApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::TaxiApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::TaxiApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mtrl_toolbar_default_height = global::TaxiApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_action_icon_size = global::TaxiApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_action_text_size = global::TaxiApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_big_circle_margin = global::TaxiApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_content_margin_start = global::TaxiApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_large_icon_height = global::TaxiApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_large_icon_width = global::TaxiApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_main_column_padding_top = global::TaxiApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_media_narrow_margin = global::TaxiApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_right_icon_size = global::TaxiApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_right_side_padding_top = global::TaxiApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_small_icon_background_padding = global::TaxiApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_small_icon_size_as_large = global::TaxiApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_subtext_size = global::TaxiApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_top_pad = global::TaxiApp.Droid.Resource.Dimension.notification_top_pad;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_top_pad_large_text = global::TaxiApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.subtitle_corner_radius = global::TaxiApp.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.subtitle_outline_width = global::TaxiApp.Droid.Resource.Dimension.subtitle_outline_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.subtitle_shadow_offset = global::TaxiApp.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.subtitle_shadow_radius = global::TaxiApp.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_corner_radius = global::TaxiApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_horizontal_padding = global::TaxiApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_margin = global::TaxiApp.Droid.Resource.Dimension.tooltip_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::TaxiApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::TaxiApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_vertical_padding = global::TaxiApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::TaxiApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_y_offset_touch = global::TaxiApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_action_bar_item_background_material = global::TaxiApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_borderless_material = global::TaxiApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_check_material = global::TaxiApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::TaxiApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::TaxiApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_colored_material = global::TaxiApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::TaxiApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_radio_material = global::TaxiApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::TaxiApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::TaxiApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::TaxiApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::TaxiApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_cab_background_internal_bg = global::TaxiApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_cab_background_top_material = global::TaxiApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_control_background_material = global::TaxiApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_dialog_material_background = global::TaxiApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_edit_text_material = global::TaxiApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_ab_back_material = global::TaxiApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::TaxiApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_clear_material = global::TaxiApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_go_search_api_material = global::TaxiApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::TaxiApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_search_api_material = global::TaxiApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_black_16dp = global::TaxiApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_black_36dp = global::TaxiApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_black_48dp = global::TaxiApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::TaxiApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::TaxiApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::TaxiApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::TaxiApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_item_background_holo_dark = global::TaxiApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_item_background_holo_light = global::TaxiApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_divider_material = global::TaxiApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_focused_holo = global::TaxiApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_longpressed_holo = global::TaxiApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::TaxiApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_pressed_holo_light = global::TaxiApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::TaxiApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::TaxiApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::TaxiApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::TaxiApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_holo_dark = global::TaxiApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_holo_light = global::TaxiApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::TaxiApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::TaxiApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::TaxiApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ratingbar_material = global::TaxiApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ratingbar_small_material = global::TaxiApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::TaxiApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::TaxiApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_seekbar_thumb_material = global::TaxiApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::TaxiApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_seekbar_track_material = global::TaxiApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::TaxiApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_switch_thumb_material = global::TaxiApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_tab_indicator_material = global::TaxiApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_cursor_material = global::TaxiApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::TaxiApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::TaxiApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::TaxiApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::TaxiApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::TaxiApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::TaxiApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::TaxiApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_search_material = global::TaxiApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_vector_test = global::TaxiApp.Droid.Resource.Drawable.abc_vector_test;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_hide_password = global::TaxiApp.Droid.Resource.Drawable.avd_hide_password;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_show_password = global::TaxiApp.Droid.Resource.Drawable.avd_show_password;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_bottom_navigation_item_background = global::TaxiApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_fab_background = global::TaxiApp.Droid.Resource.Drawable.design_fab_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_ic_visibility = global::TaxiApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_ic_visibility_off = global::TaxiApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_password_eye = global::TaxiApp.Droid.Resource.Drawable.design_password_eye;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_snackbar_background = global::TaxiApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::TaxiApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::TaxiApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::TaxiApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mtrl_snackbar_background = global::TaxiApp.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::TaxiApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.navigation_empty_icon = global::TaxiApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_action_background = global::TaxiApp.Droid.Resource.Drawable.notification_action_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg = global::TaxiApp.Droid.Resource.Drawable.notification_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_low = global::TaxiApp.Droid.Resource.Drawable.notification_bg_low;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_low_normal = global::TaxiApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_low_pressed = global::TaxiApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_normal = global::TaxiApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_normal_pressed = global::TaxiApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_icon_background = global::TaxiApp.Droid.Resource.Drawable.notification_icon_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_template_icon_bg = global::TaxiApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_template_icon_low_bg = global::TaxiApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_tile_bg = global::TaxiApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::TaxiApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_grey = global::TaxiApp.Droid.Resource.Drawable.segment_grey;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_grey_focus = global::TaxiApp.Droid.Resource.Drawable.segment_grey_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_grey_press = global::TaxiApp.Droid.Resource.Drawable.segment_grey_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_left_off = global::TaxiApp.Droid.Resource.Drawable.segment_left_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_left_off_pressed = global::TaxiApp.Droid.Resource.Drawable.segment_left_off_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_left_on = global::TaxiApp.Droid.Resource.Drawable.segment_left_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_middle_off = global::TaxiApp.Droid.Resource.Drawable.segment_middle_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_middle_off_pressed = global::TaxiApp.Droid.Resource.Drawable.segment_middle_off_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_middle_on = global::TaxiApp.Droid.Resource.Drawable.segment_middle_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_off = global::TaxiApp.Droid.Resource.Drawable.segment_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_off_pressed = global::TaxiApp.Droid.Resource.Drawable.segment_off_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_on = global::TaxiApp.Droid.Resource.Drawable.segment_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_left = global::TaxiApp.Droid.Resource.Drawable.segment_radio_grey_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_left_focus = global::TaxiApp.Droid.Resource.Drawable.segment_radio_grey_left_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_left_press = global::TaxiApp.Droid.Resource.Drawable.segment_radio_grey_left_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_middle = global::TaxiApp.Droid.Resource.Drawable.segment_radio_grey_middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_middle_focus = global::TaxiApp.Droid.Resource.Drawable.segment_radio_grey_middle_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_middle_press = global::TaxiApp.Droid.Resource.Drawable.segment_radio_grey_middle_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_right = global::TaxiApp.Droid.Resource.Drawable.segment_radio_grey_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_right_focus = global::TaxiApp.Droid.Resource.Drawable.segment_radio_grey_right_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_right_press = global::TaxiApp.Droid.Resource.Drawable.segment_radio_grey_right_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_left = global::TaxiApp.Droid.Resource.Drawable.segment_radio_white_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_left_focus = global::TaxiApp.Droid.Resource.Drawable.segment_radio_white_left_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_left_press = global::TaxiApp.Droid.Resource.Drawable.segment_radio_white_left_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_middle = global::TaxiApp.Droid.Resource.Drawable.segment_radio_white_middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_middle_focus = global::TaxiApp.Droid.Resource.Drawable.segment_radio_white_middle_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_middle_press = global::TaxiApp.Droid.Resource.Drawable.segment_radio_white_middle_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_right = global::TaxiApp.Droid.Resource.Drawable.segment_radio_white_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_right_focus = global::TaxiApp.Droid.Resource.Drawable.segment_radio_white_right_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_right_press = global::TaxiApp.Droid.Resource.Drawable.segment_radio_white_right_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_right_off = global::TaxiApp.Droid.Resource.Drawable.segment_right_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_right_off_pressed = global::TaxiApp.Droid.Resource.Drawable.segment_right_off_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_right_on = global::TaxiApp.Droid.Resource.Drawable.segment_right_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_white = global::TaxiApp.Droid.Resource.Drawable.segment_white;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_white_focus = global::TaxiApp.Droid.Resource.Drawable.segment_white_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_white_press = global::TaxiApp.Droid.Resource.Drawable.segment_white_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_dark_segment_button = global::TaxiApp.Droid.Resource.Drawable.theme_dark_segment_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_dark_segment_radio_left = global::TaxiApp.Droid.Resource.Drawable.theme_dark_segment_radio_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_dark_segment_radio_middle = global::TaxiApp.Droid.Resource.Drawable.theme_dark_segment_radio_middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_dark_segment_radio_right = global::TaxiApp.Droid.Resource.Drawable.theme_dark_segment_radio_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_default_segment_button = global::TaxiApp.Droid.Resource.Drawable.theme_default_segment_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_default_segment_radio_left = global::TaxiApp.Droid.Resource.Drawable.theme_default_segment_radio_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_default_segment_radio_middle = global::TaxiApp.Droid.Resource.Drawable.theme_default_segment_radio_middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_default_segment_radio_right = global::TaxiApp.Droid.Resource.Drawable.theme_default_segment_radio_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.tooltip_frame_dark = global::TaxiApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.tooltip_frame_light = global::TaxiApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.ALT = global::TaxiApp.Droid.Resource.Id.ALT;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.CTRL = global::TaxiApp.Droid.Resource.Id.CTRL;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.FUNCTION = global::TaxiApp.Droid.Resource.Id.FUNCTION;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.META = global::TaxiApp.Droid.Resource.Id.META;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.SHIFT = global::TaxiApp.Droid.Resource.Id.SHIFT;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.SYM = global::TaxiApp.Droid.Resource.Id.SYM;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action0 = global::TaxiApp.Droid.Resource.Id.action0;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar = global::TaxiApp.Droid.Resource.Id.action_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_activity_content = global::TaxiApp.Droid.Resource.Id.action_bar_activity_content;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_container = global::TaxiApp.Droid.Resource.Id.action_bar_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_root = global::TaxiApp.Droid.Resource.Id.action_bar_root;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_spinner = global::TaxiApp.Droid.Resource.Id.action_bar_spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_subtitle = global::TaxiApp.Droid.Resource.Id.action_bar_subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_title = global::TaxiApp.Droid.Resource.Id.action_bar_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_container = global::TaxiApp.Droid.Resource.Id.action_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_context_bar = global::TaxiApp.Droid.Resource.Id.action_context_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_divider = global::TaxiApp.Droid.Resource.Id.action_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_image = global::TaxiApp.Droid.Resource.Id.action_image;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_menu_divider = global::TaxiApp.Droid.Resource.Id.action_menu_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_menu_presenter = global::TaxiApp.Droid.Resource.Id.action_menu_presenter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_mode_bar = global::TaxiApp.Droid.Resource.Id.action_mode_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_mode_bar_stub = global::TaxiApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_mode_close_button = global::TaxiApp.Droid.Resource.Id.action_mode_close_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_text = global::TaxiApp.Droid.Resource.Id.action_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.actions = global::TaxiApp.Droid.Resource.Id.actions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.activity_chooser_view_content = global::TaxiApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.add = global::TaxiApp.Droid.Resource.Id.add;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.alertTitle = global::TaxiApp.Droid.Resource.Id.alertTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.all = global::TaxiApp.Droid.Resource.Id.all;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.always = global::TaxiApp.Droid.Resource.Id.always;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.async = global::TaxiApp.Droid.Resource.Id.async;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.auto = global::TaxiApp.Droid.Resource.Id.auto;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.beginning = global::TaxiApp.Droid.Resource.Id.beginning;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.blocking = global::TaxiApp.Droid.Resource.Id.blocking;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.bottom = global::TaxiApp.Droid.Resource.Id.bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.bottomtab_navarea = global::TaxiApp.Droid.Resource.Id.bottomtab_navarea;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.bottomtab_tabbar = global::TaxiApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.browser_actions_header_text = global::TaxiApp.Droid.Resource.Id.browser_actions_header_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.browser_actions_menu_item_icon = global::TaxiApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.browser_actions_menu_item_text = global::TaxiApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.browser_actions_menu_items = global::TaxiApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.browser_actions_menu_view = global::TaxiApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.buttonPanel = global::TaxiApp.Droid.Resource.Id.buttonPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.cancel_action = global::TaxiApp.Droid.Resource.Id.cancel_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.center = global::TaxiApp.Droid.Resource.Id.center;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.center_horizontal = global::TaxiApp.Droid.Resource.Id.center_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.center_vertical = global::TaxiApp.Droid.Resource.Id.center_vertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.checkbox = global::TaxiApp.Droid.Resource.Id.checkbox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.chronometer = global::TaxiApp.Droid.Resource.Id.chronometer;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.clip_horizontal = global::TaxiApp.Droid.Resource.Id.clip_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.clip_vertical = global::TaxiApp.Droid.Resource.Id.clip_vertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.collapseActionView = global::TaxiApp.Droid.Resource.Id.collapseActionView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.container = global::TaxiApp.Droid.Resource.Id.container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.content = global::TaxiApp.Droid.Resource.Id.content;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.contentPanel = global::TaxiApp.Droid.Resource.Id.contentPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.coordinator = global::TaxiApp.Droid.Resource.Id.coordinator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.custom = global::TaxiApp.Droid.Resource.Id.custom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.customPanel = global::TaxiApp.Droid.Resource.Id.customPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.decor_content_parent = global::TaxiApp.Droid.Resource.Id.decor_content_parent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.default_activity_button = global::TaxiApp.Droid.Resource.Id.default_activity_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_bottom_sheet = global::TaxiApp.Droid.Resource.Id.design_bottom_sheet;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_menu_item_action_area = global::TaxiApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_menu_item_action_area_stub = global::TaxiApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_menu_item_text = global::TaxiApp.Droid.Resource.Id.design_menu_item_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_navigation_view = global::TaxiApp.Droid.Resource.Id.design_navigation_view;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.disableHome = global::TaxiApp.Droid.Resource.Id.disableHome;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.edit_query = global::TaxiApp.Droid.Resource.Id.edit_query;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.end = global::TaxiApp.Droid.Resource.Id.end;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.end_padder = global::TaxiApp.Droid.Resource.Id.end_padder;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.enterAlways = global::TaxiApp.Droid.Resource.Id.enterAlways;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.enterAlwaysCollapsed = global::TaxiApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.exitUntilCollapsed = global::TaxiApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.expand_activities_button = global::TaxiApp.Droid.Resource.Id.expand_activities_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.expanded_menu = global::TaxiApp.Droid.Resource.Id.expanded_menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.fill = global::TaxiApp.Droid.Resource.Id.fill;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.fill_horizontal = global::TaxiApp.Droid.Resource.Id.fill_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.fill_vertical = global::TaxiApp.Droid.Resource.Id.fill_vertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.filled = global::TaxiApp.Droid.Resource.Id.filled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.@fixed = global::TaxiApp.Droid.Resource.Id.@fixed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.flyoutcontent_appbar = global::TaxiApp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.flyoutcontent_recycler = global::TaxiApp.Droid.Resource.Id.flyoutcontent_recycler;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.forever = global::TaxiApp.Droid.Resource.Id.forever;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.ghost_view = global::TaxiApp.Droid.Resource.Id.ghost_view;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.group_divider = global::TaxiApp.Droid.Resource.Id.group_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.home = global::TaxiApp.Droid.Resource.Id.home;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.homeAsUp = global::TaxiApp.Droid.Resource.Id.homeAsUp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.icon = global::TaxiApp.Droid.Resource.Id.icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.icon_group = global::TaxiApp.Droid.Resource.Id.icon_group;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.ifRoom = global::TaxiApp.Droid.Resource.Id.ifRoom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.image = global::TaxiApp.Droid.Resource.Id.image;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.info = global::TaxiApp.Droid.Resource.Id.info;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.italic = global::TaxiApp.Droid.Resource.Id.italic;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.item_touch_helper_previous_elevation = global::TaxiApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.labeled = global::TaxiApp.Droid.Resource.Id.labeled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.largeLabel = global::TaxiApp.Droid.Resource.Id.largeLabel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.left = global::TaxiApp.Droid.Resource.Id.left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.leftBar = global::TaxiApp.Droid.Resource.Id.leftBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.line1 = global::TaxiApp.Droid.Resource.Id.line1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.line3 = global::TaxiApp.Droid.Resource.Id.line3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.listMode = global::TaxiApp.Droid.Resource.Id.listMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.list_item = global::TaxiApp.Droid.Resource.Id.list_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.main_appbar = global::TaxiApp.Droid.Resource.Id.main_appbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.main_tablayout = global::TaxiApp.Droid.Resource.Id.main_tablayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.main_toolbar = global::TaxiApp.Droid.Resource.Id.main_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.masked = global::TaxiApp.Droid.Resource.Id.masked;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.media_actions = global::TaxiApp.Droid.Resource.Id.media_actions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.message = global::TaxiApp.Droid.Resource.Id.message;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.middle = global::TaxiApp.Droid.Resource.Id.middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mini = global::TaxiApp.Droid.Resource.Id.mini;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mtrl_child_content_container = global::TaxiApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::TaxiApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.multiply = global::TaxiApp.Droid.Resource.Id.multiply;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.navigation_header_container = global::TaxiApp.Droid.Resource.Id.navigation_header_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.never = global::TaxiApp.Droid.Resource.Id.never;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.none = global::TaxiApp.Droid.Resource.Id.none;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.normal = global::TaxiApp.Droid.Resource.Id.normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.notification_background = global::TaxiApp.Droid.Resource.Id.notification_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.notification_main_column = global::TaxiApp.Droid.Resource.Id.notification_main_column;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.notification_main_column_container = global::TaxiApp.Droid.Resource.Id.notification_main_column_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.outline = global::TaxiApp.Droid.Resource.Id.outline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.parallax = global::TaxiApp.Droid.Resource.Id.parallax;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.parentPanel = global::TaxiApp.Droid.Resource.Id.parentPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.parent_matrix = global::TaxiApp.Droid.Resource.Id.parent_matrix;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.pin = global::TaxiApp.Droid.Resource.Id.pin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.progress_circular = global::TaxiApp.Droid.Resource.Id.progress_circular;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.progress_horizontal = global::TaxiApp.Droid.Resource.Id.progress_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.radio = global::TaxiApp.Droid.Resource.Id.radio;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.right = global::TaxiApp.Droid.Resource.Id.right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.rightBar = global::TaxiApp.Droid.Resource.Id.rightBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.right_icon = global::TaxiApp.Droid.Resource.Id.right_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.right_side = global::TaxiApp.Droid.Resource.Id.right_side;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.save_image_matrix = global::TaxiApp.Droid.Resource.Id.save_image_matrix;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.save_non_transition_alpha = global::TaxiApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.save_scale_type = global::TaxiApp.Droid.Resource.Id.save_scale_type;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.screen = global::TaxiApp.Droid.Resource.Id.screen;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scroll = global::TaxiApp.Droid.Resource.Id.scroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scrollIndicatorDown = global::TaxiApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scrollIndicatorUp = global::TaxiApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scrollView = global::TaxiApp.Droid.Resource.Id.scrollView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scrollable = global::TaxiApp.Droid.Resource.Id.scrollable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_badge = global::TaxiApp.Droid.Resource.Id.search_badge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_bar = global::TaxiApp.Droid.Resource.Id.search_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_button = global::TaxiApp.Droid.Resource.Id.search_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_close_btn = global::TaxiApp.Droid.Resource.Id.search_close_btn;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_edit_frame = global::TaxiApp.Droid.Resource.Id.search_edit_frame;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_go_btn = global::TaxiApp.Droid.Resource.Id.search_go_btn;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_mag_icon = global::TaxiApp.Droid.Resource.Id.search_mag_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_plate = global::TaxiApp.Droid.Resource.Id.search_plate;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_src_text = global::TaxiApp.Droid.Resource.Id.search_src_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_voice_btn = global::TaxiApp.Droid.Resource.Id.search_voice_btn;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.select_dialog_listview = global::TaxiApp.Droid.Resource.Id.select_dialog_listview;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.selected = global::TaxiApp.Droid.Resource.Id.selected;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.shellcontent_appbar = global::TaxiApp.Droid.Resource.Id.shellcontent_appbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.shellcontent_toolbar = global::TaxiApp.Droid.Resource.Id.shellcontent_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.shortcut = global::TaxiApp.Droid.Resource.Id.shortcut;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.showCustom = global::TaxiApp.Droid.Resource.Id.showCustom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.showHome = global::TaxiApp.Droid.Resource.Id.showHome;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.showTitle = global::TaxiApp.Droid.Resource.Id.showTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.smallLabel = global::TaxiApp.Droid.Resource.Id.smallLabel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.snackbar_action = global::TaxiApp.Droid.Resource.Id.snackbar_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.snackbar_text = global::TaxiApp.Droid.Resource.Id.snackbar_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.snap = global::TaxiApp.Droid.Resource.Id.snap;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.snapMargins = global::TaxiApp.Droid.Resource.Id.snapMargins;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.spacer = global::TaxiApp.Droid.Resource.Id.spacer;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.split_action_bar = global::TaxiApp.Droid.Resource.Id.split_action_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.src_atop = global::TaxiApp.Droid.Resource.Id.src_atop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.src_in = global::TaxiApp.Droid.Resource.Id.src_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.src_over = global::TaxiApp.Droid.Resource.Id.src_over;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.start = global::TaxiApp.Droid.Resource.Id.start;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.status_bar_latest_event_content = global::TaxiApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.stretch = global::TaxiApp.Droid.Resource.Id.stretch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.submenuarrow = global::TaxiApp.Droid.Resource.Id.submenuarrow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.submit_area = global::TaxiApp.Droid.Resource.Id.submit_area;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.swipetorefreshbar = global::TaxiApp.Droid.Resource.Id.swipetorefreshbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.tabMode = global::TaxiApp.Droid.Resource.Id.tabMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.tag_transition_group = global::TaxiApp.Droid.Resource.Id.tag_transition_group;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.tag_unhandled_key_event_manager = global::TaxiApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.tag_unhandled_key_listeners = global::TaxiApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.text = global::TaxiApp.Droid.Resource.Id.text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.text2 = global::TaxiApp.Droid.Resource.Id.text2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textSpacerNoButtons = global::TaxiApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textSpacerNoTitle = global::TaxiApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textStart = global::TaxiApp.Droid.Resource.Id.textStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.text_input_password_toggle = global::TaxiApp.Droid.Resource.Id.text_input_password_toggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textinput_counter = global::TaxiApp.Droid.Resource.Id.textinput_counter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textinput_error = global::TaxiApp.Droid.Resource.Id.textinput_error;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textinput_helper_text = global::TaxiApp.Droid.Resource.Id.textinput_helper_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.time = global::TaxiApp.Droid.Resource.Id.time;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.title = global::TaxiApp.Droid.Resource.Id.title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.titleDividerNoCustom = global::TaxiApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.title_template = global::TaxiApp.Droid.Resource.Id.title_template;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.top = global::TaxiApp.Droid.Resource.Id.top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.topPanel = global::TaxiApp.Droid.Resource.Id.topPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.touch_outside = global::TaxiApp.Droid.Resource.Id.touch_outside;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_current_scene = global::TaxiApp.Droid.Resource.Id.transition_current_scene;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_layout_save = global::TaxiApp.Droid.Resource.Id.transition_layout_save;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_position = global::TaxiApp.Droid.Resource.Id.transition_position;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_scene_layoutid_cache = global::TaxiApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_transform = global::TaxiApp.Droid.Resource.Id.transition_transform;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.uniform = global::TaxiApp.Droid.Resource.Id.uniform;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.unlabeled = global::TaxiApp.Droid.Resource.Id.unlabeled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.up = global::TaxiApp.Droid.Resource.Id.up;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.useLogo = global::TaxiApp.Droid.Resource.Id.useLogo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.view_offset_helper = global::TaxiApp.Droid.Resource.Id.view_offset_helper;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.visible = global::TaxiApp.Droid.Resource.Id.visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.withText = global::TaxiApp.Droid.Resource.Id.withText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.wrap_content = global::TaxiApp.Droid.Resource.Id.wrap_content;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.abc_config_activityDefaultDur = global::TaxiApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.abc_config_activityShortDur = global::TaxiApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.app_bar_elevation_anim_duration = global::TaxiApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.bottom_sheet_slide_duration = global::TaxiApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.cancel_button_image_alpha = global::TaxiApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.config_tooltipAnimTime = global::TaxiApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.design_snackbar_text_max_lines = global::TaxiApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::TaxiApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.hide_password_duration = global::TaxiApp.Droid.Resource.Integer.hide_password_duration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::TaxiApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::TaxiApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.mtrl_chip_anim_duration = global::TaxiApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::TaxiApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.show_password_duration = global::TaxiApp.Droid.Resource.Integer.show_password_duration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.status_bar_notification_info_maxnum = global::TaxiApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::TaxiApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::TaxiApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Interpolator.mtrl_linear = global::TaxiApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Interpolator.mtrl_linear_out_slow_in = global::TaxiApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_bar_title_item = global::TaxiApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_bar_up_container = global::TaxiApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_menu_item_layout = global::TaxiApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_menu_layout = global::TaxiApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_mode_bar = global::TaxiApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_mode_close_item_material = global::TaxiApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_activity_chooser_view = global::TaxiApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::TaxiApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::TaxiApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_alert_dialog_material = global::TaxiApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_alert_dialog_title_material = global::TaxiApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_cascading_menu_item_layout = global::TaxiApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_dialog_title_material = global::TaxiApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_expanded_menu_layout = global::TaxiApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_list_menu_item_checkbox = global::TaxiApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_list_menu_item_icon = global::TaxiApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_list_menu_item_layout = global::TaxiApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_list_menu_item_radio = global::TaxiApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::TaxiApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_popup_menu_item_layout = global::TaxiApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_screen_content_include = global::TaxiApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_screen_simple = global::TaxiApp.Droid.Resource.Layout.abc_screen_simple;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::TaxiApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_screen_toolbar = global::TaxiApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::TaxiApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_search_view = global::TaxiApp.Droid.Resource.Layout.abc_search_view;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_select_dialog_material = global::TaxiApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_tooltip = global::TaxiApp.Droid.Resource.Layout.abc_tooltip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.BottomTabLayout = global::TaxiApp.Droid.Resource.Layout.BottomTabLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.browser_actions_context_menu_page = global::TaxiApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.browser_actions_context_menu_row = global::TaxiApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_bottom_navigation_item = global::TaxiApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_bottom_sheet_dialog = global::TaxiApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_layout_snackbar = global::TaxiApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_layout_snackbar_include = global::TaxiApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_layout_tab_icon = global::TaxiApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_layout_tab_text = global::TaxiApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_menu_item_action_area = global::TaxiApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_item = global::TaxiApp.Droid.Resource.Layout.design_navigation_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_item_header = global::TaxiApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_item_separator = global::TaxiApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_item_subheader = global::TaxiApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_menu = global::TaxiApp.Droid.Resource.Layout.design_navigation_menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_menu_item = global::TaxiApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_text_input_password_icon = global::TaxiApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.FlyoutContent = global::TaxiApp.Droid.Resource.Layout.FlyoutContent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.mtrl_layout_snackbar = global::TaxiApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.mtrl_layout_snackbar_include = global::TaxiApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_action = global::TaxiApp.Droid.Resource.Layout.notification_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_action_tombstone = global::TaxiApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_media_action = global::TaxiApp.Droid.Resource.Layout.notification_media_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_media_cancel_action = global::TaxiApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_big_media = global::TaxiApp.Droid.Resource.Layout.notification_template_big_media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_big_media_custom = global::TaxiApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_big_media_narrow = global::TaxiApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::TaxiApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_custom_big = global::TaxiApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_icon_group = global::TaxiApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_lines_media = global::TaxiApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_media = global::TaxiApp.Droid.Resource.Layout.notification_template_media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_media_custom = global::TaxiApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_part_chronometer = global::TaxiApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_part_time = global::TaxiApp.Droid.Resource.Layout.notification_template_part_time;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.RootLayout = global::TaxiApp.Droid.Resource.Layout.RootLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.select_dialog_item_material = global::TaxiApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.select_dialog_multichoice_material = global::TaxiApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.select_dialog_singlechoice_material = global::TaxiApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.ShellContent = global::TaxiApp.Droid.Resource.Layout.ShellContent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::TaxiApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_action_bar_home_description = global::TaxiApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_action_bar_up_description = global::TaxiApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_action_menu_overflow_description = global::TaxiApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_action_mode_done = global::TaxiApp.Droid.Resource.String.abc_action_mode_done;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_activity_chooser_view_see_all = global::TaxiApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_activitychooserview_choose_application = global::TaxiApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_capital_off = global::TaxiApp.Droid.Resource.String.abc_capital_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_capital_on = global::TaxiApp.Droid.Resource.String.abc_capital_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_body_1_material = global::TaxiApp.Droid.Resource.String.abc_font_family_body_1_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_body_2_material = global::TaxiApp.Droid.Resource.String.abc_font_family_body_2_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_button_material = global::TaxiApp.Droid.Resource.String.abc_font_family_button_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_caption_material = global::TaxiApp.Droid.Resource.String.abc_font_family_caption_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_display_1_material = global::TaxiApp.Droid.Resource.String.abc_font_family_display_1_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_display_2_material = global::TaxiApp.Droid.Resource.String.abc_font_family_display_2_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_display_3_material = global::TaxiApp.Droid.Resource.String.abc_font_family_display_3_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_display_4_material = global::TaxiApp.Droid.Resource.String.abc_font_family_display_4_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_headline_material = global::TaxiApp.Droid.Resource.String.abc_font_family_headline_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_menu_material = global::TaxiApp.Droid.Resource.String.abc_font_family_menu_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_subhead_material = global::TaxiApp.Droid.Resource.String.abc_font_family_subhead_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_title_material = global::TaxiApp.Droid.Resource.String.abc_font_family_title_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_menu_alt_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_menu_ctrl_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_menu_delete_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_menu_enter_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_menu_function_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_menu_meta_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_menu_shift_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_menu_space_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_menu_sym_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_prepend_shortcut_label = global::TaxiApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_search_hint = global::TaxiApp.Droid.Resource.String.abc_search_hint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_clear = global::TaxiApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_query = global::TaxiApp.Droid.Resource.String.abc_searchview_description_query;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_search = global::TaxiApp.Droid.Resource.String.abc_searchview_description_search;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_submit = global::TaxiApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_voice = global::TaxiApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_shareactionprovider_share_with = global::TaxiApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_shareactionprovider_share_with_application = global::TaxiApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_toolbar_collapse_description = global::TaxiApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.appbar_scrolling_view_behavior = global::TaxiApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.bottom_sheet_behavior = global::TaxiApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.character_counter_content_description = global::TaxiApp.Droid.Resource.String.character_counter_content_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.character_counter_pattern = global::TaxiApp.Droid.Resource.String.character_counter_pattern;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.fab_transformation_scrim_behavior = global::TaxiApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.fab_transformation_sheet_behavior = global::TaxiApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::TaxiApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.library_name = global::TaxiApp.Droid.Resource.String.library_name;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mtrl_chip_close_icon_content_description = global::TaxiApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.password_toggle_content_description = global::TaxiApp.Droid.Resource.String.password_toggle_content_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.path_password_eye = global::TaxiApp.Droid.Resource.String.path_password_eye;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.path_password_eye_mask_strike_through = global::TaxiApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.path_password_eye_mask_visible = global::TaxiApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.path_password_strike_through = global::TaxiApp.Droid.Resource.String.path_password_strike_through;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.search_menu_title = global::TaxiApp.Droid.Resource.String.search_menu_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.status_bar_notification_info_overflow = global::TaxiApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.AlertDialog_AppCompat = global::TaxiApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.AlertDialog_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Animation_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::TaxiApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Animation_AppCompat_Tooltip = global::TaxiApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::TaxiApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_AlertDialog_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::TaxiApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::TaxiApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_CardView = global::TaxiApp.Droid.Resource.Style.Base_CardView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::TaxiApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::TaxiApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::TaxiApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::TaxiApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::TaxiApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::TaxiApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::TaxiApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::TaxiApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::TaxiApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::TaxiApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::TaxiApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::TaxiApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::TaxiApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::TaxiApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::TaxiApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::TaxiApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V22_Theme_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V23_Theme_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V26_Theme_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::TaxiApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V28_Theme_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V28_Theme_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat = global::TaxiApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::TaxiApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::TaxiApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::TaxiApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::TaxiApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::TaxiApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_Design_TabLayout = global::TaxiApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::TaxiApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::TaxiApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::TaxiApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.CardView = global::TaxiApp.Droid.Resource.Style.CardView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.CardView_Dark = global::TaxiApp.Droid.Resource.Style.CardView_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.CardView_Light = global::TaxiApp.Droid.Resource.Style.CardView_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.DarkPopupMenu = global::TaxiApp.Droid.Resource.Style.DarkPopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.DarkPopupMenuTextAppearanceLarge = global::TaxiApp.Droid.Resource.Style.DarkPopupMenuTextAppearanceLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.DarkPopupMenuTextAppearanceSmall = global::TaxiApp.Droid.Resource.Style.DarkPopupMenuTextAppearanceSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.GridThemeDark = global::TaxiApp.Droid.Resource.Style.GridThemeDark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.GridThemeLight = global::TaxiApp.Droid.Resource.Style.GridThemeLight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.LightPopupMenu = global::TaxiApp.Droid.Resource.Style.LightPopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.LightPopupMenuTextAppearanceLarge = global::TaxiApp.Droid.Resource.Style.LightPopupMenuTextAppearanceLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.LightPopupMenuTextAppearanceSmall = global::TaxiApp.Droid.Resource.Style.LightPopupMenuTextAppearanceSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_AppCompat = global::TaxiApp.Droid.Resource.Style.Platform_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_MaterialComponents = global::TaxiApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_MaterialComponents_Dialog = global::TaxiApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_MaterialComponents_Light = global::TaxiApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::TaxiApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::TaxiApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::TaxiApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_V21_AppCompat = global::TaxiApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_V21_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_V25_AppCompat = global::TaxiApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_V25_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::TaxiApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::TaxiApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::TaxiApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::TaxiApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::TaxiApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Button = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Large = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Small = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Title = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TaxiApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::TaxiApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::TaxiApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Counter = global::TaxiApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::TaxiApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Error = global::TaxiApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_HelperText = global::TaxiApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Hint = global::TaxiApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::TaxiApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Tab = global::TaxiApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Caption = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Chip = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MaterialComponents_Tab = global::TaxiApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TaxiApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TaxiApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::TaxiApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::TaxiApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design = global::TaxiApp.Droid.Resource.Style.Theme_Design;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::TaxiApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_Light = global::TaxiApp.Droid.Resource.Style.Theme_Design_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::TaxiApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::TaxiApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_NoActionBar = global::TaxiApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::TaxiApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::TaxiApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionButton = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionMode = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Small = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_EditText = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ImageButton = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_RatingBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_SearchView = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_SeekBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Toolbar = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::TaxiApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::TaxiApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Compat_NotificationActionText = global::TaxiApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_AppBarLayout = global::TaxiApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_BottomNavigationView = global::TaxiApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::TaxiApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::TaxiApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_FloatingActionButton = global::TaxiApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_NavigationView = global::TaxiApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::TaxiApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_Snackbar = global::TaxiApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_TabLayout = global::TaxiApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_TextInputLayout = global::TaxiApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_CardView = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::TaxiApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::TaxiApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar = global::TaxiApp.Droid.Resource.Styleable.ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_background = global::TaxiApp.Droid.Resource.Styleable.ActionBar_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_backgroundSplit = global::TaxiApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_backgroundStacked = global::TaxiApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::TaxiApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::TaxiApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::TaxiApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetRight = global::TaxiApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetStart = global::TaxiApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::TaxiApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::TaxiApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_displayOptions = global::TaxiApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_divider = global::TaxiApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_elevation = global::TaxiApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_height = global::TaxiApp.Droid.Resource.Styleable.ActionBar_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::TaxiApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::TaxiApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_homeLayout = global::TaxiApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_icon = global::TaxiApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::TaxiApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_itemPadding = global::TaxiApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_logo = global::TaxiApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_navigationMode = global::TaxiApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_popupTheme = global::TaxiApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_progressBarPadding = global::TaxiApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_progressBarStyle = global::TaxiApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_subtitle = global::TaxiApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::TaxiApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_title = global::TaxiApp.Droid.Resource.Styleable.ActionBar_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_titleTextStyle = global::TaxiApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBarLayout = global::TaxiApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::TaxiApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMenuItemView = global::TaxiApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::TaxiApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMenuView = global::TaxiApp.Droid.Resource.Styleable.ActionMenuView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode = global::TaxiApp.Droid.Resource.Styleable.ActionMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_background = global::TaxiApp.Droid.Resource.Styleable.ActionMode_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_backgroundSplit = global::TaxiApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_closeItemLayout = global::TaxiApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_height = global::TaxiApp.Droid.Resource.Styleable.ActionMode_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::TaxiApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_titleTextStyle = global::TaxiApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActivityChooserView = global::TaxiApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::TaxiApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::TaxiApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog = global::TaxiApp.Droid.Resource.Styleable.AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_android_layout = global::TaxiApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_buttonIconDimen = global::TaxiApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::TaxiApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_listItemLayout = global::TaxiApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_listLayout = global::TaxiApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::TaxiApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_showTitle = global::TaxiApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::TaxiApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableCompat = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableItem = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableTransition = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::TaxiApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_android_background = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_elevation = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_expanded = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayoutStates = global::TaxiApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::TaxiApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::TaxiApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayoutStates_state_liftable = global::TaxiApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayoutStates_state_lifted = global::TaxiApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_Layout = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::TaxiApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView = global::TaxiApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView_android_src = global::TaxiApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::TaxiApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView_tint = global::TaxiApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView_tintMode = global::TaxiApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar = global::TaxiApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::TaxiApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::TaxiApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::TaxiApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::TaxiApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::TaxiApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorError = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::TaxiApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomAppBar = global::TaxiApp.Droid.Resource.Styleable.BottomAppBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::TaxiApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::TaxiApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::TaxiApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::TaxiApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::TaxiApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::TaxiApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_elevation = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_menu = global::TaxiApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::TaxiApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::TaxiApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::TaxiApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::TaxiApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::TaxiApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ButtonBarLayout = global::TaxiApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::TaxiApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView = global::TaxiApp.Droid.Resource.Styleable.CardView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_android_minHeight = global::TaxiApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_android_minWidth = global::TaxiApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardBackgroundColor = global::TaxiApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardCornerRadius = global::TaxiApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardElevation = global::TaxiApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardMaxElevation = global::TaxiApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::TaxiApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::TaxiApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPadding = global::TaxiApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPaddingBottom = global::TaxiApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPaddingLeft = global::TaxiApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPaddingRight = global::TaxiApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPaddingTop = global::TaxiApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip = global::TaxiApp.Droid.Resource.Styleable.Chip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_android_checkable = global::TaxiApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_android_ellipsize = global::TaxiApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_android_maxWidth = global::TaxiApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_android_text = global::TaxiApp.Droid.Resource.Styleable.Chip_android_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_android_textAppearance = global::TaxiApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_checkedIcon = global::TaxiApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_checkedIconEnabled = global::TaxiApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_checkedIconVisible = global::TaxiApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipBackgroundColor = global::TaxiApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipCornerRadius = global::TaxiApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipEndPadding = global::TaxiApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipIcon = global::TaxiApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipIconEnabled = global::TaxiApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipIconSize = global::TaxiApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipIconTint = global::TaxiApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipIconVisible = global::TaxiApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipMinHeight = global::TaxiApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipStartPadding = global::TaxiApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipStrokeColor = global::TaxiApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_chipStrokeWidth = global::TaxiApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_closeIcon = global::TaxiApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_closeIconEnabled = global::TaxiApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_closeIconEndPadding = global::TaxiApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_closeIconSize = global::TaxiApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_closeIconStartPadding = global::TaxiApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_closeIconTint = global::TaxiApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_closeIconVisible = global::TaxiApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_hideMotionSpec = global::TaxiApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_iconEndPadding = global::TaxiApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_iconStartPadding = global::TaxiApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_rippleColor = global::TaxiApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_showMotionSpec = global::TaxiApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_textEndPadding = global::TaxiApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Chip_textStartPadding = global::TaxiApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ChipGroup = global::TaxiApp.Droid.Resource.Styleable.ChipGroup;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ChipGroup_checkedChip = global::TaxiApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ChipGroup_chipSpacing = global::TaxiApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::TaxiApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::TaxiApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ChipGroup_singleLine = global::TaxiApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ChipGroup_singleSelection = global::TaxiApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::TaxiApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ColorStateListItem = global::TaxiApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ColorStateListItem_alpha = global::TaxiApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::TaxiApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ColorStateListItem_android_color = global::TaxiApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CompoundButton = global::TaxiApp.Droid.Resource.Styleable.CompoundButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CompoundButton_android_button = global::TaxiApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CompoundButton_buttonTint = global::TaxiApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::TaxiApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_keylines = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::TaxiApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DesignTheme = global::TaxiApp.Droid.Resource.Styleable.DesignTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::TaxiApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::TaxiApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle = global::TaxiApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::TaxiApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::TaxiApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::TaxiApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_color = global::TaxiApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::TaxiApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::TaxiApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::TaxiApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::TaxiApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_elevation = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_fabSize = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::TaxiApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FlowLayout = global::TaxiApp.Droid.Resource.Styleable.FlowLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FlowLayout_itemSpacing = global::TaxiApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FlowLayout_lineSpacing = global::TaxiApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily = global::TaxiApp.Droid.Resource.Styleable.FontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::TaxiApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::TaxiApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::TaxiApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::TaxiApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::TaxiApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::TaxiApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_font = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_font = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::TaxiApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout = global::TaxiApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::TaxiApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::TaxiApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::TaxiApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor = global::TaxiApp.Droid.Resource.Styleable.GradientColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_centerColor = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_centerX = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_centerY = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_endColor = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_endX = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_endY = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_startColor = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_startX = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_startY = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_tileMode = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColor_android_type = global::TaxiApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColorItem = global::TaxiApp.Droid.Resource.Styleable.GradientColorItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColorItem_android_color = global::TaxiApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.GradientColorItem_android_offset = global::TaxiApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_divider = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::TaxiApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ListPopupWindow = global::TaxiApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::TaxiApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::TaxiApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton = global::TaxiApp.Droid.Resource.Styleable.MaterialButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_android_insetRight = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_android_insetTop = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_backgroundTint = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_cornerRadius = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_icon = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_iconGravity = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_iconPadding = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_iconSize = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_iconTint = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_iconTintMode = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_rippleColor = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_strokeColor = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialButton_strokeWidth = global::TaxiApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialCardView = global::TaxiApp.Droid.Resource.Styleable.MaterialCardView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialCardView_strokeColor = global::TaxiApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::TaxiApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::TaxiApp.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup = global::TaxiApp.Droid.Resource.Styleable.MenuGroup;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::TaxiApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_enabled = global::TaxiApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_id = global::TaxiApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::TaxiApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::TaxiApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_visible = global::TaxiApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem = global::TaxiApp.Droid.Resource.Styleable.MenuItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_actionLayout = global::TaxiApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_actionProviderClass = global::TaxiApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_actionViewClass = global::TaxiApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::TaxiApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_checkable = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_checked = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_enabled = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_icon = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_id = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_menuCategory = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_onClick = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_title = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_visible = global::TaxiApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_contentDescription = global::TaxiApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_iconTint = global::TaxiApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_iconTintMode = global::TaxiApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_numericModifiers = global::TaxiApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_showAsAction = global::TaxiApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_tooltipText = global::TaxiApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView = global::TaxiApp.Droid.Resource.Styleable.MenuView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_headerBackground = global::TaxiApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::TaxiApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_itemBackground = global::TaxiApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::TaxiApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::TaxiApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_verticalDivider = global::TaxiApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::TaxiApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::TaxiApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_subMenuArrow = global::TaxiApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView = global::TaxiApp.Droid.Resource.Styleable.NavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_android_background = global::TaxiApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::TaxiApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_android_maxWidth = global::TaxiApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_elevation = global::TaxiApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_headerLayout = global::TaxiApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemBackground = global::TaxiApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::TaxiApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemIconPadding = global::TaxiApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemIconTint = global::TaxiApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::TaxiApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemTextColor = global::TaxiApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_menu = global::TaxiApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindow = global::TaxiApp.Droid.Resource.Styleable.PopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::TaxiApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::TaxiApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::TaxiApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindowBackgroundState = global::TaxiApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::TaxiApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecycleListView = global::TaxiApp.Droid.Resource.Styleable.RecycleListView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::TaxiApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::TaxiApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView = global::TaxiApp.Droid.Resource.Styleable.RecyclerView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_android_orientation = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_layoutManager = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_reverseLayout = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_spanCount = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::TaxiApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::TaxiApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::TaxiApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::TaxiApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::TaxiApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView = global::TaxiApp.Droid.Resource.Styleable.SearchView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_android_focusable = global::TaxiApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_android_imeOptions = global::TaxiApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_android_inputType = global::TaxiApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_android_maxWidth = global::TaxiApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_closeIcon = global::TaxiApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_commitIcon = global::TaxiApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_defaultQueryHint = global::TaxiApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_goIcon = global::TaxiApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::TaxiApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_layout = global::TaxiApp.Droid.Resource.Styleable.SearchView_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_queryBackground = global::TaxiApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_queryHint = global::TaxiApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_searchHintIcon = global::TaxiApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_searchIcon = global::TaxiApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_submitBackground = global::TaxiApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::TaxiApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_voiceIcon = global::TaxiApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Snackbar = global::TaxiApp.Droid.Resource.Styleable.Snackbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::TaxiApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Snackbar_snackbarStyle = global::TaxiApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SnackbarLayout = global::TaxiApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::TaxiApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SnackbarLayout_elevation = global::TaxiApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::TaxiApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner = global::TaxiApp.Droid.Resource.Styleable.Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::TaxiApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_android_entries = global::TaxiApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_android_popupBackground = global::TaxiApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_android_prompt = global::TaxiApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_popupTheme = global::TaxiApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.StateListDrawable = global::TaxiApp.Droid.Resource.Styleable.StateListDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.StateListDrawable_android_constantSize = global::TaxiApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.StateListDrawable_android_dither = global::TaxiApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::TaxiApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::TaxiApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::TaxiApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.StateListDrawable_android_visible = global::TaxiApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.StateListDrawableItem = global::TaxiApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.StateListDrawableItem_android_drawable = global::TaxiApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_android_textOff = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_android_textOn = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_android_thumb = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_showText = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_splitTrack = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_switchPadding = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_thumbTint = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_track = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_trackTint = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::TaxiApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabItem = global::TaxiApp.Droid.Resource.Styleable.TabItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabItem_android_icon = global::TaxiApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabItem_android_layout = global::TaxiApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabItem_android_text = global::TaxiApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout = global::TaxiApp.Droid.Resource.Styleable.TabLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabBackground = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabContentStart = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabGravity = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIconTint = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIconTintMode = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicator = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicatorGravity = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabInlineLabel = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabMinWidth = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabMode = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPadding = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabRippleColor = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabTextColor = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabUnboundedRipple = global::TaxiApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance = global::TaxiApp.Droid.Resource.Styleable.TextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textColor = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textSize = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textStyle = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_typeface = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_fontFamily = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_textAllCaps = global::TaxiApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_android_hint = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_helperText = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::TaxiApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ThemeEnforcement = global::TaxiApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::TaxiApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::TaxiApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::TaxiApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar = global::TaxiApp.Droid.Resource.Styleable.Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_android_gravity = global::TaxiApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_android_minHeight = global::TaxiApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_buttonGravity = global::TaxiApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::TaxiApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_collapseIcon = global::TaxiApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::TaxiApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::TaxiApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::TaxiApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetRight = global::TaxiApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetStart = global::TaxiApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::TaxiApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_logo = global::TaxiApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_logoDescription = global::TaxiApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::TaxiApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::TaxiApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_navigationIcon = global::TaxiApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_popupTheme = global::TaxiApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_subtitle = global::TaxiApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::TaxiApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::TaxiApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_title = global::TaxiApp.Droid.Resource.Styleable.Toolbar_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMargin = global::TaxiApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::TaxiApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::TaxiApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginStart = global::TaxiApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginTop = global::TaxiApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMargins = global::TaxiApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::TaxiApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleTextColor = global::TaxiApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View = global::TaxiApp.Droid.Resource.Styleable.View;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_android_focusable = global::TaxiApp.Droid.Resource.Styleable.View_android_focusable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_android_theme = global::TaxiApp.Droid.Resource.Styleable.View_android_theme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_paddingEnd = global::TaxiApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_paddingStart = global::TaxiApp.Droid.Resource.Styleable.View_paddingStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_theme = global::TaxiApp.Droid.Resource.Styleable.View_theme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper = global::TaxiApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::TaxiApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::TaxiApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::TaxiApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat = global::TaxiApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_id = global::TaxiApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::TaxiApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_layout = global::TaxiApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::TaxiApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::TaxiApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::TaxiApp.Droid.Resource.Attribute.font;
@@ -9613,325 +12249,346 @@ namespace TaxiApp.Droid
 			public const int background_material_light = 2131034141;
 			
 			// aapt resource value: 0x7F05001E
-			public const int bright_foreground_disabled_material_dark = 2131034142;
+			public const int black = 2131034142;
 			
 			// aapt resource value: 0x7F05001F
-			public const int bright_foreground_disabled_material_light = 2131034143;
+			public const int blue = 2131034143;
 			
 			// aapt resource value: 0x7F050020
-			public const int bright_foreground_inverse_material_dark = 2131034144;
+			public const int bright_foreground_disabled_material_dark = 2131034144;
 			
 			// aapt resource value: 0x7F050021
-			public const int bright_foreground_inverse_material_light = 2131034145;
+			public const int bright_foreground_disabled_material_light = 2131034145;
 			
 			// aapt resource value: 0x7F050022
-			public const int bright_foreground_material_dark = 2131034146;
+			public const int bright_foreground_inverse_material_dark = 2131034146;
 			
 			// aapt resource value: 0x7F050023
-			public const int bright_foreground_material_light = 2131034147;
+			public const int bright_foreground_inverse_material_light = 2131034147;
 			
 			// aapt resource value: 0x7F050024
-			public const int browser_actions_bg_grey = 2131034148;
+			public const int bright_foreground_material_dark = 2131034148;
 			
 			// aapt resource value: 0x7F050025
-			public const int browser_actions_divider_color = 2131034149;
+			public const int bright_foreground_material_light = 2131034149;
 			
 			// aapt resource value: 0x7F050026
-			public const int browser_actions_text_color = 2131034150;
+			public const int browser_actions_bg_grey = 2131034150;
 			
 			// aapt resource value: 0x7F050027
-			public const int browser_actions_title_color = 2131034151;
+			public const int browser_actions_divider_color = 2131034151;
 			
 			// aapt resource value: 0x7F050028
-			public const int button_material_dark = 2131034152;
+			public const int browser_actions_text_color = 2131034152;
 			
 			// aapt resource value: 0x7F050029
-			public const int button_material_light = 2131034153;
+			public const int browser_actions_title_color = 2131034153;
 			
 			// aapt resource value: 0x7F05002A
-			public const int cardview_dark_background = 2131034154;
+			public const int button_material_dark = 2131034154;
 			
 			// aapt resource value: 0x7F05002B
-			public const int cardview_light_background = 2131034155;
+			public const int button_material_light = 2131034155;
 			
 			// aapt resource value: 0x7F05002C
-			public const int cardview_shadow_end_color = 2131034156;
+			public const int cardview_dark_background = 2131034156;
 			
 			// aapt resource value: 0x7F05002D
-			public const int cardview_shadow_start_color = 2131034157;
+			public const int cardview_light_background = 2131034157;
 			
 			// aapt resource value: 0x7F05002E
-			public const int colorAccent = 2131034158;
+			public const int cardview_shadow_end_color = 2131034158;
 			
 			// aapt resource value: 0x7F05002F
-			public const int colorPrimary = 2131034159;
+			public const int cardview_shadow_start_color = 2131034159;
 			
 			// aapt resource value: 0x7F050030
-			public const int colorPrimaryDark = 2131034160;
+			public const int colorAccent = 2131034160;
 			
 			// aapt resource value: 0x7F050031
-			public const int design_bottom_navigation_shadow_color = 2131034161;
+			public const int colorPrimary = 2131034161;
 			
 			// aapt resource value: 0x7F050032
-			public const int design_default_color_primary = 2131034162;
+			public const int colorPrimaryDark = 2131034162;
 			
 			// aapt resource value: 0x7F050033
-			public const int design_default_color_primary_dark = 2131034163;
+			public const int design_bottom_navigation_shadow_color = 2131034163;
 			
 			// aapt resource value: 0x7F050034
-			public const int design_error = 2131034164;
+			public const int design_default_color_primary = 2131034164;
 			
 			// aapt resource value: 0x7F050035
-			public const int design_fab_shadow_end_color = 2131034165;
+			public const int design_default_color_primary_dark = 2131034165;
 			
 			// aapt resource value: 0x7F050036
-			public const int design_fab_shadow_mid_color = 2131034166;
+			public const int design_error = 2131034166;
 			
 			// aapt resource value: 0x7F050037
-			public const int design_fab_shadow_start_color = 2131034167;
+			public const int design_fab_shadow_end_color = 2131034167;
 			
 			// aapt resource value: 0x7F050038
-			public const int design_fab_stroke_end_inner_color = 2131034168;
+			public const int design_fab_shadow_mid_color = 2131034168;
 			
 			// aapt resource value: 0x7F050039
-			public const int design_fab_stroke_end_outer_color = 2131034169;
+			public const int design_fab_shadow_start_color = 2131034169;
 			
 			// aapt resource value: 0x7F05003A
-			public const int design_fab_stroke_top_inner_color = 2131034170;
+			public const int design_fab_stroke_end_inner_color = 2131034170;
 			
 			// aapt resource value: 0x7F05003B
-			public const int design_fab_stroke_top_outer_color = 2131034171;
+			public const int design_fab_stroke_end_outer_color = 2131034171;
 			
 			// aapt resource value: 0x7F05003C
-			public const int design_snackbar_background_color = 2131034172;
+			public const int design_fab_stroke_top_inner_color = 2131034172;
 			
 			// aapt resource value: 0x7F05003D
-			public const int design_tint_password_toggle = 2131034173;
+			public const int design_fab_stroke_top_outer_color = 2131034173;
 			
 			// aapt resource value: 0x7F05003E
-			public const int dim_foreground_disabled_material_dark = 2131034174;
+			public const int design_snackbar_background_color = 2131034174;
 			
 			// aapt resource value: 0x7F05003F
-			public const int dim_foreground_disabled_material_light = 2131034175;
+			public const int design_tint_password_toggle = 2131034175;
 			
 			// aapt resource value: 0x7F050040
-			public const int dim_foreground_material_dark = 2131034176;
+			public const int dim_foreground_disabled_material_dark = 2131034176;
 			
 			// aapt resource value: 0x7F050041
-			public const int dim_foreground_material_light = 2131034177;
+			public const int dim_foreground_disabled_material_light = 2131034177;
 			
 			// aapt resource value: 0x7F050042
-			public const int error_color_material_dark = 2131034178;
+			public const int dim_foreground_material_dark = 2131034178;
 			
 			// aapt resource value: 0x7F050043
-			public const int error_color_material_light = 2131034179;
+			public const int dim_foreground_material_light = 2131034179;
 			
 			// aapt resource value: 0x7F050044
-			public const int foreground_material_dark = 2131034180;
+			public const int error_color_material_dark = 2131034180;
 			
 			// aapt resource value: 0x7F050045
-			public const int foreground_material_light = 2131034181;
+			public const int error_color_material_light = 2131034181;
 			
 			// aapt resource value: 0x7F050046
-			public const int highlighted_text_material_dark = 2131034182;
+			public const int foreground_material_dark = 2131034182;
 			
 			// aapt resource value: 0x7F050047
-			public const int highlighted_text_material_light = 2131034183;
+			public const int foreground_material_light = 2131034183;
 			
 			// aapt resource value: 0x7F050048
-			public const int launcher_background = 2131034184;
+			public const int gray = 2131034184;
 			
 			// aapt resource value: 0x7F050049
-			public const int material_blue_grey_800 = 2131034185;
+			public const int green = 2131034185;
 			
 			// aapt resource value: 0x7F05004A
-			public const int material_blue_grey_900 = 2131034186;
+			public const int highlighted_text_material_dark = 2131034186;
 			
 			// aapt resource value: 0x7F05004B
-			public const int material_blue_grey_950 = 2131034187;
+			public const int highlighted_text_material_light = 2131034187;
 			
 			// aapt resource value: 0x7F05004C
-			public const int material_deep_teal_200 = 2131034188;
+			public const int launcher_background = 2131034188;
 			
 			// aapt resource value: 0x7F05004D
-			public const int material_deep_teal_500 = 2131034189;
+			public const int material_blue_grey_800 = 2131034189;
 			
 			// aapt resource value: 0x7F05004E
-			public const int material_grey_100 = 2131034190;
+			public const int material_blue_grey_900 = 2131034190;
 			
 			// aapt resource value: 0x7F05004F
-			public const int material_grey_300 = 2131034191;
+			public const int material_blue_grey_950 = 2131034191;
 			
 			// aapt resource value: 0x7F050050
-			public const int material_grey_50 = 2131034192;
+			public const int material_deep_teal_200 = 2131034192;
 			
 			// aapt resource value: 0x7F050051
-			public const int material_grey_600 = 2131034193;
+			public const int material_deep_teal_500 = 2131034193;
 			
 			// aapt resource value: 0x7F050052
-			public const int material_grey_800 = 2131034194;
+			public const int material_grey_100 = 2131034194;
 			
 			// aapt resource value: 0x7F050053
-			public const int material_grey_850 = 2131034195;
+			public const int material_grey_300 = 2131034195;
 			
 			// aapt resource value: 0x7F050054
-			public const int material_grey_900 = 2131034196;
+			public const int material_grey_50 = 2131034196;
 			
 			// aapt resource value: 0x7F050055
-			public const int mtrl_bottom_nav_colored_item_tint = 2131034197;
+			public const int material_grey_600 = 2131034197;
 			
 			// aapt resource value: 0x7F050056
-			public const int mtrl_bottom_nav_item_tint = 2131034198;
+			public const int material_grey_800 = 2131034198;
 			
 			// aapt resource value: 0x7F050057
-			public const int mtrl_btn_bg_color_disabled = 2131034199;
+			public const int material_grey_850 = 2131034199;
 			
 			// aapt resource value: 0x7F050058
-			public const int mtrl_btn_bg_color_selector = 2131034200;
+			public const int material_grey_900 = 2131034200;
 			
 			// aapt resource value: 0x7F050059
-			public const int mtrl_btn_ripple_color = 2131034201;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131034201;
 			
 			// aapt resource value: 0x7F05005A
-			public const int mtrl_btn_stroke_color_selector = 2131034202;
+			public const int mtrl_bottom_nav_item_tint = 2131034202;
 			
 			// aapt resource value: 0x7F05005B
-			public const int mtrl_btn_text_btn_ripple_color = 2131034203;
+			public const int mtrl_btn_bg_color_disabled = 2131034203;
 			
 			// aapt resource value: 0x7F05005C
-			public const int mtrl_btn_text_color_disabled = 2131034204;
+			public const int mtrl_btn_bg_color_selector = 2131034204;
 			
 			// aapt resource value: 0x7F05005D
-			public const int mtrl_btn_text_color_selector = 2131034205;
+			public const int mtrl_btn_ripple_color = 2131034205;
 			
 			// aapt resource value: 0x7F05005E
-			public const int mtrl_btn_transparent_bg_color = 2131034206;
+			public const int mtrl_btn_stroke_color_selector = 2131034206;
 			
 			// aapt resource value: 0x7F05005F
-			public const int mtrl_chip_background_color = 2131034207;
+			public const int mtrl_btn_text_btn_ripple_color = 2131034207;
 			
 			// aapt resource value: 0x7F050060
-			public const int mtrl_chip_close_icon_tint = 2131034208;
+			public const int mtrl_btn_text_color_disabled = 2131034208;
 			
 			// aapt resource value: 0x7F050061
-			public const int mtrl_chip_ripple_color = 2131034209;
+			public const int mtrl_btn_text_color_selector = 2131034209;
 			
 			// aapt resource value: 0x7F050062
-			public const int mtrl_chip_text_color = 2131034210;
+			public const int mtrl_btn_transparent_bg_color = 2131034210;
 			
 			// aapt resource value: 0x7F050063
-			public const int mtrl_fab_ripple_color = 2131034211;
+			public const int mtrl_chip_background_color = 2131034211;
 			
 			// aapt resource value: 0x7F050064
-			public const int mtrl_scrim_color = 2131034212;
+			public const int mtrl_chip_close_icon_tint = 2131034212;
 			
 			// aapt resource value: 0x7F050065
-			public const int mtrl_tabs_colored_ripple_color = 2131034213;
+			public const int mtrl_chip_ripple_color = 2131034213;
 			
 			// aapt resource value: 0x7F050066
-			public const int mtrl_tabs_icon_color_selector = 2131034214;
+			public const int mtrl_chip_text_color = 2131034214;
 			
 			// aapt resource value: 0x7F050067
-			public const int mtrl_tabs_icon_color_selector_colored = 2131034215;
+			public const int mtrl_fab_ripple_color = 2131034215;
 			
 			// aapt resource value: 0x7F050068
-			public const int mtrl_tabs_legacy_text_color_selector = 2131034216;
+			public const int mtrl_scrim_color = 2131034216;
 			
 			// aapt resource value: 0x7F050069
-			public const int mtrl_tabs_ripple_color = 2131034217;
-			
-			// aapt resource value: 0x7F05006B
-			public const int mtrl_textinput_default_box_stroke_color = 2131034219;
-			
-			// aapt resource value: 0x7F05006C
-			public const int mtrl_textinput_disabled_color = 2131034220;
-			
-			// aapt resource value: 0x7F05006D
-			public const int mtrl_textinput_filled_box_default_background_color = 2131034221;
-			
-			// aapt resource value: 0x7F05006E
-			public const int mtrl_textinput_hovered_box_stroke_color = 2131034222;
+			public const int mtrl_tabs_colored_ripple_color = 2131034217;
 			
 			// aapt resource value: 0x7F05006A
-			public const int mtrl_text_btn_text_color_selector = 2131034218;
+			public const int mtrl_tabs_icon_color_selector = 2131034218;
+			
+			// aapt resource value: 0x7F05006B
+			public const int mtrl_tabs_icon_color_selector_colored = 2131034219;
+			
+			// aapt resource value: 0x7F05006C
+			public const int mtrl_tabs_legacy_text_color_selector = 2131034220;
+			
+			// aapt resource value: 0x7F05006D
+			public const int mtrl_tabs_ripple_color = 2131034221;
 			
 			// aapt resource value: 0x7F05006F
-			public const int notification_action_color_filter = 2131034223;
+			public const int mtrl_textinput_default_box_stroke_color = 2131034223;
 			
 			// aapt resource value: 0x7F050070
-			public const int notification_icon_bg_color = 2131034224;
+			public const int mtrl_textinput_disabled_color = 2131034224;
 			
 			// aapt resource value: 0x7F050071
-			public const int notification_material_background_media_default_color = 2131034225;
+			public const int mtrl_textinput_filled_box_default_background_color = 2131034225;
 			
 			// aapt resource value: 0x7F050072
-			public const int primary_dark_material_dark = 2131034226;
+			public const int mtrl_textinput_hovered_box_stroke_color = 2131034226;
+			
+			// aapt resource value: 0x7F05006E
+			public const int mtrl_text_btn_text_color_selector = 2131034222;
 			
 			// aapt resource value: 0x7F050073
-			public const int primary_dark_material_light = 2131034227;
+			public const int notification_action_color_filter = 2131034227;
 			
 			// aapt resource value: 0x7F050074
-			public const int primary_material_dark = 2131034228;
+			public const int notification_icon_bg_color = 2131034228;
 			
 			// aapt resource value: 0x7F050075
-			public const int primary_material_light = 2131034229;
+			public const int notification_material_background_media_default_color = 2131034229;
 			
 			// aapt resource value: 0x7F050076
-			public const int primary_text_default_material_dark = 2131034230;
+			public const int primary_dark_material_dark = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int primary_text_default_material_light = 2131034231;
+			public const int primary_dark_material_light = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int primary_text_disabled_material_dark = 2131034232;
+			public const int primary_material_dark = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int primary_text_disabled_material_light = 2131034233;
+			public const int primary_material_light = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int ripple_material_dark = 2131034234;
+			public const int primary_text_default_material_dark = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int ripple_material_light = 2131034235;
+			public const int primary_text_default_material_light = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int secondary_text_default_material_dark = 2131034236;
+			public const int primary_text_disabled_material_dark = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int secondary_text_default_material_light = 2131034237;
+			public const int primary_text_disabled_material_light = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int secondary_text_disabled_material_dark = 2131034238;
+			public const int red = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int secondary_text_disabled_material_light = 2131034239;
+			public const int ripple_material_dark = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int switch_thumb_disabled_material_dark = 2131034240;
+			public const int ripple_material_light = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int switch_thumb_disabled_material_light = 2131034241;
+			public const int secondary_text_default_material_dark = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int switch_thumb_material_dark = 2131034242;
+			public const int secondary_text_default_material_light = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int switch_thumb_material_light = 2131034243;
+			public const int secondary_text_disabled_material_dark = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int switch_thumb_normal_material_dark = 2131034244;
+			public const int secondary_text_disabled_material_light = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int switch_thumb_normal_material_light = 2131034245;
+			public const int switch_thumb_disabled_material_dark = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int tooltip_background_dark = 2131034246;
+			public const int switch_thumb_disabled_material_light = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int tooltip_background_light = 2131034247;
+			public const int switch_thumb_material_dark = 2131034247;
 			
 			// aapt resource value: 0x7F050088
-			public const int white_disabled_material = 2131034248;
+			public const int switch_thumb_material_light = 2131034248;
+			
+			// aapt resource value: 0x7F050089
+			public const int switch_thumb_normal_material_dark = 2131034249;
+			
+			// aapt resource value: 0x7F05008A
+			public const int switch_thumb_normal_material_light = 2131034250;
+			
+			// aapt resource value: 0x7F05008B
+			public const int theme_dark_segmented_radio_button_text = 2131034251;
+			
+			// aapt resource value: 0x7F05008C
+			public const int theme_default_segmented_radio_button_text = 2131034252;
+			
+			// aapt resource value: 0x7F05008D
+			public const int tooltip_background_dark = 2131034253;
+			
+			// aapt resource value: 0x7F05008E
+			public const int tooltip_background_light = 2131034254;
+			
+			// aapt resource value: 0x7F05008F
+			public const int white_disabled_material = 2131034255;
 			
 			static Color()
 			{
@@ -10881,88 +13538,241 @@ namespace TaxiApp.Droid
 			public const int avd_show_password = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int design_bottom_navigation_item_background = 2131165276;
+			public const int back_image = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int design_fab_background = 2131165277;
+			public const int close = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int design_ic_visibility = 2131165278;
+			public const int design_bottom_navigation_item_background = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int design_ic_visibility_off = 2131165279;
+			public const int design_fab_background = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_password_eye = 2131165280;
+			public const int design_ic_visibility = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_snackbar_background = 2131165281;
+			public const int design_ic_visibility_off = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int ic_mtrl_chip_checked_black = 2131165282;
+			public const int design_password_eye = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int ic_mtrl_chip_checked_circle = 2131165283;
-			
-			// aapt resource value: 0x7F070064
-			public const int ic_mtrl_chip_close_circle = 2131165284;
-			
-			// aapt resource value: 0x7F070065
-			public const int MaterialActivityIndicatorBackground = 2131165285;
-			
-			// aapt resource value: 0x7F070066
-			public const int MaterialProgressBar = 2131165286;
+			public const int design_snackbar_background = 2131165283;
 			
 			// aapt resource value: 0x7F070067
-			public const int mtrl_snackbar_background = 2131165287;
+			public const int icon = 2131165287;
+			
+			// aapt resource value: 0x7F070064
+			public const int ic_mtrl_chip_checked_black = 2131165284;
+			
+			// aapt resource value: 0x7F070065
+			public const int ic_mtrl_chip_checked_circle = 2131165285;
+			
+			// aapt resource value: 0x7F070066
+			public const int ic_mtrl_chip_close_circle = 2131165286;
 			
 			// aapt resource value: 0x7F070068
-			public const int mtrl_tabs_default_indicator = 2131165288;
+			public const int MaterialActivityIndicatorBackground = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int navigation_empty_icon = 2131165289;
+			public const int MaterialProgressBar = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int notification_action_background = 2131165290;
+			public const int mtrl_snackbar_background = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int notification_bg = 2131165291;
+			public const int mtrl_tabs_default_indicator = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int notification_bg_low = 2131165292;
+			public const int navigation_empty_icon = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notification_bg_low_normal = 2131165293;
+			public const int notification_action_background = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int notification_bg_low_pressed = 2131165294;
+			public const int notification_bg = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int notification_bg_normal = 2131165295;
+			public const int notification_bg_low = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int notification_bg_normal_pressed = 2131165296;
+			public const int notification_bg_low_normal = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_icon_background = 2131165297;
+			public const int notification_bg_low_pressed = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_template_icon_bg = 2131165298;
+			public const int notification_bg_normal = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notification_template_icon_low_bg = 2131165299;
+			public const int notification_bg_normal_pressed = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notification_tile_bg = 2131165300;
+			public const int notification_icon_background = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int notify_panel_notification_icon_bg = 2131165301;
+			public const int notification_template_icon_bg = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int tooltip_frame_dark = 2131165302;
+			public const int notification_template_icon_low_bg = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int tooltip_frame_light = 2131165303;
+			public const int notification_tile_bg = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int notify_panel_notification_icon_bg = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int phone = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int segment_grey = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int segment_grey_focus = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int segment_grey_press = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int segment_left_off = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int segment_left_off_pressed = 2131165310;
+			
+			// aapt resource value: 0x7F07007F
+			public const int segment_left_on = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int segment_middle_off = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int segment_middle_off_pressed = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int segment_middle_on = 2131165314;
+			
+			// aapt resource value: 0x7F070083
+			public const int segment_off = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int segment_off_pressed = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int segment_on = 2131165317;
+			
+			// aapt resource value: 0x7F070086
+			public const int segment_radio_grey_left = 2131165318;
+			
+			// aapt resource value: 0x7F070087
+			public const int segment_radio_grey_left_focus = 2131165319;
+			
+			// aapt resource value: 0x7F070088
+			public const int segment_radio_grey_left_press = 2131165320;
+			
+			// aapt resource value: 0x7F070089
+			public const int segment_radio_grey_middle = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int segment_radio_grey_middle_focus = 2131165322;
+			
+			// aapt resource value: 0x7F07008B
+			public const int segment_radio_grey_middle_press = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int segment_radio_grey_right = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int segment_radio_grey_right_focus = 2131165325;
+			
+			// aapt resource value: 0x7F07008E
+			public const int segment_radio_grey_right_press = 2131165326;
+			
+			// aapt resource value: 0x7F07008F
+			public const int segment_radio_white_left = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int segment_radio_white_left_focus = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int segment_radio_white_left_press = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int segment_radio_white_middle = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int segment_radio_white_middle_focus = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int segment_radio_white_middle_press = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int segment_radio_white_right = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int segment_radio_white_right_focus = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int segment_radio_white_right_press = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int segment_right_off = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int segment_right_off_pressed = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int segment_right_on = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int segment_white = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int segment_white_focus = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int segment_white_press = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int settings = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int take = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int theme_dark_segment_button = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int theme_dark_segment_radio_left = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int theme_dark_segment_radio_middle = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int theme_dark_segment_radio_right = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int theme_default_segment_button = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int theme_default_segment_radio_left = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int theme_default_segment_radio_middle = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int theme_default_segment_radio_right = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int tooltip_frame_dark = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int tooltip_frame_light = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int untake = 2131165354;
 			
 			static Drawable()
 			{
@@ -11257,349 +14067,358 @@ namespace TaxiApp.Droid
 			public const int left = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int line1 = 2131230816;
+			public const int leftBar = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int line3 = 2131230817;
+			public const int line1 = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int listMode = 2131230818;
+			public const int line3 = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int list_item = 2131230819;
+			public const int listMode = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int main_appbar = 2131230820;
+			public const int list_item = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int main_tablayout = 2131230821;
+			public const int main_appbar = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int main_toolbar = 2131230822;
+			public const int main_tablayout = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int main_viewpager = 2131230823;
+			public const int main_toolbar = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int masked = 2131230824;
+			public const int main_viewpager = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int materialformsedittext = 2131230825;
+			public const int masked = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int media_actions = 2131230826;
+			public const int materialformsedittext = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int message = 2131230827;
+			public const int media_actions = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int message = 2131230828;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08006C
-			public const int middle = 2131230828;
-			
 			// aapt resource value: 0x7F08006D
-			public const int mini = 2131230829;
+			public const int middle = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int mtrl_child_content_container = 2131230830;
+			public const int mini = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int mtrl_internal_children_alpha_tag = 2131230831;
+			public const int mtrl_child_content_container = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int multiply = 2131230832;
+			public const int mtrl_internal_children_alpha_tag = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int navigation_header_container = 2131230833;
+			public const int multiply = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int never = 2131230834;
+			public const int navigation_header_container = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int none = 2131230835;
+			public const int never = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int normal = 2131230836;
+			public const int none = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int notification_background = 2131230837;
+			public const int normal = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int notification_main_column = 2131230838;
+			public const int notification_background = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int notification_main_column_container = 2131230839;
+			public const int notification_main_column = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int outline = 2131230840;
+			public const int notification_main_column_container = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int parallax = 2131230841;
+			public const int outline = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int parentPanel = 2131230842;
+			public const int parallax = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int parent_matrix = 2131230843;
+			public const int parentPanel = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int pin = 2131230844;
+			public const int parent_matrix = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int progress_circular = 2131230845;
+			public const int pin = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int progress_horizontal = 2131230846;
+			public const int progress_circular = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int radio = 2131230847;
+			public const int progress_horizontal = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int right = 2131230848;
+			public const int radio = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int right_icon = 2131230849;
+			public const int right = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int right_side = 2131230850;
+			public const int rightBar = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int save_image_matrix = 2131230851;
+			public const int right_icon = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int save_non_transition_alpha = 2131230852;
+			public const int right_side = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int save_scale_type = 2131230853;
+			public const int save_image_matrix = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int screen = 2131230854;
+			public const int save_non_transition_alpha = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int scroll = 2131230855;
-			
-			// aapt resource value: 0x7F08008B
-			public const int scrollable = 2131230859;
+			public const int save_scale_type = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int scrollIndicatorDown = 2131230856;
+			public const int screen = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int scrollIndicatorUp = 2131230857;
-			
-			// aapt resource value: 0x7F08008A
-			public const int scrollView = 2131230858;
-			
-			// aapt resource value: 0x7F08008C
-			public const int search_badge = 2131230860;
+			public const int scroll = 2131230857;
 			
 			// aapt resource value: 0x7F08008D
-			public const int search_bar = 2131230861;
+			public const int scrollable = 2131230861;
+			
+			// aapt resource value: 0x7F08008A
+			public const int scrollIndicatorDown = 2131230858;
+			
+			// aapt resource value: 0x7F08008B
+			public const int scrollIndicatorUp = 2131230859;
+			
+			// aapt resource value: 0x7F08008C
+			public const int scrollView = 2131230860;
 			
 			// aapt resource value: 0x7F08008E
-			public const int search_button = 2131230862;
+			public const int search_badge = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int search_close_btn = 2131230863;
+			public const int search_bar = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int search_edit_frame = 2131230864;
+			public const int search_button = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int search_go_btn = 2131230865;
+			public const int search_close_btn = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int search_mag_icon = 2131230866;
+			public const int search_edit_frame = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int search_plate = 2131230867;
+			public const int search_go_btn = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int search_src_text = 2131230868;
+			public const int search_mag_icon = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int search_voice_btn = 2131230869;
-			
-			// aapt resource value: 0x7F080097
-			public const int selected = 2131230871;
+			public const int search_plate = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int select_dialog_listview = 2131230870;
+			public const int search_src_text = 2131230870;
 			
-			// aapt resource value: 0x7F080098
-			public const int shellcontent_appbar = 2131230872;
+			// aapt resource value: 0x7F080097
+			public const int search_voice_btn = 2131230871;
 			
 			// aapt resource value: 0x7F080099
-			public const int shellcontent_toolbar = 2131230873;
+			public const int selected = 2131230873;
+			
+			// aapt resource value: 0x7F080098
+			public const int select_dialog_listview = 2131230872;
+			
+			// aapt resource value: 0x7F08009A
+			public const int shellcontent_appbar = 2131230874;
+			
+			// aapt resource value: 0x7F08009B
+			public const int shellcontent_toolbar = 2131230875;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F08009A
-			public const int shortcut = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int showCustom = 2131230875;
-			
 			// aapt resource value: 0x7F08009C
-			public const int showHome = 2131230876;
+			public const int shortcut = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int showTitle = 2131230877;
+			public const int showCustom = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int sliding_tabs = 2131230878;
+			public const int showHome = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int smallLabel = 2131230879;
+			public const int showTitle = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int snackbar_action = 2131230880;
+			public const int sliding_tabs = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int snackbar_text = 2131230881;
+			public const int smallLabel = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int snap = 2131230882;
+			public const int snackbar_action = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int snapMargins = 2131230883;
+			public const int snackbar_text = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int spacer = 2131230884;
+			public const int snap = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int split_action_bar = 2131230885;
+			public const int snapMargins = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int src_atop = 2131230886;
+			public const int spacer = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int src_in = 2131230887;
+			public const int split_action_bar = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int src_over = 2131230888;
+			public const int src_atop = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int start = 2131230889;
+			public const int src_in = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int status_bar_latest_event_content = 2131230890;
+			public const int src_over = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int stretch = 2131230891;
+			public const int start = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int submenuarrow = 2131230892;
+			public const int status_bar_latest_event_content = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int submit_area = 2131230893;
+			public const int stretch = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int submenuarrow = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int submit_area = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int swipetorefreshbar = 2131230896;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800AE
-			public const int tabMode = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int tag_transition_group = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int tag_unhandled_key_event_manager = 2131230896;
-			
 			// aapt resource value: 0x7F0800B1
-			public const int tag_unhandled_key_listeners = 2131230897;
+			public const int tabMode = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int text = 2131230898;
+			public const int tag_transition_group = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int text2 = 2131230899;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int textinput_counter = 2131230904;
-			
-			// aapt resource value: 0x7F0800B9
-			public const int textinput_error = 2131230905;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int textinput_helper_text = 2131230906;
+			public const int tag_unhandled_key_event_manager = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int textSpacerNoButtons = 2131230900;
+			public const int tag_unhandled_key_listeners = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int textSpacerNoTitle = 2131230901;
+			public const int text = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int textStart = 2131230902;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int text_input_password_toggle = 2131230903;
+			public const int text2 = 2131230902;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int time = 2131230907;
+			public const int textinput_counter = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int title = 2131230908;
+			public const int textinput_error = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int titleDividerNoCustom = 2131230909;
+			public const int textinput_helper_text = 2131230909;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int textSpacerNoButtons = 2131230903;
+			
+			// aapt resource value: 0x7F0800B8
+			public const int textSpacerNoTitle = 2131230904;
+			
+			// aapt resource value: 0x7F0800B9
+			public const int textStart = 2131230905;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int text_input_password_toggle = 2131230906;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int title_template = 2131230910;
+			public const int time = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int toolbar = 2131230911;
+			public const int title = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int top = 2131230912;
+			public const int titleDividerNoCustom = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int topPanel = 2131230913;
+			public const int title_template = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int touch_outside = 2131230914;
+			public const int toolbar = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int transition_current_scene = 2131230915;
+			public const int top = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int transition_layout_save = 2131230916;
+			public const int topPanel = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int transition_position = 2131230917;
+			public const int touch_outside = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int transition_scene_layoutid_cache = 2131230918;
+			public const int transition_current_scene = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int transition_transform = 2131230919;
+			public const int transition_layout_save = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int uniform = 2131230920;
+			public const int transition_position = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int unlabeled = 2131230921;
+			public const int transition_scene_layoutid_cache = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int up = 2131230922;
+			public const int transition_transform = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int useLogo = 2131230923;
+			public const int uniform = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int view_offset_helper = 2131230924;
+			public const int unlabeled = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int visible = 2131230925;
+			public const int up = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int withText = 2131230926;
+			public const int useLogo = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int wrap_content = 2131230927;
+			public const int view_offset_helper = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int visible = 2131230928;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int withText = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int wrap_content = 2131230930;
 			
 			static Id()
 			{
@@ -12090,28 +14909,31 @@ namespace TaxiApp.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mtrl_chip_close_icon_content_description = 2131558446;
+			public const int library_name = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int password_toggle_content_description = 2131558447;
+			public const int mtrl_chip_close_icon_content_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int path_password_eye = 2131558448;
+			public const int password_toggle_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye_mask_strike_through = 2131558449;
+			public const int path_password_eye = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_visible = 2131558450;
+			public const int path_password_eye_mask_strike_through = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int path_password_strike_through = 2131558451;
+			public const int path_password_eye_mask_visible = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int search_menu_title = 2131558452;
+			public const int path_password_strike_through = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int status_bar_notification_info_overflow = 2131558453;
+			public const int search_menu_title = 2131558453;
+			
+			// aapt resource value: 0x7F0D0036
+			public const int status_bar_notification_info_overflow = 2131558454;
 			
 			static String()
 			{
@@ -12720,953 +15542,977 @@ namespace TaxiApp.Droid
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
 			
-			// aapt resource value: 0x7F0E0201
-			public const int collectionViewStyle = 2131624449;
+			// aapt resource value: 0x7F0E0209
+			public const int collectionViewStyle = 2131624457;
 			
 			// aapt resource value: 0x7F0E00C6
-			public const int MainTheme = 2131624134;
+			public const int DarkPopupMenu = 2131624134;
 			
 			// aapt resource value: 0x7F0E00C7
-			public const int MainTheme_Base = 2131624135;
+			public const int DarkPopupMenuTextAppearanceLarge = 2131624135;
 			
 			// aapt resource value: 0x7F0E00C8
-			public const int NestedScrollBarStyle = 2131624136;
+			public const int DarkPopupMenuTextAppearanceSmall = 2131624136;
 			
 			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat = 2131624137;
+			public const int GridThemeDark = 2131624137;
 			
 			// aapt resource value: 0x7F0E00CA
-			public const int Platform_AppCompat_Light = 2131624138;
+			public const int GridThemeLight = 2131624138;
 			
 			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents = 2131624139;
+			public const int LightPopupMenu = 2131624139;
 			
 			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Dialog = 2131624140;
+			public const int LightPopupMenuTextAppearanceLarge = 2131624140;
 			
 			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light = 2131624141;
+			public const int LightPopupMenuTextAppearanceSmall = 2131624141;
 			
 			// aapt resource value: 0x7F0E00CE
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624142;
+			public const int MainTheme = 2131624142;
 			
 			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat = 2131624143;
+			public const int MainTheme_Base = 2131624143;
 			
 			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624144;
+			public const int NestedScrollBarStyle = 2131624144;
 			
 			// aapt resource value: 0x7F0E00D1
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624145;
+			public const int Platform_AppCompat = 2131624145;
 			
 			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat = 2131624146;
+			public const int Platform_AppCompat_Light = 2131624146;
 			
 			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V21_AppCompat_Light = 2131624147;
+			public const int Platform_MaterialComponents = 2131624147;
 			
 			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat = 2131624148;
+			public const int Platform_MaterialComponents_Dialog = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int Platform_V25_AppCompat_Light = 2131624149;
+			public const int Platform_MaterialComponents_Light = 2131624149;
 			
 			// aapt resource value: 0x7F0E00D6
-			public const int Platform_Widget_AppCompat_Spinner = 2131624150;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131624150;
 			
 			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624151;
+			public const int Platform_ThemeOverlay_AppCompat = 2131624151;
 			
 			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624152;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624152;
 			
 			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624153;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624153;
 			
 			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624154;
+			public const int Platform_V21_AppCompat = 2131624154;
 			
 			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624155;
+			public const int Platform_V21_AppCompat_Light = 2131624155;
 			
 			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624156;
+			public const int Platform_V25_AppCompat = 2131624156;
 			
 			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624157;
+			public const int Platform_V25_AppCompat_Light = 2131624157;
 			
 			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624158;
+			public const int Platform_Widget_AppCompat_Spinner = 2131624158;
 			
 			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624159;
-			
-			// aapt resource value: 0x7F0E00E5
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624165;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624159;
 			
 			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624160;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624160;
 			
 			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624161;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624161;
 			
 			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624162;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624162;
 			
 			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624163;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624163;
 			
 			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624164;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624164;
+			
+			// aapt resource value: 0x7F0E00E5
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624165;
 			
 			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624166;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624166;
 			
 			// aapt resource value: 0x7F0E00E7
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624167;
-			
-			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat = 2131624168;
-			
-			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body1 = 2131624169;
-			
-			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Body2 = 2131624170;
-			
-			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Button = 2131624171;
-			
-			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Caption = 2131624172;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624167;
 			
 			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display1 = 2131624173;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624173;
+			
+			// aapt resource value: 0x7F0E00E8
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624168;
+			
+			// aapt resource value: 0x7F0E00E9
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624169;
+			
+			// aapt resource value: 0x7F0E00EA
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624170;
+			
+			// aapt resource value: 0x7F0E00EB
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624171;
+			
+			// aapt resource value: 0x7F0E00EC
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624172;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display2 = 2131624174;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display3 = 2131624175;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624175;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Display4 = 2131624176;
+			public const int TextAppearance_AppCompat = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Headline = 2131624177;
+			public const int TextAppearance_AppCompat_Body1 = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Inverse = 2131624178;
+			public const int TextAppearance_AppCompat_Body2 = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large = 2131624179;
+			public const int TextAppearance_AppCompat_Button = 2131624179;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624180;
+			public const int TextAppearance_AppCompat_Caption = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624181;
+			public const int TextAppearance_AppCompat_Display1 = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624182;
+			public const int TextAppearance_AppCompat_Display2 = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624183;
+			public const int TextAppearance_AppCompat_Display3 = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624184;
+			public const int TextAppearance_AppCompat_Display4 = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium = 2131624185;
+			public const int TextAppearance_AppCompat_Headline = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624186;
+			public const int TextAppearance_AppCompat_Inverse = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_Menu = 2131624187;
+			public const int TextAppearance_AppCompat_Large = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624188;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624189;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small = 2131624190;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624191;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead = 2131624192;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624193;
+			public const int TextAppearance_AppCompat_Medium = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title = 2131624194;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624195;
+			public const int TextAppearance_AppCompat_Menu = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Tooltip = 2131624196;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624197;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624198;
+			public const int TextAppearance_AppCompat_Small = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624199;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624200;
+			public const int TextAppearance_AppCompat_Subhead = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624201;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624202;
+			public const int TextAppearance_AppCompat_Title = 2131624202;
 			
 			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624203;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624203;
 			
 			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624204;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624204;
 			
 			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624205;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624205;
 			
 			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624206;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624206;
 			
 			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624207;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624207;
 			
 			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624208;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624208;
 			
 			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624209;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624209;
 			
 			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624210;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624210;
 			
 			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624211;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624211;
 			
 			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624212;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624212;
 			
 			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624213;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624213;
 			
 			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624214;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624214;
 			
 			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624215;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624215;
 			
 			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification = 2131624216;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624216;
 			
 			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info = 2131624217;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624217;
 			
 			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624218;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624218;
 			
 			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624219;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624219;
 			
 			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624220;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624220;
 			
 			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Media = 2131624221;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624221;
 			
 			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time = 2131624222;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624222;
 			
 			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624223;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624223;
 			
 			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title = 2131624224;
+			public const int TextAppearance_Compat_Notification = 2131624224;
 			
 			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624225;
+			public const int TextAppearance_Compat_Notification_Info = 2131624225;
 			
 			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624226;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter = 2131624227;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624227;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Counter_Overflow = 2131624228;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_Error = 2131624229;
+			public const int TextAppearance_Compat_Notification_Media = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_HelperText = 2131624230;
+			public const int TextAppearance_Compat_Notification_Time = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Hint = 2131624231;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Snackbar_Message = 2131624232;
+			public const int TextAppearance_Compat_Notification_Title = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_Design_Tab = 2131624233;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624234;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624235;
+			public const int TextAppearance_Design_Counter = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Button = 2131624236;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624236;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Caption = 2131624237;
+			public const int TextAppearance_Design_Error = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Chip = 2131624238;
+			public const int TextAppearance_Design_HelperText = 2131624238;
 			
 			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624239;
+			public const int TextAppearance_Design_Hint = 2131624239;
 			
 			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624240;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624240;
 			
 			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624241;
+			public const int TextAppearance_Design_Tab = 2131624241;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624242;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624243;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624244;
+			public const int TextAppearance_MaterialComponents_Button = 2131624244;
 			
 			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Overline = 2131624245;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624246;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624247;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_MaterialComponents_Tab = 2131624248;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624249;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624250;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624250;
 			
 			// aapt resource value: 0x7F0E013B
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624251;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int ThemeOverlay_AppCompat = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int ThemeOverlay_AppCompat_Dark = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624303;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624304;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624305;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_AppCompat_Light = 2131624306;
-			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_MaterialComponents = 2131624307;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624314;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624317;
-			
-			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624318;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624251;
 			
 			// aapt resource value: 0x7F0E013C
-			public const int Theme_AppCompat = 2131624252;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624252;
 			
 			// aapt resource value: 0x7F0E013D
-			public const int Theme_AppCompat_CompactMenu = 2131624253;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624253;
 			
 			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat_DayNight = 2131624254;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624254;
 			
 			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624255;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624255;
 			
 			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624256;
-			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624259;
+			public const int TextAppearance_MaterialComponents_Tab = 2131624256;
 			
 			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624257;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624257;
 			
 			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624258;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624258;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624260;
+			// aapt resource value: 0x7F0E0143
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624259;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_Dialog = 2131624261;
+			// aapt resource value: 0x7F0E0174
+			public const int ThemeOverlay_AppCompat = 2131624308;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624264;
+			// aapt resource value: 0x7F0E0175
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624309;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_Dialog_Alert = 2131624262;
+			// aapt resource value: 0x7F0E0176
+			public const int ThemeOverlay_AppCompat_Dark = 2131624310;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624263;
+			// aapt resource value: 0x7F0E0177
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624311;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Light = 2131624265;
+			// aapt resource value: 0x7F0E0178
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624312;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624266;
+			// aapt resource value: 0x7F0E0179
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624313;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light_Dialog = 2131624267;
+			// aapt resource value: 0x7F0E017A
+			public const int ThemeOverlay_AppCompat_Light = 2131624314;
 			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624270;
+			// aapt resource value: 0x7F0E017B
+			public const int ThemeOverlay_MaterialComponents = 2131624315;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624268;
+			// aapt resource value: 0x7F0E017C
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624316;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624269;
+			// aapt resource value: 0x7F0E017D
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624317;
 			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624271;
-			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_NoActionBar = 2131624272;
-			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_Design = 2131624273;
-			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_Design_BottomSheetDialog = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design_Light = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_Light_NoActionBar = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_Design_NoActionBar = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_MaterialComponents = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents_Bridge = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_CompactMenu = 2131624282;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Dialog = 2131624283;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624286;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624284;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624285;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Light = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624288;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624289;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624291;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624292;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624295;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624293;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624294;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624297;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_NoActionBar = 2131624298;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624299;
+			// aapt resource value: 0x7F0E017E
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624318;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int Widget_AppCompat_ActionBar = 2131624319;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624319;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624320;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624320;
 			
 			// aapt resource value: 0x7F0E0181
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624321;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624321;
 			
 			// aapt resource value: 0x7F0E0182
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624322;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624322;
 			
 			// aapt resource value: 0x7F0E0183
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624323;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624323;
 			
 			// aapt resource value: 0x7F0E0184
-			public const int Widget_AppCompat_ActionButton = 2131624324;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624324;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624325;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624325;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624326;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624326;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat = 2131624260;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_CompactMenu = 2131624261;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_DayNight = 2131624262;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624263;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624264;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624267;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624265;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624266;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624268;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Dialog = 2131624269;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624272;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Dialog_Alert = 2131624270;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624271;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_AppCompat_Light = 2131624273;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624274;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_AppCompat_Light_Dialog = 2131624275;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624278;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624277;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_AppCompat_NoActionBar = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_Design = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_Design_BottomSheetDialog = 2131624282;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_Design_Light = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624284;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_Design_Light_NoActionBar = 2131624285;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_Design_NoActionBar = 2131624286;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents = 2131624287;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624288;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_Bridge = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_CompactMenu = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Dialog = 2131624291;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624294;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624292;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624293;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light = 2131624295;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624297;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624298;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624299;
+			
+			// aapt resource value: 0x7F0E016C
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624300;
+			
+			// aapt resource value: 0x7F0E016F
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624303;
+			
+			// aapt resource value: 0x7F0E016D
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624301;
+			
+			// aapt resource value: 0x7F0E016E
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624302;
+			
+			// aapt resource value: 0x7F0E0170
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624304;
+			
+			// aapt resource value: 0x7F0E0171
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624305;
+			
+			// aapt resource value: 0x7F0E0172
+			public const int Theme_MaterialComponents_NoActionBar = 2131624306;
+			
+			// aapt resource value: 0x7F0E0173
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624307;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActionMode = 2131624327;
+			public const int Widget_AppCompat_ActionBar = 2131624327;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_ActivityChooserView = 2131624328;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624329;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_Button = 2131624330;
-			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ButtonBar = 2131624336;
-			
-			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624337;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_Button_Borderless = 2131624331;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624332;
+			public const int Widget_AppCompat_ActionButton = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624333;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_Colored = 2131624334;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624334;
 			
 			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_Button_Small = 2131624335;
+			public const int Widget_AppCompat_ActionMode = 2131624335;
+			
+			// aapt resource value: 0x7F0E0190
+			public const int Widget_AppCompat_ActivityChooserView = 2131624336;
+			
+			// aapt resource value: 0x7F0E0191
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624337;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624338;
-			
-			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624339;
-			
-			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624340;
-			
-			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624341;
-			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624342;
-			
-			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_EditText = 2131624343;
+			public const int Widget_AppCompat_Button = 2131624338;
 			
 			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_ImageButton = 2131624344;
+			public const int Widget_AppCompat_ButtonBar = 2131624344;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_Light_ActionBar = 2131624345;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624345;
+			
+			// aapt resource value: 0x7F0E0193
+			public const int Widget_AppCompat_Button_Borderless = 2131624339;
+			
+			// aapt resource value: 0x7F0E0194
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624340;
+			
+			// aapt resource value: 0x7F0E0195
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624341;
+			
+			// aapt resource value: 0x7F0E0196
+			public const int Widget_AppCompat_Button_Colored = 2131624342;
+			
+			// aapt resource value: 0x7F0E0197
+			public const int Widget_AppCompat_Button_Small = 2131624343;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624346;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624346;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624347;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624348;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624349;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624350;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624351;
+			public const int Widget_AppCompat_EditText = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624352;
+			public const int Widget_AppCompat_ImageButton = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624353;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionButton = 2131624354;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624355;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624356;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624357;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624358;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624359;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624360;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624361;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624362;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624363;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624364;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_SearchView = 2131624365;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624366;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_ListMenuView = 2131624367;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_ListPopupWindow = 2131624368;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_ListView = 2131624369;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_ListView_DropDown = 2131624370;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_ListView_Menu = 2131624371;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_PopupMenu = 2131624372;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624373;
+			public const int Widget_AppCompat_Light_SearchView = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_PopupWindow = 2131624374;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ProgressBar = 2131624375;
+			public const int Widget_AppCompat_ListMenuView = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624376;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_RatingBar = 2131624377;
+			public const int Widget_AppCompat_ListView = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624378;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_RatingBar_Small = 2131624379;
+			public const int Widget_AppCompat_ListView_Menu = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_SearchView = 2131624380;
+			public const int Widget_AppCompat_PopupMenu = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624381;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_SeekBar = 2131624382;
+			public const int Widget_AppCompat_PopupWindow = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624383;
+			public const int Widget_AppCompat_ProgressBar = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_Spinner = 2131624384;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624385;
+			public const int Widget_AppCompat_RatingBar = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624386;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624387;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624388;
+			public const int Widget_AppCompat_SearchView = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_Toolbar = 2131624389;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624390;
+			public const int Widget_AppCompat_SeekBar = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_Compat_NotificationActionContainer = 2131624391;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_Compat_NotificationActionText = 2131624392;
+			public const int Widget_AppCompat_Spinner = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_Design_AppBarLayout = 2131624393;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_Design_BottomNavigationView = 2131624394;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_Design_BottomSheet_Modal = 2131624395;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_Design_CollapsingToolbar = 2131624396;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_Design_FloatingActionButton = 2131624397;
+			public const int Widget_AppCompat_Toolbar = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_Design_NavigationView = 2131624398;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624399;
+			public const int Widget_Compat_NotificationActionContainer = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Design_Snackbar = 2131624400;
+			public const int Widget_Compat_NotificationActionText = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_TabLayout = 2131624401;
+			public const int Widget_Design_AppBarLayout = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Design_TextInputLayout = 2131624402;
+			public const int Widget_Design_BottomNavigationView = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624403;
+			public const int Widget_Design_BottomSheet_Modal = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624404;
+			public const int Widget_Design_CollapsingToolbar = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624405;
+			public const int Widget_Design_FloatingActionButton = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624406;
+			public const int Widget_Design_NavigationView = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624407;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_MaterialComponents_Button = 2131624408;
+			public const int Widget_Design_Snackbar = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_MaterialComponents_Button_Icon = 2131624409;
+			public const int Widget_Design_TabLayout = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624410;
+			public const int Widget_Design_TextInputLayout = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624411;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624412;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624413;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624414;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624415;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624416;
+			public const int Widget_MaterialComponents_Button = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624417;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_CardView = 2131624418;
-			
-			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_ChipGroup = 2131624423;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Chip_Action = 2131624419;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624420;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624421;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624422;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624422;
+			
+			// aapt resource value: 0x7F0E01E7
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131624424;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624425;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_NavigationView = 2131624426;
-			
-			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_Snackbar = 2131624427;
-			
-			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624428;
-			
-			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_TabLayout = 2131624429;
-			
-			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624430;
+			public const int Widget_MaterialComponents_CardView = 2131624426;
 			
 			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624431;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624431;
+			
+			// aapt resource value: 0x7F0E01EB
+			public const int Widget_MaterialComponents_Chip_Action = 2131624427;
+			
+			// aapt resource value: 0x7F0E01EC
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624428;
+			
+			// aapt resource value: 0x7F0E01ED
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624429;
+			
+			// aapt resource value: 0x7F0E01EE
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624430;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624432;
+			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131624432;
 			
 			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624433;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624434;
+			public const int Widget_MaterialComponents_NavigationView = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624435;
+			public const int Widget_MaterialComponents_Snackbar = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624436;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624437;
+			public const int Widget_MaterialComponents_TabLayout = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624438;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624438;
 			
 			// aapt resource value: 0x7F0E01F7
-			public const int Widget_MaterialComponents_Toolbar = 2131624439;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624439;
 			
 			// aapt resource value: 0x7F0E01F8
-			public const int Widget_Support_CoordinatorLayout = 2131624440;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624440;
 			
 			// aapt resource value: 0x7F0E01F9
-			public const int XamarinFormsMaterialButton = 2131624441;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624441;
 			
 			// aapt resource value: 0x7F0E01FA
-			public const int XamarinFormsMaterialButtonOutlined = 2131624442;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624442;
 			
 			// aapt resource value: 0x7F0E01FB
-			public const int XamarinFormsMaterialCheckBox = 2131624443;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624443;
 			
 			// aapt resource value: 0x7F0E01FC
-			public const int XamarinFormsMaterialEntryFilled = 2131624444;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624444;
 			
 			// aapt resource value: 0x7F0E01FD
-			public const int XamarinFormsMaterialProgressBarCircular = 2131624445;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624445;
 			
 			// aapt resource value: 0x7F0E01FE
-			public const int XamarinFormsMaterialProgressBarHorizontal = 2131624446;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624446;
 			
 			// aapt resource value: 0x7F0E01FF
-			public const int XamarinFormsMaterialSlider = 2131624447;
+			public const int Widget_MaterialComponents_Toolbar = 2131624447;
 			
 			// aapt resource value: 0x7F0E0200
-			public const int XamarinFormsMaterialTheme = 2131624448;
+			public const int Widget_Support_CoordinatorLayout = 2131624448;
+			
+			// aapt resource value: 0x7F0E0201
+			public const int XamarinFormsMaterialButton = 2131624449;
+			
+			// aapt resource value: 0x7F0E0202
+			public const int XamarinFormsMaterialButtonOutlined = 2131624450;
+			
+			// aapt resource value: 0x7F0E0203
+			public const int XamarinFormsMaterialCheckBox = 2131624451;
+			
+			// aapt resource value: 0x7F0E0204
+			public const int XamarinFormsMaterialEntryFilled = 2131624452;
+			
+			// aapt resource value: 0x7F0E0205
+			public const int XamarinFormsMaterialProgressBarCircular = 2131624453;
+			
+			// aapt resource value: 0x7F0E0206
+			public const int XamarinFormsMaterialProgressBarHorizontal = 2131624454;
+			
+			// aapt resource value: 0x7F0E0207
+			public const int XamarinFormsMaterialSlider = 2131624455;
+			
+			// aapt resource value: 0x7F0E0208
+			public const int XamarinFormsMaterialTheme = 2131624456;
 			
 			static Style()
 			{

@@ -7,16 +7,11 @@
              xmlns:datagrid="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
              xmlns:converters="clr-namespace:TaxiApp.Converters"
              mc:Ignorable="d"
-             x:Class="TaxiApp.Views.Pages.OrdersPage">
+             x:Class="TaxiApp.Views.Pages.OrdersPage"
+             Title="Заказы"
+             Visual="Material">
     <ContentPage.Content>
-      <StackLayout >
-            <!--<ListView ItemsSource="{Binding Path=Models}" HasUnevenRows="True" SeparatorColor="Black">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <viewcells:OrderViewCell From="{Binding Path=From}" To="{Binding Path=To}" Cost="{Binding Path=Cost}"/>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>-->
+        <StackLayout >
             <StackLayout VerticalOptions="Center"
                          HorizontalOptions="Center"
                          IsVisible="{Binding Path=Model.IsEmpty}">
@@ -24,10 +19,15 @@
             </StackLayout>
             <datagrid:DataGrid ItemsSource="{Binding Path=Model.Models}"
                                IsRefreshing="{Binding IsRefreshing}"
-                               IsVisible="{Binding Path=Model.IsEmpty,Converter={converters:InverseBoolConverter}}">
-                <datagrid:DataGrid.Columns>
+                               IsVisible="{Binding Path=Model.IsEmpty,Converter={converters:InverseBoolConverter}}"
+                               BorderColor="{StaticResource GridBorder}"
+                               HeaderTextColor="{StaticResource BlueColor}"
+                               ItemSelected="DataGrid_ItemSelected"
+                               x:Name="DataGrid">
+                <datagrid:DataGrid.Columns >
                     <datagrid:DataGridColumn Title="Откуда"
-                                             PropertyName="From" />
+                                             PropertyName="From"
+                                             />
                     <datagrid:DataGridColumn Title="Куда"
                                              PropertyName="To" />
                     <datagrid:DataGridColumn Title="Цена"
@@ -37,7 +37,7 @@
                 </datagrid:DataGrid.Columns>
                 <datagrid:DataGrid.RowsBackgroundColorPalette>
                     <datagrid:PaletteCollection>
-                        <Color>#FFFFFF</Color>
+                        <Color>#fff6aa</Color>
                     </datagrid:PaletteCollection>
                 </datagrid:DataGrid.RowsBackgroundColorPalette>
             </datagrid:DataGrid>

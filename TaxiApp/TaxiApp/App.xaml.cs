@@ -1,6 +1,7 @@
 ﻿using SimpleInjector;
 using System;
 using TaxiApp.Services;
+using TaxiApp.Services.Http;
 using TaxiApp.Services.Mock;
 using TaxiApp.Views.Pages;
 using Xamarin.Forms;
@@ -19,25 +20,31 @@ namespace TaxiApp
         public App()
         {
             InitializeComponent();
+            IoCContainer.Register<HttpService, HttpService>(Lifestyle.Transient);
 
-            IoCContainer.Register<IOrdersService, MockOrderService>(Lifestyle.Transient);
-            IoCContainer.Register<IUserService, MockUserService>(Lifestyle.Transient);
+            IoCContainer.Register<IOrdersService, HttpOrdersService>(Lifestyle.Transient);
+            IoCContainer.Register<IUserService, HttpUserService>(Lifestyle.Transient);
+            IoCContainer.Register<IPaymentsService, HttpPaymentsService>(Lifestyle.Transient);
+
             Xamarin.Forms.DataGrid.DataGridComponent.Init();
-            // You have to create a Master ContentPage()
             MainPage = new LoginPage();
-
         }
+
+        public static bool IsInForeground { get; set; } = false;
 
         protected override void OnStart()
         {
+            IsInForeground = true;
         }
 
         protected override void OnSleep()
         {
+            IsInForeground = false;
         }
 
         protected override void OnResume()
         {
+            IsInForeground = true;
         }
     }
 }

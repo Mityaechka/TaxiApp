@@ -1,43 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-       xmlns:pages="clr-namespace:TaxiApp.Views.Pages"
-       mc:Ignorable="d"
+               xmlns:pages="clr-namespace:TaxiApp.Views.Pages"
+               mc:Ignorable="d"
              x:Class="TaxiApp.Views.Pages.MainPage">
-    <Shell.FlyoutHeader>
-        <StackLayout BackgroundColor="White"
-                     Padding="10">
-            <Image HeightRequest="100" />
-            <Label Text="{Binding Path=User.Name,StringFormat='Привет,{0}'}" />
-        </StackLayout>
-    </Shell.FlyoutHeader>
-
-    <FlyoutItem Route="orders"
-                Title="Актуальные заказы">
-        <ShellContent Route="relevant" ContentTemplate="{DataTemplate pages:OrdersPage}" />
-    </FlyoutItem>
-    <FlyoutItem Route="orders"
-                Title="Мой архив">
-        <Tab Route="archive">
-            <ShellContent Route="completed" 
-                          Title="Архив" 
-                          ContentTemplate="{DataTemplate pages:OrdersPage}" />
-            <ShellContent Route="failed" 
-                          Title="Ложные заказы"
-                          ContentTemplate="{DataTemplate pages:OrdersPage}" />
-        </Tab>
-        
-    </FlyoutItem>
-    <FlyoutItem Route="payments"
-                Title="Финансы">
-        <ShellContent ContentTemplate="{DataTemplate pages:PaymentsPage}" />
-    </FlyoutItem>
-    <FlyoutItem Route="geomap"
-                Title="Карта">
-        <ShellContent ContentTemplate="{DataTemplate pages:GeomapPage}" />
-    </FlyoutItem>
-    <MenuItem Text="Выйти"
-              Clicked="LogoutClick"/>
-</Shell>
+    <MasterDetailPage.Master>
+        <pages:MasterPage />
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage x:Name="NavigationPage">
+            
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

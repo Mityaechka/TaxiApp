@@ -5,27 +5,44 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:ui="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
              mc:Ignorable="d"
+             xmlns:converters="clr-namespace:TaxiApp.Converters"
              x:Class="TaxiApp.Views.Pages.LoginPage"
              Title="Login"
              Visual="Material">
-    <StackLayout Margin="20" VerticalOptions="Center">
-        <Label Text="Вход" FontSize="Title" />
-        <Label Text="Введите имя пользователя и пароль для входа"
-               FontSize="Subtitle" />
-        <Entry Placeholder="Имя пользователя"  Text="{Binding Model.Login,Mode=TwoWay}"/>
-        <Entry Placeholder="Пароль"
-               IsPassword="True"
-               Text="{Binding Model.Password,Mode=TwoWay}"/>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
-            <Label Text="Запомнить меня"
-                   VerticalOptions="Center" />
-            <CheckBox IsChecked="{Binding Model.RememberMe,Mode=TwoWay}"/>
+    <StackLayout VerticalOptions="Center"
+                 BackgroundColor="#00FFFFFF">
+        <StackLayout IsVisible="{Binding Path=Model.IsLoading}"
+                     VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand">
+            <Image Source="icon.png" />
+            <ActivityIndicator Margin="0,20,0,0"
+                               IsVisible="True"
+                               IsRunning="True" />
         </StackLayout>
-        <StackLayout HorizontalOptions="Start">
-            <Button Text="Вход"
-                    BackgroundColor="#337ab7"
-                    HorizontalOptions="Center"
-                    Clicked="LoginClick"/>
+        <StackLayout IsVisible="{Binding Path=Model.IsLoading,Converter={converters:InverseBoolConverter}}"
+                     Margin="20">
+            <Label Text="Вход"
+                   FontSize="Title" />
+            <Label Text="Введите имя пользователя и пароль для входа"
+                   FontSize="Subtitle" />
+            <Entry Placeholder="Имя пользователя"
+                   Text="{Binding Model.Login,Mode=TwoWay}" />
+            <Entry Placeholder="Пароль"
+                   IsPassword="True"
+                   Text="{Binding Model.Password,Mode=TwoWay}" />
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="End">
+                <Label Text="Запомнить меня"
+                       VerticalOptions="Center" />
+                <CheckBox IsChecked="{Binding Model.RememberMe,Mode=TwoWay}" />
+            </StackLayout>
+            <StackLayout HorizontalOptions="Start">
+                <Button Text="Вход"
+                        BackgroundColor="#337ab7"
+                        HorizontalOptions="Center"
+                        Clicked="LoginClick" />
+            </StackLayout>
         </StackLayout>
     </StackLayout>
+    <!--</StackLayout>-->
 </ContentPage>  

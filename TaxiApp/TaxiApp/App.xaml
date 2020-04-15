@@ -4,8 +4,110 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:datagrid="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
              x:Class="TaxiApp.App">
     <Application.Resources>
+        <!--#region Colors -->
+        <Color x:Key="Background">#fff6aa</Color>
+        <Color x:Key="DarkBackground">#cbc37a</Color>
+        <Color x:Key="LightBackground">#ffffdc</Color>
+        <Color x:Key="LightBlack">#2c2c2c</Color>
+        <Color x:Key="Border">#fff</Color>
+        <Color x:Key="GridBorder">#dddddd</Color>
+        <Color x:Key="BlueColor">#337ab7</Color>
+        <!--#endregion-->
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor"
+                    Value="#101010" />
+            <Setter Property="BarTextColor"
+                    Value="White" />
+            <Setter Property="BackgroundColor"
+                    Value="#fff6aa" />
+        </Style>
+        <Style TargetType="ContentPage">
+            <Setter Property="BackgroundColor"
+                    Value="#fff6aa" />
+        </Style>
+        <!--#region Buttons-->
+        <Style x:Key="master-btn" TargetType="Button">
+            <Setter Property="VerticalOptions"
+                    Value="Start" />
+            <Setter Property="FontSize"
+                    Value="Body" />
+            <Setter Property="TextColor"
+                    Value="White" />
+            <Setter Property="Margin"
+                    Value="75,0" />
+           
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource BlueColor}" />
 
+        </Style>
+        <Style x:Key="logout-btn"
+               TargetType="Button">
+            <Setter Property="HorizontalOptions"
+                    Value="Center" />
+            <Setter Property="FontSize"
+                    Value="Body" />
+            <Setter Property="TextColor"
+                    Value="Black" />
+            <Setter Property="Margin"
+                    Value="30,0" />
+            <Setter Property="BorderColor"
+                    Value="{StaticResource BlueColor}" />
+            <Setter Property="BorderWidth"
+                    Value="2" />
+            <Setter Property="BackgroundColor"
+                    Value="White" />
+        </Style>
+        <Style x:Key="take-btn"
+               TargetType="Button">
+            <Setter Property="HorizontalOptions"
+                    Value="Center" />
+            <Setter Property="FontSize"
+                    Value="Body" />
+            <Setter Property="TextColor"
+                    Value="Black" />
+            <Setter Property="BorderColor"
+                    Value="{StaticResource BlueColor}" />
+            <Setter Property="BackgroundColor"
+                    Value="White" />
+            <Setter Property="FontSize"
+                    Value="Small" />
+        </Style>
+        <!-- #endregion-->
+        <!--#region DataGrid-->
+        <Style TargetType="datagrid:DataGrid">
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource Background}" />
+            <Setter Property="HeaderBackground"
+                    Value="{StaticResource LightBackground}" />
+        </Style>
+        <!-- #endregion-->
+        
+        <!--#region Label-->
+        <Style TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="Black" />
+            
+        </Style>
+        <!--#endregion-->
+
+        <Style TargetType="BoxView"
+               x:Key="line">
+            <Setter Property="HeightRequest"
+                    Value="1" />
+            <Setter Property="BackgroundColor"
+                    Value="Black" />
+        </Style>
+        <Style TargetType="ImageButton"
+               x:Key="img-main">
+            <Setter Property="HeightRequest"
+                    Value="25" />
+            <Setter Property="WidthRequest"
+                    Value="25" />
+            <Setter Property="BackgroundColor"
+                    Value="Transparent" />
+        </Style>
     </Application.Resources>
 </Application>

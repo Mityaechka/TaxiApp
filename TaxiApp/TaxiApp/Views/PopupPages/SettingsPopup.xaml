@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage  xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                  xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  mc:Ignorable="d"
+                  x:Class="TaxiApp.Views.PopupPages.SettingsPopup">
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 Padding="20,20,20,40">
+        <Frame CornerRadius="10">
+            <StackLayout>
+                <Label Text="Настройки"
+                       FontSize="17"
+                       TextColor="Black" />
+                <BoxView HeightRequest="1"
+                         BackgroundColor="Black"
+                         HorizontalOptions="FillAndExpand" />
+                <StackLayout Orientation="Horizontal"
+                             Padding="0,20,0,0"
+                             VerticalOptions="FillAndExpand">
+                    <Label Text="Отображать заказы таблицей"
+                           FontSize="15"
+                           TextColor="Black"
+                           VerticalTextAlignment="Center" />
+                    <Switch VerticalOptions="Center"
+                            x:Name="Switch"
+                            IsToggled="{Binding TableViewMode}"
+                             />
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</pages:PopupPage>

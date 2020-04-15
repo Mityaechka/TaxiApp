@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,8 +34,17 @@ namespace TaxiApp.ViewModels
                 RaisePropertyChanged();
             }
         }
-
-        public async Task<bool> Auth()
+        bool isLoading { get; set; }
+        public bool IsLoading
+        {
+            get { return isLoading; }
+            set
+            {
+                isLoading = value ;
+                RaisePropertyChanged();
+            }
+        }
+        public async Task<HttpResponseMessage> Auth()
         {
             return await userService.Login(model);
         }

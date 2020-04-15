@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using TaxiApp.Models;
@@ -17,24 +18,31 @@ namespace TaxiApp.Services.Mock
             new UserModel(){Id=4,Name="Федор"}
         };
         public const string password = "123456";
-        public override async Task<bool> Login(LoginModel model)
-        {
-            var user = users.FirstOrDefault(x => x.Name == model.Login && model.Password == password);
-            if (user == null)
-                return false;
-            else
-            {
-                AuthUser = user;
-                return true;
-            }
-        }
 
-        public override  Task Logout()
+        public override Task<string> GetMoney()
         {
             throw new NotImplementedException();
         }
 
-        public override  Task Registration(RegistrationModel model)
+        public override async Task<HttpResponseMessage> Login(LoginModel model)
+        {
+            var user = users.FirstOrDefault(x => x.Name == model.Login && model.Password == password);
+            await Task.Delay(1);
+            if (user == null)
+                return new HttpResponseMessage() { StatusCode = System.Net.HttpStatusCode.OK };
+            else
+            {
+                AuthUser = user;
+                return new HttpResponseMessage() { StatusCode = System.Net.HttpStatusCode.BadRequest };
+            }
+        }
+
+        public override Task<HttpResponseMessage> Logout()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Task Registration(RegistrationModel model)
         {
             throw new NotImplementedException();
         }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using TaxiApp.Models;
@@ -36,12 +37,20 @@ namespace TaxiApp.Services.Mock
         }
         public override async Task<OrderModel> GetOrder(int id)
         {
+            await Task.Delay(1);
             return orders.SelectMany(x => x.Value).FirstOrDefault(x => x.Id == id);
         }
 
         public override async Task<List<OrderModel>> GetOrders(OrderType orderType)
         {
+            await Task.Delay(1);
+
             return orders[orderType];
+        }
+
+        public override Task<HttpResponseMessage> GetOrdersResponse(OrderType order,int page)
+        {
+            throw new NotImplementedException();
         }
     }
 }
