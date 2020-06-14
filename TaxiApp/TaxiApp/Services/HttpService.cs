@@ -1,135 +1,196 @@
 ﻿using HtmlAgilityPack;
+using Plugin.Settings;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Text;
 using System.Threading.Tasks;
 using TaxiApp.Models;
 using Xamarin.Essentials;
-
+using AnySerializer;
+using AnySerializer.Extensions;
 namespace TaxiApp.Services
 {
     public class HttpService
     {
-        readonly string baseUrl = "http://testing.taxivek.ru/";
-        const string csrf_cook = "145df92375049aa8dd40bb89135e7609d63538b80083f8895f2919aff43ee70ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LsvWF9VsAmmLdPrX3eS2kFRj_LXxdCQM%22%3B%7D";
-        const string csrf_post = "WmRlV0RHUWYWFxMAAn4HFRsJCBsgFyM.aQE2ZS8BAwwFKD0vIAQAKw==";
-        static HttpClient client;
+        private readonly string baseUrl = "http://taxivek.ru/";
+        private  string csrf_cook = "145df92375049aa8dd40bb89135e7609d63538b80083f8895f2919aff43ee70ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LsvWF9VsAmmLdPrX3eS2kFRj_LXxdCQM%22%3B%7D";
+        private static  string csrf_post = "";
+        private static string csrf_token = "";
+
+        private static HttpClient client;
+        static CookieContainer cookieContainer;
+        public HttpClient Client => client;
+
+        public void LoadHTTPClient()
+        {
+            cookieContainer = new CookieContainer();
+            Uri uri = new Uri(baseUrl);
+            var s = CrossSettings.Current.GetValueOrDefault("session", null);
+            if (s != null)
+            {
+                byte[] bytes = System.Convert.FromBase64String(s);
+                try
+                {
+                    BinaryFormatter bf = new BinaryFormatter();
+                    var stream = new MemoryStream(bytes);
+                    cookieContainer = bf.Deserialize(stream) as CookieContainer;
+                    //cookieContainer = Serializer.Deserialize<CookieContainer>(bytes, SerializerOptions.Compact);
+                }
+                catch (Exception e)
+                {
+                    var m = e.Message;
+                }
+            }
+            else
+            {
+                cookieContainer.Add(uri, new Cookie("_csrf", csrf_cook));
+            }
+            HttpClientHandler handler = new HttpClientHandler
+            {
+                CookieContainer = cookieContainer,
+                UseCookies = true
+            };
+            client = new HttpClient(handler) { BaseAddress = uri };
+        }
+
+        public void SaveHeaders()
+        {
+            // SAVE client Cookies
+
+            var stream = new MemoryStream();
+            BinaryFormatter formatter = new BinaryFormatter();
+            formatter.Serialize(stream, cookieContainer);
+            var bytes = stream.ToArray();
+            var s = System.Convert.ToBase64String(bytes);
+
+            CrossSettings.Current.AddOrUpdateValue("session", s);
+        }
+        public void RemoveHeaders()
+        {
+            CrossSettings.Current.Remove("session");
+        }
+        public Task<HttpResponseMessage> GetRequest(string path)
+        {
+            if (!CheckInternetConnection())
+            {
+                throw new TaskCanceledException("No internet connection");
+            }
+            return client.GetAsync(path, App.Token);
+        }
         public HttpService()
         {
-            
         }
-        static bool flag = true;
+
+        private static bool flag = true;
 
         public async Task<HttpResponseMessage> Login(LoginModel loginModel)
         {
-            if (flag)
+            //RemoveHeaders();
+            bool isHeadersSaved = CrossSettings.Current.GetValueOrDefault("session", null) != null;
+            if (!CheckInternetConnection())
             {
-                var cookieContainer = new CookieContainer();
-                var handler = new HttpClientHandler
-                {
-                    CookieContainer = cookieContainer,
-                    UseCookies = true
-                };
-                var uri = new Uri(baseUrl);
-                client = new HttpClient(handler) { BaseAddress = uri };
-                cookieContainer.Add(uri, new Cookie("_csrf", csrf_cook));
-                flag = false;
+                throw new TaskCanceledException("No internet connection");
             }
-            var content = new FormUrlEncodedContent(new[]
+            LoadHTTPClient();
+            csrf_post = CrossSettings.Current.GetValueOrDefault("csrf_post", "");
+            //if (!isHeadersSaved)
+            //{
+                var tokenRequest =await  client.GetStringAsync("site/login");
+                HtmlAgilityPack.HtmlDocument document = new HtmlDocument();
+                document.LoadHtml(tokenRequest);
+                var csrf = document.DocumentNode.SelectSingleNode("//meta[@name='csrf-token']");
+                csrf_post = csrf.Attributes["content"].Value;
+                CrossSettings.Current.AddOrUpdateValue("csrf_post", csrf_post);
+            //}
+
+
+            FormUrlEncodedContent content = new FormUrlEncodedContent(new[]
             {
                     new KeyValuePair<string, string>("_csrf", csrf_post),
                     new KeyValuePair<string, string>("LoginForm[username]", loginModel.Login),
                     new KeyValuePair<string, string>("LoginForm[password]", loginModel.Password),
                     new KeyValuePair<string, string>("LoginForm[rememberMe]", loginModel.RememberMe?"1":"0")
                    });
-            
-            var result = await client.PostAsync("site/login", content);
+
+            HttpResponseMessage result = /*!isHeadersSaved ?*/
+                await client.PostAsync("site/login?format=json", content, App.Token)/* : await client.PostAsync("orders", content, App.Token)*/;
+
             return result;
+        }
+
+        internal async Task SendApps(List<string> apps)
+        {
+            if (!CheckInternetConnection())
+            {
+                throw new TaskCanceledException("No internet connection");
+            }
+            FormUrlEncodedContent content = new FormUrlEncodedContent(new[]
+            {
+                new KeyValuePair<string, string>("_csrf", csrf_post),
+                    new KeyValuePair<string, string>("list",Newtonsoft.Json.JsonConvert.SerializeObject( apps))
+            });
+            HttpResponseMessage response = await client.PostAsync("site/setprofileapplist?format=json", content, App.Token);
+            string s = await response.Content.ReadAsStringAsync();
+
         }
         public async Task<HttpResponseMessage> Execdaypayment()
         {
-            var content = new FormUrlEncodedContent(new[]
+            if (!CheckInternetConnection())
+            {
+                throw new TaskCanceledException("No internet connection");
+            }
+            FormUrlEncodedContent content = new FormUrlEncodedContent(new[]
             {
                     new KeyValuePair<string, string>("_csrf", csrf_post)
                 });
-            var result = await client.PostAsync("orders/execdaypayment", content);
-            return result;
-        }
-        public async Task<HttpResponseMessage> GetRelevantOrders()
-        {
-            var uri = new Uri(baseUrl);
-
-            var content = new FormUrlEncodedContent(new[]
-            {
-                    new KeyValuePair<string, string>("_csrf", csrf_post)
-                });
-            var result = await client.PostAsync("orders/countnew", content);
+            HttpResponseMessage result = await client.PostAsync("orders/execdaypayment", content, App.Token);
             return result;
         }
         public async Task<HttpResponseMessage> Logout()
         {
-            var csrfResponse = await client.PostAsync("site/logout", null);
-            var doc = new HtmlDocument();
+            if (!CheckInternetConnection())
+            {
+                throw new TaskCanceledException("No internet connection");
+            }
+            HttpResponseMessage csrfResponse = await client.PostAsync("site/logout", null, App.Token);
+            HtmlDocument doc = new HtmlDocument();
             doc.LoadHtml(await csrfResponse.Content.ReadAsStringAsync());
-            var token =doc.DocumentNode.SelectSingleNode("//meta[@name='csrf-token']").Attributes["content"].Value;
-            var uri = new Uri(baseUrl);
-
-            var content = new FormUrlEncodedContent(new[]
+            string token = doc.DocumentNode.SelectSingleNode("//meta[@name='csrf-token']").Attributes["content"].Value;
+            FormUrlEncodedContent content = new FormUrlEncodedContent(new[]
             {
                     new KeyValuePair<string, string>("_csrf", token)
                 });
-            var result = await client.PostAsync("site/logout",content);
-            var s = await result.Content.ReadAsStringAsync();
-            //var cookieContainer = new CookieContainer();
-            //var handler = new HttpClientHandler
-            //{
-            //    CookieContainer = cookieContainer,
-            //    UseCookies = true
-            //};
-            //client = new HttpClient(handler) { BaseAddress = uri };
-            //cookieContainer.Add(uri, new Cookie("_csrf", csrf_cook));
+            HttpResponseMessage result = await client.PostAsync("site/logout", content, App.Token);
+            CrossSettings.Current.AddOrUpdateValue("sendApps", true);
+            RemoveHeaders();
+            return result;
+        }
 
-            return result;
-        }
-        public async Task<HttpResponseMessage> TakeOrder(string id)
-        {
-            var result = await client.GetAsync("orders/take?id="+id);
-            return result;
-        }
-        public async Task<HttpResponseMessage> UntakeOrder(string id)
-        {
-            var result = await client.GetAsync("orders/untake?id=" + id);
-            return result;
-        }
-        public async Task<HttpResponseMessage> CallPassenger(string id)
-        {
-            var result = await client.GetAsync("orders/call_passenger?id=" + id);
-            return result;
-        }
-        public async Task<HttpResponseMessage> GetPayments(int page)
-        {
-            var result = await client.GetAsync("payments?format=json");
-            return result;
-        }
-        public async Task<HttpResponseMessage> GetFailedOrders(int page = 1)
-        {
-            var result = await client.GetAsync("orders/failed?format=json&page="+page);
-            return result;
-        }
-        public async Task<HttpResponseMessage> GetCompletedOrders(int page = 1)
-        {
-            var result = await client.GetAsync("orders/archive?format=json&page="+page);
-            return result;
-        }
         public async Task<HttpResponseMessage> ProfileResponse()
         {
-            var result = await client.GetAsync("site/profile?format=json");
+            if (!CheckInternetConnection())
+            {
+                throw new TaskCanceledException("No internet connection");
+            }
+            HttpResponseMessage result = await client.GetAsync("site/profile?format=json");
             return result;
+        }
+
+        private bool CheckInternetConnection()
+        {
+            NetworkAccess current = Connectivity.NetworkAccess;
+            if (current == NetworkAccess.None)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 }

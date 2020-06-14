@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Text;
-using TaxiApp.Models;
+﻿using TaxiApp.Models;
 
 namespace TaxiApp.ViewModels
 {
@@ -12,30 +7,42 @@ namespace TaxiApp.ViewModels
         private RegistrationModel model { get; set; }
         public string Login
         {
-            get { return model.Login; }
+            get => model.Login;
             set
             {
-                if (value == model.Login) return;
+                if (value == model.Login)
+                {
+                    return;
+                }
+
                 model.Login = value;
                 RaisePropertyChanged();
             }
         }
         public string Password
         {
-            get { return model.Password; }
+            get => model.Password;
             set
             {
-                if (value == model.Password) return;
+                if (value == model.Password)
+                {
+                    return;
+                }
+
                 model.Password = value;
                 RaisePropertyChanged();
             }
         }
         public string ConfirmPassword
         {
-            get { return model.ConfirmPassword; }
+            get => model.ConfirmPassword;
             set
             {
-                if (value == model.ConfirmPassword) return;
+                if (value == model.ConfirmPassword)
+                {
+                    return;
+                }
+
                 model.ConfirmPassword = value;
                 RaisePropertyChanged();
             }

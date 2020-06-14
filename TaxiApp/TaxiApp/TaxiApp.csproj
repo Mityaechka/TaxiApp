@@ -11,14 +11,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="mysound.wav" />
+    <None Remove="Sounds\alert.wav" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="mysound.wav" />
+    <EmbeddedResource Include="alert.wav" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AnySerializer" Version="1.1.43" />
     <PackageReference Include="DevExpress.Mobile.Grid" Version="18.2.3" />
     <PackageReference Include="HtmlAgilityPack" Version="1.11.23" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
@@ -31,6 +32,7 @@
     <PackageReference Include="Xamarin.Forms.DataGrid" Version="3.1.0" />
     <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.5.0.396" />
     <PackageReference Include="XF.Material" Version="1.6.1" />
+    <PackageReference Include="XLabs.Forms" Version="2.3.0-pre05" />
   </ItemGroup>
 
   <ItemGroup>
@@ -76,6 +78,9 @@
     <EmbeddedResource Update="Views\Pages\RelevantOrdersPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\PopupPages\DateFilterPopup.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\PopupPages\LoadingPopup.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -88,5 +93,9 @@
     <EmbeddedResource Update="Views\ViewCells\OrderViewCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Sounds\" />
   </ItemGroup>
 </Project>

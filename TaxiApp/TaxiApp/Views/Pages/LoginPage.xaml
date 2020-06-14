@@ -25,10 +25,15 @@
                    FontSize="Title" />
             <Label Text="Введите имя пользователя и пароль для входа"
                    FontSize="Subtitle" />
-            <Entry Placeholder="Имя пользователя"
+            <Label FontAttributes="Bold" Text="Имя пользователя"></Label>
+            <Entry Placeholder=""
+                   Visual="Default"
                    Text="{Binding Model.Login,Mode=TwoWay}" />
-            <Entry Placeholder="Пароль"
+            <Label FontAttributes="Bold"
+                   Text="Пароль"></Label>
+            <Entry Placeholder=""
                    IsPassword="True"
+                   Visual="Default"
                    Text="{Binding Model.Password,Mode=TwoWay}" />
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="End">

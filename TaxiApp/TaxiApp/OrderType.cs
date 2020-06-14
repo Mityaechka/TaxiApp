@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TaxiApp
+﻿namespace TaxiApp
 {
     public enum OrderType
     {
-        Relevant,  Failed,Completed
+        Relevant, Failed, Completed
     }
 }

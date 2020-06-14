@@ -1,52 +1,54 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
 using TaxiApp.Models;
-using TaxiApp.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.DataGrid;
 
 namespace TaxiApp.ViewModels
 {
-    public class OrderListViewModel:BaseViewModel
+    public class OrderListViewModel : BaseViewModel
     {
-        ObservableCollection<OrderModel> models { get; set; } = new ObservableCollection<OrderModel>();
+        private ObservableCollection<OrderModel> models { get; set; } = new ObservableCollection<OrderModel>();
         public PaletteCollection Palette
         {
             get
             {
-                var p = new PaletteCollection();
-                foreach(var model in models)
+                PaletteCollection p = new PaletteCollection();
+                switch (OrderType)
                 {
-                    if (model.CanAccept)
+                    case OrderType.Relevant:
                         p.Add(Color.FromHex("00FF00"));
-                    else
-                        p.Add(Color.FromHex("fff6aa"));
+                        break;
+                    case OrderType.Failed:
+                        p.Add(Color.FromHex("FF7070"));
 
+                        break;
+                    case OrderType.Completed:
+                        p.Add(Color.FromRgb(255,246,170));
+
+                        break;
+                    default:
+                        break;
                 }
                 return p;
             }
         }
-        public bool IsEmpty
+        public bool IsEmpty => models.Count == 0;
+        public OrderListViewModel(OrderType orderType)
         {
-            get
-            {
-                return models.Count == 0;
-            }
-        }
-        public OrderListViewModel()
-        {
+            OrderType = orderType;
         }
         public ObservableCollection<OrderModel> Models
         {
-            get { return models; }
+            get => models;
             set
-            
+
             {
-                if (value == models)
-                    return;
+                //if (value == models)
+                //{
+                //    return;
+                //}
+
                 models = value;
                 RaisePropertyChanged();
                 RaisePropertyChanged("IsEmpty");
@@ -58,5 +60,7 @@ namespace TaxiApp.ViewModels
         public bool HasPhone => models.Any(x => x.Phone != "");
         public GridLength PhoneLineLength => HasPhone ? new GridLength(1) : new GridLength(0);
         public GridLength PhoneColumnLength => HasPhone ? new GridLength(2, GridUnitType.Star) : new GridLength(0);
+
+        public OrderType OrderType { get; }
     }
 }

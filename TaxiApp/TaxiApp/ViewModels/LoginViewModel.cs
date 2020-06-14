@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Net.Http;
-using System.Runtime.CompilerServices;
-using System.Text;
+﻿using System.Net.Http;
 using System.Threading.Tasks;
 using TaxiApp.Models;
 using TaxiApp.Services;
@@ -13,34 +8,44 @@ namespace TaxiApp.ViewModels
     public class LoginViewModel : BaseViewModel
     {
         private LoginModel model { get; set; }
-        IUserService userService;
+
+        private readonly IUserService userService;
         public string Login
         {
-            get { return model.Login; }
+            get => model.Login;
             set
             {
-                if (value == model.Login) return;
+                if (value == model.Login)
+                {
+                    return;
+                }
+
                 model.Login = value;
                 RaisePropertyChanged();
             }
         }
         public string Password
         {
-            get { return model.Password; }
+            get => model.Password;
             set
             {
-                if (value == model.Password) return;
+                if (value == model.Password)
+                {
+                    return;
+                }
+
                 model.Password = value;
                 RaisePropertyChanged();
             }
         }
-        bool isLoading { get; set; }
+
+        private bool isLoading { get; set; }
         public bool IsLoading
         {
-            get { return isLoading; }
+            get => isLoading;
             set
             {
-                isLoading = value ;
+                isLoading = value;
                 RaisePropertyChanged();
             }
         }
@@ -51,10 +56,14 @@ namespace TaxiApp.ViewModels
 
         public bool RememberMe
         {
-            get { return model.RememberMe; }
+            get => model.RememberMe;
             set
             {
-                if (value == model.RememberMe) return;
+                if (value == model.RememberMe)
+                {
+                    return;
+                }
+
                 model.RememberMe = value;
                 RaisePropertyChanged();
             }

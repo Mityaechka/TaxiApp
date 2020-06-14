@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using TaxiApp.Models;
+﻿using TaxiApp.Models;
 using TaxiApp.Services;
 
 namespace TaxiApp.ViewModels
@@ -18,20 +12,28 @@ namespace TaxiApp.ViewModels
         }
         public int Id
         {
-            get { return model.Id; }
+            get => model.Id;
             set
             {
-                if (value == model.Id) return;
+                if (value == model.Id)
+                {
+                    return;
+                }
+
                 model.Id = value;
                 RaisePropertyChanged();
             }
         }
         public string Name
         {
-            get { return model.Name; }
+            get => model.Name;
             set
             {
-                if (value == model.Name) return;
+                if (value == model.Name)
+                {
+                    return;
+                }
+
                 model.Name = value;
                 RaisePropertyChanged();
             }

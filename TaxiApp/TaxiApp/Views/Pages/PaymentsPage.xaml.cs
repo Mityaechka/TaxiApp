@@ -1,11 +1,6 @@
-﻿using Newtonsoft.Json.Linq;
-using Rg.Plugins.Popup.Extensions;
+﻿using Rg.Plugins.Popup.Extensions;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TaxiApp.Models;
 using TaxiApp.Services;
 using TaxiApp.ViewModels;
@@ -19,6 +14,7 @@ namespace TaxiApp.Views.Pages
     public partial class PaymentsPage : ContentPage
     {
         public PaymentListViewModel Model { get; set; } = new PaymentListViewModel();
+        public double PageCount { get; set; }
         public PaymentsPage()
         {
             InitializeComponent();
@@ -27,33 +23,66 @@ namespace TaxiApp.Views.Pages
         }
         public async void Init()
         {
-            var list = new List<PaymentModel>();
-            await Navigation.PushPopupAsync(new LoadingPopup());
-            var response = await App.IoCContainer.GetInstance<IPaymentsService>().GetPaymentsResponse();
-            var content = await response.Content.ReadAsStringAsync();
-            var jObject = JObject.Parse(content);
-            foreach(var item in jObject["data"])
+            try
             {
-                list.Add(new PaymentModel()
+                List<PaymentModel> list = new List<PaymentModel>();
+                await Navigation.PushPopupAsync(new LoadingPopup());
+                ResponseModel<(List<PaymentModel>, double)> response = await App.IoCContainer.GetInstance<IPaymentsService>().GetPaymentsResponse(1);
+                if (response.Status == Status.Ok)
                 {
-                    Id = Convert.ToInt32(item["serial_number"]),
-                    Date = Convert.ToDateTime(item["created_at"]),
-                    Cost = Convert.ToDecimal(item["price"]),
-                    TransactionType = Convert.ToString(item["type"]),
-                    Description = Convert.ToString(item["description"]),
-                    Driver = Convert.ToString(item["username"])
-                });
+                    int i = 1;
+                    foreach (var item in response.Data.Item1)
+                    {
+                        item.Index = i;
+                        i++;
+                    }
+                    Model.Payments = response.Data.Item1;
+                    PageCount = response.Data.Item2;
+                    LoadPages();
+                }
             }
-            Model.Payments = list;
-            await Navigation.PopPopupAsync();
+            catch (Exception exception)
+            {
+                await DisplayAlert("Произошла ошибка", "Пвторите попытку позже", "Ok");
+                Console.WriteLine(exception.Message);
+            }
+            finally
+            {
+                await Navigation.PopPopupAsync();
+            }
         }
 
         private async void DataGrid_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var payment = DataGrid.SelectedItem as PaymentModel;
-            if(payment!=null)
-            await Navigation.PushPopupAsync(new PaymentPopup(payment));
+            PaymentModel payment = DataGrid.SelectedItem as PaymentModel;
+            if (payment != null)
+            {
+                await Navigation.PushPopupAsync(new PaymentPopup(payment));
+            }
+
             DataGrid.SelectedItem = null;
+        }
+        public async void LoadPages()
+        {
+
+            IPaymentsService service = App.IoCContainer.GetInstance<IPaymentsService>();
+            for (int i = 2; i <= PageCount; i++)
+            {
+                ResponseModel<(List<PaymentModel>, double)> data = await service.GetPaymentsResponse(i);
+                if (data.Status == Status.Ok)
+                {
+                    (List<PaymentModel>, double) list = data.Data;
+                    foreach (PaymentModel item in list.Item1)
+                    {
+                        Model.Models.Add(item);
+                    }
+                }
+                for (int j = 0; j < Model.Models.Count; j++)
+                {
+                    Model.Models[j].Index = j + 1;
+                }
+            }
+
         }
     }
 }

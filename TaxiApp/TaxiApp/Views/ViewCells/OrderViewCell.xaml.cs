@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TaxiApp.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -22,9 +17,9 @@ namespace TaxiApp.Views.ViewCells
             InitializeComponent();
         }
 
-        private  void TakeClick(object sender, EventArgs e)
+        private void TakeClick(object sender, EventArgs e)
         {
-             TakeOrderEvent?.Invoke(sender, e);
+            TakeOrderEvent?.Invoke(sender, e);
         }
         private void UntakeClick(object sender, EventArgs e)
         {

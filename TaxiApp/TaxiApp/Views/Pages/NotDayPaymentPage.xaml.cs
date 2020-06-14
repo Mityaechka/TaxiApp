@@ -1,9 +1,5 @@
 ﻿using Rg.Plugins.Popup.Extensions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TaxiApp.Services;
 using TaxiApp.Views.PopupPages;
 using Xamarin.Forms;
@@ -20,13 +16,23 @@ namespace TaxiApp.Views.Pages
         }
         public async void Eexecdaypayment(object sender, EventArgs e)
         {
-            var http = App.IoCContainer.GetInstance<HttpService>();
+            HttpService http = App.IoCContainer.GetInstance<HttpService>();
             await Navigation.PushPopupAsync(new LoadingPopup());
-            var response =await  http.Execdaypayment();
-            var path = response.RequestMessage.RequestUri.LocalPath;
-            if (path == "/orders/index")
-                MainPage.Instance.SetDetail(Enums.AccountState.Ok);
-            await Navigation.PopPopupAsync();
+            try
+            {
+                System.Net.Http.HttpResponseMessage response = await http.Execdaypayment();
+                string path = response.RequestMessage.RequestUri.LocalPath;
+                await MainPage.Instance.SetDetail();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                await DisplayAlert("Произошла ошибка", "Повторите попытку позже", "Ok");
+            }
+            finally
+            {
+                await Navigation.PopPopupAsync();
+            }
         }
     }
 }

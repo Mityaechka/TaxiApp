@@ -15,10 +15,6 @@
                    CornerRadius="25">
                 <StackLayout>
                     <StackLayout>
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="{Binding Path=CreatedDate,StringFormat='{0:yyyy.MM.dd HH:mm}'}"></Label>
-                        </StackLayout>
-                        <BoxView Style="{StaticResource line}" />
                         <Label
                                 Text="{Binding Path=From,StringFormat='Откуда: {0}'}"
                                TextColor="Black"
@@ -29,10 +25,20 @@
                                FontSize="Body" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
-                        <Label
-                                Text="{Binding Path=Cost,StringFormat='{0:0.00} ₽'}"
+                        <Label HorizontalOptions="StartAndExpand"
+                                Text="{Binding Path=Cost,StringFormat='{0:0} ₽'}"
                                FontSize="25"
                                TextColor="Green" />
+                        <StackLayout HorizontalOptions="CenterAndExpand" />
+                        <ImageButton Source="{Binding CallImageBig}"
+                                     WidthRequest="40"
+                                     HeightRequest="40"
+                                     VerticalOptions="Center"
+                                     HorizontalOptions="EndAndExpand"
+                                     Clicked="CallClick"
+                                     BackgroundColor="Transparent"
+                                     local:IdHelper.Tag="{Binding Id}"
+                                     IsVisible="{Binding Path=CanAccept,Converter={converters:InverseBoolConverter}}" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal"
                                  IsVisible="{Binding HasPhone}">
@@ -50,23 +56,24 @@
                                 Clicked="TakeClick"
                                 local:IdHelper.Tag="{Binding Id}" />
                     </StackLayout>
-                    <StackLayout Orientation="Vertical"
-                                 HorizontalOptions="Fill"
-                                 VerticalOptions="FillAndExpand"
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="Center"
                                  IsVisible="{Binding Path=CanAccept,Converter={converters:InverseBoolConverter}}">
-                        <Button Text="Вызвать пассажира"
-                                VerticalOptions="Start"
-                                BackgroundColor="{StaticResource BlueColor}"
-                                TextColor="White"
-                                FontSize="18"
-                                Clicked="CallClick"
-                                local:IdHelper.Tag="{Binding Id}" />
                         <Button Text="Отменить заказ"
                                 BackgroundColor="Red"
                                 TextColor="White"
                                 FontSize="18"
+                                HorizontalOptions="FillAndExpand"
                                 Clicked="UntakeClick"
                                 local:IdHelper.Tag="{Binding Id}" />
+                        
+                        <!--<Button Text="Отменить заказ" HorizontalOptions="FillAndExpand"
+                                BackgroundColor="Red"
+                                TextColor="White"
+                                FontSize="18"
+                                Clicked="UntakeClick"
+                                local:IdHelper.Tag="{Binding Id}" />-->
                     </StackLayout>
                 </StackLayout>
             </Frame>

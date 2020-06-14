@@ -123,6 +123,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="AnySerializer">
+      <Version>1.1.43</Version>
+    </PackageReference>
     <PackageReference Include="DevExpress.Mobile.Grid">
       <Version>18.2.3</Version>
     </PackageReference>
@@ -154,6 +157,9 @@
     </PackageReference>
     <PackageReference Include="XF.Material">
       <Version>1.6.1</Version>
+    </PackageReference>
+    <PackageReference Include="XLabs.Forms">
+      <Version>2.3.0-pre05</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

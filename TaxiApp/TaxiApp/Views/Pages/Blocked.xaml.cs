@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Plugin.Settings;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -15,6 +11,7 @@ namespace TaxiApp.Views.Pages
         public Blocked()
         {
             InitializeComponent();
+            //CrossSettings.Current.AddOrUpdateValue("loginOnStart", false);
         }
     }
 }

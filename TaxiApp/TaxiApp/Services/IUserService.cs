@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Text;
+﻿using System.Net.Http;
 using System.Threading.Tasks;
 using TaxiApp.Models;
 
@@ -9,7 +6,7 @@ namespace TaxiApp.Services
 {
     public abstract class IUserService
     {
-        public static  UserModel AuthUser { get; set; }
+        public static UserModel AuthUser { get; set; }
         public abstract Task Registration(RegistrationModel model);
         public abstract Task<HttpResponseMessage> Login(LoginModel model);
         public abstract Task<HttpResponseMessage> Logout();

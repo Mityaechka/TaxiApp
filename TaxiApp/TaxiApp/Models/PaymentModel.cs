@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace TaxiApp.Models
 {
@@ -8,14 +6,15 @@ namespace TaxiApp.Models
     {
 
         public int Id { get; set; }
+        public int Index { get; set; }
         public DateTime Date { get; set; }
         public decimal Cost { get; set; }
         private string spent;
 
         public string Spent
         {
-            get { return String.IsNullOrEmpty(spent)? "не задано":spent; }
-            set { spent = value; }
+            get => string.IsNullOrEmpty(spent) ? "не задано" : spent;
+            set => spent = value;
         }
 
         public string TransactionType { get; set; }

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -9,15 +9,164 @@
              mc:Ignorable="d"
              x:Class="TaxiApp.Views.Pages.OrdersPage"
              Title="Заказы"
+             xmlns:local="clr-namespace:TaxiApp.Models"
              Visual="Material">
     <ContentPage.Content>
-        <StackLayout >
+        <StackLayout>
             <StackLayout VerticalOptions="Center"
                          HorizontalOptions="Center"
-                         IsVisible="{Binding Path=Model.IsEmpty}">
-                <Label Text="Ничего не найдено" TextColor="Black" FontSize="Large" />
+                    x:Name="EmptyLayout"
+                         IsVisible="False">
+                <Label Text="Ничего не найдено"
+                       TextColor="Black"
+                       FontSize="Large" />
             </StackLayout>
-            <datagrid:DataGrid ItemsSource="{Binding Path=Model.Models}"
+            <StackLayout Spacing="0"
+IsVisible="False"
+                         x:Name="DataGrid">
+                <Grid Padding="0"
+                      Margin="0"
+                      BackgroundColor="{StaticResource LightBackground}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.25*"></ColumnDefinition>
+                        <ColumnDefinition Width="1"></ColumnDefinition>
+                        <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="1"></ColumnDefinition>
+                        <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="1"></ColumnDefinition>
+                        <ColumnDefinition Width="0.75*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35" />
+                        <RowDefinition Height="1" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Column="0"
+                           Grid.Row="0"
+                           Text="№"
+                           TextColor="{StaticResource BlueColor}"
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="Center"
+                           FontAttributes="Bold" />
+                    <BoxView VerticalOptions="Fill"
+                             HorizontalOptions="Center"
+                             WidthRequest="1"
+                             Color="Black"
+                             Grid.Column="1"
+                             Grid.RowSpan="2" />
+                    <Label Grid.Column="2"
+                           Grid.Row="0"
+                           Text="Откуда"
+                           TextColor="{StaticResource BlueColor}"
+                           VerticalOptions="CenterAndExpand"
+                           FontAttributes="Bold" />
+                    <BoxView WidthRequest="1"
+                             Color="Black"
+                             Grid.Column="3"
+                             Grid.Row="0"
+                             Grid.RowSpan="2" />
+                    <Label Grid.Column="4"
+                           Grid.Row="0"
+                           Text="Куда"
+                           TextColor="{StaticResource BlueColor}"
+                           VerticalOptions="CenterAndExpand"
+                           FontAttributes="Bold" />
+                    <BoxView
+                            IsVisible="{Binding Model.HasPhone}"
+                             WidthRequest="1"
+                             Color="Black"
+                             Grid.Column="5"
+                             Grid.Row="0"
+                             Grid.RowSpan="2" />
+                    <Label Grid.Column="6"
+                           Text="Цена"
+                           Grid.Row="0"
+                           TextColor="{StaticResource BlueColor}"
+                           VerticalOptions="CenterAndExpand"
+                           FontAttributes="Bold" />
+                    <BoxView HeightRequest="1"
+                             Grid.Column="0"
+                             Grid.Row="1"
+                             Grid.ColumnSpan="7
+"
+                             BackgroundColor="Black" />
+                </Grid>
+                <ListView x:Name="DataGridBody"
+                          HasUnevenRows="True"
+                          SeparatorColor="Black"
+                          CachingStrategy="RecycleElement"
+                          Margin="0"
+                          SeparatorVisibility="Default"
+                          ItemsSource="{Binding Path=Model.Models}"
+                          IsRefreshing="{Binding IsRefreshing}"
+                          IsVisible="{Binding Path=Model.IsEmpty,Converter={converters:InverseBoolConverter}}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <Grid x:Name="DataGridColumns"
+                                          Padding="0"
+                                          BackgroundColor="{Binding Path= Color}">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.25*"></ColumnDefinition>
+                                            <ColumnDefinition Width="1"></ColumnDefinition>
+                                            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                                            <ColumnDefinition Width="1"></ColumnDefinition>
+                                            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                                            <ColumnDefinition Width="1"></ColumnDefinition>
+                                            <ColumnDefinition Width="0.75*"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        
+                                        <StackLayout Orientation="Horizontal"
+                                                     HorizontalOptions="CenterAndExpand"
+                                                    VerticalOptions="Start"
+                                                     Grid.Column="0">
+                                            <Label Text="{Binding Path= Index}"
+                                                   HorizontalOptions="Start" />
+                                        </StackLayout>
+                                        <BoxView
+                                                VerticalOptions="FillAndExpand"
+                                                 HorizontalOptions="Center"
+                                                 WidthRequest="1"
+                                                 Color="Black"
+                                                 Grid.Column="1" />
+                                        <StackLayout Orientation="Horizontal"
+                                                     HorizontalOptions="Start"
+                                                     VerticalOptions="FillAndExpand"
+                                                     Grid.Column="2">
+                                            <Label Text="{Binding Path= From}"/>
+                                        </StackLayout>
+                                        <BoxView
+                                                VerticalOptions="FillAndExpand"
+                                                 HorizontalOptions="Center"
+                                                 WidthRequest="1"
+                                                 Color="Black"
+                                                 Grid.Column="3" />
+                                        <StackLayout Orientation="Horizontal"
+                                                     HorizontalOptions="Start"
+                                                     VerticalOptions="FillAndExpand"
+                                                     Grid.Column="4">
+                                            <Label Text="{Binding Path= To}"/>
+                                        </StackLayout>
+                                        <BoxView
+                                                VerticalOptions="FillAndExpand"
+                                                 HorizontalOptions="Center"
+                                                 WidthRequest="1"
+                                                 Color="Black"
+                                                 Grid.Column="5" />
+                                        <StackLayout Orientation="Horizontal"
+                                                     HorizontalOptions="Start"
+                                                     VerticalOptions="FillAndExpand"
+                                                     Grid.Column="6">
+                                            <Label Text="{Binding Path= Cost,StringFormat='{}{0:0}'}" />
+                                        </StackLayout>
+                                    </Grid>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <!--<datagrid:DataGrid ItemsSource="{Binding Path=Model.Models}"
                                IsRefreshing="{Binding IsRefreshing}"
                                IsVisible="{Binding Path=Model.IsEmpty,Converter={converters:InverseBoolConverter}}"
                                BorderColor="{StaticResource GridBorder}"
@@ -25,6 +174,8 @@
                                ItemSelected="DataGrid_ItemSelected"
                                x:Name="DataGrid">
                 <datagrid:DataGrid.Columns >
+                    <datagrid:DataGridColumn Title="№"
+                                             PropertyName="Index" />
                     <datagrid:DataGridColumn Title="Откуда"
                                              PropertyName="From"
                                              />
@@ -40,7 +191,7 @@
                         <Color>#fff6aa</Color>
                     </datagrid:PaletteCollection>
                 </datagrid:DataGrid.RowsBackgroundColorPalette>
-            </datagrid:DataGrid>
+            </datagrid:DataGrid>-->
         </StackLayout>
-  </ContentPage.Content>
+    </ContentPage.Content>
 </ContentPage>

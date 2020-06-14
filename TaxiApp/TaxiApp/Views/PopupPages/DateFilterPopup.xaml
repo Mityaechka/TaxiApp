@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage  xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                  xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  mc:Ignorable="d"
+                  x:Class="TaxiApp.Views.PopupPages.DateFilterPopup">
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 WidthRequest="300"
+                 Padding="20, 20, 20, 20">
+        <Frame CornerRadius="10">
+            <StackLayout Orientation="Vertical"
+                         HorizontalOptions="FillAndExpand"
+                         Margin="2">
+                <Label Text="Фильтр"
+                       FontAttributes="Bold"
+                       FontSize="20" />
+                <BoxView Style="{StaticResource line}" />
+                <Label Text="Выбор даты" />
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Text="Начало периода" VerticalOptions="Center" />
+                    <DatePicker Grid.Row="0" Grid.Column="1" MinimumDate="01/01/2010"
+                                Format="dd:MM:yyyy"
+                                HorizontalOptions="Start" />
+                    <Label Grid.Row="1" Grid.Column="0" Text="Конец периода" VerticalOptions="Center"/>
+                    <DatePicker Grid.Row="1" Grid.Column="1" MinimumDate="01/01/2010"
+                                Format="dd:MM:yyyy"
+                                HorizontalOptions="Start" />
+                </Grid>
+                <StackLayout HorizontalOptions="CenterAndExpand" />
+                <Button Text="Поиск"
+                        HorizontalOptions="End"
+                        Style="{StaticResource master-btn}"
+                        Margin="5"
+                        Padding="0,1" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</pages:PopupPage>

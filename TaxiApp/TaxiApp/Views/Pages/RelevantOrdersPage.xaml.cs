@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using Plugin.SimpleAudioPlayer;
 using Rg.Plugins.Popup.Extensions;
 using System;
@@ -8,37 +7,38 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
+using TaxiApp.DependencyServices;
+using TaxiApp.Extensions;
 using TaxiApp.Models;
 using TaxiApp.Services;
 using TaxiApp.ViewModels;
 using TaxiApp.Views.PopupPages;
 using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.DataGrid;
 using Xamarin.Forms.Xaml;
-using TaxiApp.Extensions;
+
 namespace TaxiApp.Views.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RelevantOrdersPage : ContentPage
     {
         public bool TableViewMode { get; set; }
-        public OrderListViewModel Model { get; set; } = new OrderListViewModel();
-        IOrdersService ordersService;
-        bool isFirstRequest = true;
+        public OrderListViewModel Model { get; set; } = new OrderListViewModel(OrderType.Relevant);
+
+        private readonly IOrdersService ordersService;
+        private bool isFirstRequest = true;
         public RelevantOrdersPage()
         {
             InitializeComponent();
             TableViewMode = Preferences.Get("TableViewMode", true);
             ListView.IsVisible = !TableViewMode;
-            DataGridBody.IsVisible = TableViewMode;
+            DataGrid.IsVisible = TableViewMode;
             Model.Models = new ObservableCollection<OrderModel>();
             BindingContext = this;
             ordersService = App.IoCContainer.GetInstance<IOrdersService>();
             GetOrders();
-            
+
 
         }
 
@@ -48,107 +48,195 @@ namespace TaxiApp.Views.Pages
             {
                 try
                 {
-                    var response = await ordersService.GetOrdersResponse(OrderType.Relevant, 1);
-                    var path = response.RequestMessage.RequestUri.LocalPath;
-                    var money = await App.IoCContainer.GetInstance<IUserService>().GetMoney();
-                    MoneyLabel.Text = $"Мой баланс: {money} рублей";
-                    if (path == "/orders/countnew")
-                    {
-                        var s = await response.Content.ReadAsStringAsync();
-                        var data = JObject.Parse(s);
 
-                        var list = new ObservableCollection<OrderModel>();
-                        for (int i = 0; i < data["orders_ids"].Count(); i++)
-                        {
-                            var id = (int)data["orders_ids"][i];
-                            var item = data["orders"][id.ToString()];
-                            list.Add(new OrderModel()
-                            {
-                                Id = Convert.ToInt32(item["id"]),
-                                From = Convert.ToString(item["place_from"]),
-                                To = Convert.ToString(item["place_to"]),
-                                CreatedDate = Convert.ToDateTime(item["created_at"]),
-                                Cost = Convert.ToDecimal(item["price"]),
-                                Driver = Convert.ToString(item["driver"]),
-                                Phone = Convert.ToString(item["phone"])
-                            });
-                        }
+
+                    string money = await App.IoCContainer.GetInstance<IUserService>().GetMoney();
+                    MoneyLabel.Text = $"Мой баланс: {money} рублей";
+
+                    var s = JObject.Parse(await ordersService.GetRelevantTextResponse(OrderType.Relevant));
+                    DayPaymentBtn.IsVisible = false;
+                    BlockedLayout.IsVisible = false;
+                    if (s.ContainsKey("block_notdaypayment"))
+                    {
+                        BlockedText.Text = "Выполнить суточное списание";
+                        DayPaymentBtn.IsVisible = true;
+                        BlockedLayout.IsVisible = true;
+                        DataLayout.IsVisible = false;
+
+                    }
+                    else if (s.ContainsKey("block_nomoney"))
+                    {
+                        BlockedText.Text = "Недостаточно денег на счету! Пожалуйста, пополните свой персональный счет через диспетчера.";
+                        BlockedLayout.IsVisible = true;
+                        DataLayout.IsVisible = false;
+
+                    }
+                    else if (s.ContainsKey("blocked"))
+                    {
+                        BlockedText.Text = "Заблокировано! Пожалуйста, свяжитесь с диспетчером (8-903-44-78-006) или администратором (8-964-93-39-205).";
+                        BlockedLayout.IsVisible = true;
+                        DataLayout.IsVisible = false;
+                    }
+                    else
+                    {
+                        BlockedLayout.IsVisible = false;
+                        DataLayout.IsVisible = true;
+                        ResponseModel<List<OrderModel>> response = await ordersService.GetRelenantsResponse(OrderType.Relevant);
+                        ObservableCollection<OrderModel> list = new ObservableCollection<OrderModel>(response.Data);
+
                         list = new ObservableCollection<OrderModel>(list.OrderBy(x => x.CanAccept));
-                        var hasNewOrder = list.Except<OrderModel, OrderModel, int>(Model.Models, x => x.Id, u => u.Id).Count() != 0;
+                        bool hasNewOrder = list.Except<OrderModel, OrderModel, int>(Model.Models, x => x.Id, u => u.Id).Count() != 0;
                         if (App.IsInForeground && hasNewOrder && !isFirstRequest)
                         {
                             ISimpleAudioPlayer player = CrossSimpleAudioPlayer.Current;
-                            player.Load(GetStreamFromFile("mysound.wav"));
+                            player.Load(GetStreamFromFile("alert.wav"));
                             player.Play();
                         }
                         if (isFirstRequest)
+                        {
                             isFirstRequest = false;
+                        }
+
                         Model.Models = list;
-                        BindingContext = this;
+
                         ListView.ItemsSource = DataGridBody.ItemsSource = Model.Models;
+
+                        BindingContext = this;
                     }
-                    await Task.Delay(3000);
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
 
+                }
+                finally
+                {
+                    //if (Model.Models.Count == 0)
+                    //{
+                    //    EmptyLayout.IsVisible = true;
+                    //    DataLayout.IsVisible = false;
+                    //}
+                    //else
+                    //{
+                    //    EmptyLayout.IsVisible = false;
+                    //    DataLayout.IsVisible = true;
+                    //}
+                    await Task.Delay(1000);
                 }
             }
         }
 
         private async void TakeOrderClick(object sender, EventArgs e)
         {
-            var btn = sender as Button;
-            var id = IdHelper.GetTag(btn);
-            var service = App.IoCContainer.GetInstance<HttpService>();
-            await Navigation.PushPopupAsync(new LoadingPopup());
-            var r = await service.TakeOrder(id);
-            var content = await r.Content.ReadAsStringAsync();
-            content = content.Replace("\"", "");
-            await Navigation.PopPopupAsync();
-            if (content == "ok")
-                await DisplayAlert("Заказа принят", "Вы взяли этот заказ", "Ok");
-            else
-                await DisplayAlert("Произошла ошибка", "Попробуйте позже", "Ok");
+            try
+            {
+                BindableObject btn = sender as BindableObject;
+                string id = IdHelper.GetTag(btn);
+
+                IOrdersService service = App.IoCContainer.GetInstance<IOrdersService>();
+                await Navigation.PushPopupAsync(new LoadingPopup());
+                ResponseModel<string> r = await service.TakeOrder(id);
+
+                if (r.Status == Status.Ok)
+                {
+                    string content = r.Data;
+                    content = content.Replace("\"", "");
+                    DependencyService.Get<IToast>().AlertShort(content == "ok" ? "Заказа принят" : "Произошла ошибка");
+                    //if (content == "ok")
+                    //    DependencyService.Get<IToast>().AlertShort("Заказа принят");
+                    //    await DisplayAlert("Заказа принят", "Вы взяли этот заказ", "Ok");
+                    // else
+                    //    await DisplayAlert("Произошла ошибка", "Попробуйте позже", "Ok");
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                DependencyService.Get<IToast>().AlertShort("Произошла ошибка");
+                //await DisplayAlert("Произошла ошибка", "Повторите попытку позже", "Ok");
+            }
+            finally
+            {
+                await Navigation.PopPopupAsync();
+            }
         }
         private async void UntakeOrderClick(object sender, EventArgs e)
         {
-            var btn = sender as Button;
-            var id = IdHelper.GetTag(btn);
-            var service = App.IoCContainer.GetInstance<HttpService>();
-            await Navigation.PushPopupAsync(new LoadingPopup());
-            var r = await service.UntakeOrder(id);
-            var content = await r.Content.ReadAsStringAsync();
-            content = content.Replace("\"", "");
-            await Navigation.PopPopupAsync();
-            if (content == "ok")
-                await DisplayAlert("Заказа отменен", "Вы отменили этот заказ", "Ok");
-            else
-                await DisplayAlert("Произошла ошибка", "Попробуйте позже", "Ok");
+            try
+            {
+                BindableObject btn = sender as BindableObject;
+                string id = IdHelper.GetTag(btn);
 
+                IOrdersService service = App.IoCContainer.GetInstance<IOrdersService>();
+                await Navigation.PushPopupAsync(new LoadingPopup());
+
+                ResponseModel<string> r = await service.UnakeOrder(id);
+                if (r.Status == Status.Ok)
+                {
+                    string content = r.Data;
+                    content = content.Replace("\"", "");
+                    DependencyService.Get<IToast>().AlertShort(content == "ok" ? "Заказ отменён" : "Произошла ошибка");
+                    //if (content == "ok")
+                    //    await DisplayAlert("Заказа отменен", "Вы отменили этот заказ", "Ok");
+                    //else
+                    //    await DisplayAlert("Произошла ошибка", "Попробуйте позже", "Ok");
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                DependencyService.Get<IToast>().AlertShort("Произошла ошибка");
+                //await DisplayAlert("Произошла ошибка", "Повторите попытку позже", "Ok");
+            }
+            finally
+            {
+                await Navigation.PopPopupAsync();
+            }
         }
         private async void CallPassengerClick(object sender, EventArgs e)
         {
-            var btn = sender as Button;
-            var id = IdHelper.GetTag(btn);
-            var service = App.IoCContainer.GetInstance<HttpService>();
-            await Navigation.PushPopupAsync(new LoadingPopup());
-            var r = await service.CallPassenger(id);
-            var content = await r.Content.ReadAsStringAsync();
-            content = content.Replace("\"", "");
-            await Navigation.PopPopupAsync();
-            if (content == "true")
-                await DisplayAlert("Звонок пассажирам", "Вы позвонили пассажиру", "Ok");
-            else
-                await DisplayAlert("Произошла ошибка", "Попробуйте позже", "Ok");
+            try
+            {
+                BindableObject btn = sender as BindableObject;
+                string id = IdHelper.GetTag(btn);
+                OrderModel order = Model.Models.FirstOrDefault(x => x.Id == Convert.ToInt32(id));
+                IOrdersService service = App.IoCContainer.GetInstance<IOrdersService>();
+                await Navigation.PushPopupAsync(new LoadingPopup());
+                ResponseModel<string> r = await service.CallPassanger(id);
+                if (r.Status == Status.Ok)
+                {
+                    string content = r.Data;
+                    content = content.Replace("\"", "");
+                    string message = "";
+                    if (content == "true")
+                    {
+                        // message = "Пассажир вызван" ;
+                    }
+                    else if (content == "false")
+                    {
+                        //message =  "Вызов отменён";
 
-        }
-        private async void DataGrid_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            //var order = DataGrid.SelectedItem as OrderModel;
-            //if (order != null)
-            //    await Navigation.PushPopupAsync(new OrderPopup(order,true));
-            //DataGrid.SelectedItem = null;
+                    }
+                    else
+                    {
+                        message = "Произошла ошибка";
+                    }
+                    //DependencyService.Get<IToast>().AlertShort(message);
+                    //if (content == "true")
+                    //    await DisplayAlert("Звонок пассажирам", "Вы позвонили пассажиру", "Ok");
+                    //else
+                    //    await DisplayAlert("Произошла ошибка", "Попробуйте позже", "Ok");
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                DependencyService.Get<IToast>().AlertShort("Произошла ошибка");
+                //await DisplayAlert("Произошла ошибка", "Повторите попытку позже", "Ok");
+            }
+            finally
+            {
+                await Navigation.PopPopupAsync();
+            }
         }
 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -165,19 +253,39 @@ namespace TaxiApp.Views.Pages
                     Switch @switch = o as Switch;
                     TableViewMode = @switch.IsToggled;
                     ListView.IsVisible = !TableViewMode;
-                    DataGridBody.IsVisible = TableViewMode;
+                    DataGrid.IsVisible = TableViewMode;
 
                 })
             });
         }
-        Stream GetStreamFromFile(string filename)
+
+        private Stream GetStreamFromFile(string filename)
         {
-            var assembly = typeof(App).GetTypeInfo().Assembly;
-            var stream = assembly.GetManifestResourceStream("TaxiApp." + filename);
+            Assembly assembly = typeof(App).GetTypeInfo().Assembly;
+            Stream stream = assembly.GetManifestResourceStream("TaxiApp." + filename);
             return stream;
         }
 
-
+        public async void Eexecdaypayment(object sender, EventArgs e)
+        {
+            HttpService http = App.IoCContainer.GetInstance<HttpService>();
+            await Navigation.PushPopupAsync(new LoadingPopup());
+            try
+            {
+                System.Net.Http.HttpResponseMessage response = await http.Execdaypayment();
+                string path = response.RequestMessage.RequestUri.LocalPath;
+                await MainPage.Instance.SetDetail();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                await DisplayAlert("Произошла ошибка", "Повторите попытку позже", "Ok");
+            }
+            finally
+            {
+                await Navigation.PopPopupAsync();
+            }
+        }
 
     }
 }

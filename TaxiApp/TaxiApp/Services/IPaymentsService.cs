@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using TaxiApp.Models;
 
@@ -14,7 +11,6 @@ namespace TaxiApp.Services
         {
             userService = service;
         }
-        public abstract Task<List<PaymentModel>> GetPayments();
-        public abstract Task<HttpResponseMessage> GetPaymentsResponse();
+        public abstract Task<ResponseModel<(List<PaymentModel>, double)>> GetPaymentsResponse(int page);
     }
 }

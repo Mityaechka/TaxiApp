@@ -1,11 +1,7 @@
-﻿using Newtonsoft.Json.Linq;
-using Rg.Plugins.Popup.Extensions;
-using System;
+﻿using Rg.Plugins.Popup.Extensions;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TaxiApp.Models;
 using TaxiApp.Services;
 using TaxiApp.ViewModels;
@@ -18,35 +14,40 @@ namespace TaxiApp.Views.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class OrdersPage : ContentPage
     {
-        public OrderListViewModel Model { get; set; } = new OrderListViewModel();
+        public OrderListViewModel Model { get; set; } 
         public Command Refresh { get; private set; }
         public bool IsRefreshing { get; set; } = false;
-        OrderType OrderType;
+        public double PageCount { get; set; }
+
+        private readonly OrderType OrderType;
         public List<OrderModel> Orders
         {
-            get
-            {
-                return Model.Models.ToList();
-            }
-            set
-            {
+            get => Model.Models.ToList();
+            set  {
                 Model.Models = new ObservableCollection<OrderModel>(value);
+                if (value.Count == 0)
+                {
+                    EmptyLayout.IsVisible = true;
+                    DataGrid.IsVisible = false;
+                }
+                else
+                {
+                    EmptyLayout.IsVisible = false;
+                    DataGrid.IsVisible = true;
+                }
             }
         }
-        string ordersContent { get; set; }
-        public string OrdersContent
-        {
-            set
-            {
-                ordersContent = value;
-                Model.Models = new ObservableCollection<OrderModel>(OrderModel.FromJson(ordersContent));
-            }
-        }
+
         public OrdersPage(OrderType order)
         {
+            Model = new OrderListViewModel(order);
+            
             InitializeComponent();
-            OrderType = order;
             BindingContext = this;
+            OrderType = order;
+            
+            
+            //DataGrid.RowsBackgroundColorPalette = Model.Palette;
             switch (order)
             {
                 case OrderType.Completed:
@@ -62,29 +63,40 @@ namespace TaxiApp.Views.Pages
         }
         private async void DataGrid_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var order = DataGrid.SelectedItem as OrderModel;
-            if (order != null)
-                await Navigation.PushPopupAsync(new OrderPopup(order,false));
-            DataGrid.SelectedItem = null;
+            //OrderModel order = DataGrid.SelectedItem as OrderModel;
+            //if (order != null)
+            //{
+            //    await Navigation.PushPopupAsync(new OrderPopup(order, false));
+            //}
+
+            //DataGrid.SelectedItem = null;
         }
 
 
 
         public async void LoadPages()
         {
-            var pagination = JObject.Parse(ordersContent)["pagination"];
-            var pageCount = Math.Round( Convert.ToDouble(pagination["totalCount"] ) / Convert.ToDouble( pagination["defaultPageSize"])+0.1);
-            var service = App.IoCContainer.GetInstance<IOrdersService>();
-            for (int i = 2; i <= pageCount; i++)
+
+            IOrdersService service = App.IoCContainer.GetInstance<IOrdersService>();
+            for (int i = 2; i <= PageCount; i++)
             {
-                var data = await service.GetOrdersResponse(OrderType, i);
-                var list =  OrderModel.FromJson(await data.Content.ReadAsStringAsync());
-                foreach (var item in list)
+                ResponseModel<(List<OrderModel>, double)> data = await service.GetOrdersResponse(OrderType, i);
+                var m = Model.Models;
+                if (data.Status == Status.Ok)
                 {
-                    Model.Models.Add(item);
+                    (List<OrderModel>, double) list = data.Data;
+                    foreach (OrderModel item in list.Item1)
+                    {
+                        m.Add(item);
+                    }
                 }
+                for (int j = 0; j < Model.Models.Count; j++)
+                {
+                    Model.Models[j].Index = j + 1;
+                }
+                Model.Models = m;
             }
-            
+
         }
     }
 }

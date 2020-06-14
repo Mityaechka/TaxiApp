@@ -1,9 +1,6 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Plugin.Settings;
 using Rg.Plugins.Popup.Extensions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using TaxiApp.Services;
 using TaxiApp.ViewModels;
@@ -19,10 +16,7 @@ namespace TaxiApp.Views.Pages
         public UserViewModel userViewModel = new UserViewModel();
         public string Money
         {
-            set
-            {
-                MoneyLabel.Text = $"Финансы: {value}";
-            }
+            set => MoneyLabel.Text = $"Финансы: {value}";
         }
         public MasterPage()
         {
@@ -30,39 +24,57 @@ namespace TaxiApp.Views.Pages
             BindingContext = userViewModel;
             GetMoney();
         }
-        async void GetMoney()
+
+        private async void GetMoney()
         {
             while (true)
             {
-                var httpService = App.IoCContainer.GetInstance<IUserService>();
-                Money = await httpService.GetMoney();
-                await Task.Delay(1500);
+                try
+                {
+                    IUserService httpService = App.IoCContainer.GetInstance<IUserService>();
+                    Money = await httpService.GetMoney();
+                }
+                catch (Exception exception)
+                {
+                    Console.WriteLine(exception.Message);
+                }
+                finally
+                {
+                    await Task.Delay(1500);
+                }
             }
         }
         private async void RelevantBtn_Clicked(object sender, EventArgs e)
         {
-            MainPage.Instance.IsPresented = false;
-            await Task.Delay(250);
-            var httpService = App.IoCContainer.GetService<IOrdersService>();
-            var response = await httpService.GetOrdersResponse(OrderType.Relevant,1);
-            var path = response.RequestMessage.RequestUri.LocalPath;
-
-            switch (path)
+            try
             {
-                case "/orders/block_notdaypayment":
-                    MainPage.Instance.Detail = new NavigationPage(new NotDayPaymentPage());
-                    break;
-                case "/orders/nomoney":
-                    MainPage.Instance.Detail = new NavigationPage(new NoMoneyPage());
-                    break;
-                case "/orders/blocked":
-                    MainPage.Instance.Detail = (new Blocked());
-                    break;
-                default:
-                    MainPage.Instance.Detail = new NavigationPage(new RelevantOrdersPage());
-                    break;
-            }
+                MainPage.Instance.IsPresented = false;
+                await Task.Delay(250);
+                await MainPage.Instance.SetDetail();
+                //IOrdersService service = App.IoCContainer.GetService<IOrdersService>();
+                //string path = await service.AccountStatePath();
 
+                //switch (path)
+                //{
+                //    case "/orders/block_notdaypayment":
+                //        MainPage.Instance.Detail = new NavigationPage(new NotDayPaymentPage());
+                //        break;
+                //    case "/orders/nomoney":
+                //        MainPage.Instance.Detail = new NavigationPage(new NoMoneyPage());
+                //        break;
+                //    case "/orders/blocked":
+                //        MainPage.Instance.Detail = (new Blocked());
+                //        break;
+                //    default:
+                //        MainPage.Instance.Detail = new NavigationPage(new RelevantOrdersPage());
+                //        break;
+                //}
+            }
+            catch (Exception exception)
+            {
+                await DisplayAlert("Произошла ошибка", "Повторите попытку позже", "Ok");
+                Console.WriteLine(exception.Message);
+            }
         }
 
         private async void Archive_Clicked(object sender, EventArgs e)
@@ -77,7 +89,7 @@ namespace TaxiApp.Views.Pages
             MainPage.Instance.IsPresented = false;
             await Task.Delay(250);
 
-            var page = new PaymentsPage();
+            PaymentsPage page = new PaymentsPage();
             MainPage.Instance.Detail = new NavigationPage(page);
         }
 
@@ -93,21 +105,32 @@ namespace TaxiApp.Views.Pages
         {
 
             MainPage.Instance.IsPresented = false;
-            var service = App.IoCContainer.GetService<IUserService>();
-            
+            IUserService service = App.IoCContainer.GetService<IUserService>();
+            var httpService = App.IoCContainer.GetService<HttpService>();
+
             try
             {
                 await Navigation.PushPopupAsync(new LoadingPopup());
-                var response = await service.Logout();
-                await Navigation.PopPopupAsync();
-                var s = await response.Content.ReadAsStringAsync();
-                if(response.RequestMessage.RequestUri.LocalPath=="/site/login")
-                    Application.Current.MainPage = new LoginPage();
+                System.Net.Http.HttpResponseMessage response =                await service.Logout();
+                var str = await response.Content.ReadAsStringAsync();
+
+                if (response.RequestMessage.RequestUri.LocalPath == "/site/login")
+                {
+                    Application.Current.MainPage = new LoginPage(false);
+                }
                 else
+                {
                     await DisplayAlert("Произошла ошибка.", "Повторите операцию или перезагрузите приложение", "Ok");
+                }
             }
-            catch (Exception ex) {
+            catch (Exception)
+            {
                 await DisplayAlert("Произошла ошибка.", "Повторите операцию или перезагрузите приложение", "Ok");
+            }
+            finally
+            {
+                await Navigation.PopPopupAsync();
+                CrossSettings.Current.AddOrUpdateValue("loginOnStart", false);
             }
         }
     }
